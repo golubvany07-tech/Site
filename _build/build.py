@@ -187,11 +187,12 @@ def fields_html(p, keys=("education", "email", "interests", "hobby")):
     return f'<div class="fields">{"".join(rows)}</div>' if rows else ""
 
 
-def shell(*, title, desc, active, body, page="index.html"):
+def shell(*, title, desc, active, body, page="index.html", prefix=""):
+    # prefix = relative path back to site root ("" for root pages, "../" for pages in a subfolder)
     nav_items = []
     for href, label in NAV:
         cur = ' aria-current="page"' if href == active else ""
-        nav_items.append(f'<a href="{href}"{cur}>{label}</a>')
+        nav_items.append(f'<a href="{prefix}{href}"{cur}>{label}</a>')
     socials = " · ".join(f'<a href="{E(u)}" rel="noopener">{E(n)}</a>' for n, u in SOCIALS)
     canonical = f"https://www.chemcatgroup.com/{page}" if page != "index.html" else "https://www.chemcatgroup.com/"
     return f"""<!DOCTYPE html>
@@ -209,15 +210,15 @@ def shell(*, title, desc, active, body, page="index.html"):
 <meta property="og:title" content="{E(title)}">
 <meta property="og:description" content="{E(desc)}">
 <meta property="og:image" content="https://www.chemcatgroup.com/assets/img/misc/logo.png">
-<link rel="icon" type="image/png" href="assets/img/misc/favicon.png">
-<link rel="stylesheet" href="css/style.css?v={CSS_VER}">
+<link rel="icon" type="image/png" href="{prefix}assets/img/misc/favicon.png">
+<link rel="stylesheet" href="{prefix}css/style.css?v={CSS_VER}">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
   <div class="wrap">
-    <a class="brand" href="index.html">
-      <img src="assets/img/misc/logo.png" alt="Group of Effective Catalysis — logo" width="42" height="42">
+    <a class="brand" href="{prefix}index.html">
+      <img src="{prefix}assets/img/misc/logo.png" alt="Group of Effective Catalysis — logo" width="42" height="42">
       <span>
         <span class="brand-name">Chemistry for me</span>
         <span class="brand-sub">Group of Effective Catalysis</span>
@@ -235,11 +236,11 @@ def shell(*, title, desc, active, body, page="index.html"):
 </main>
 <footer class="site-foot">
   <div class="wrap">
-    <img class="foot-logo" src="assets/img/misc/logo.png" alt="" width="54" height="54" loading="lazy">
+    <img class="foot-logo" src="{prefix}assets/img/misc/logo.png" alt="" width="54" height="54" loading="lazy">
     <p class="foot-line"><a href="mailto:Chden@ya.ru">Chden@ya.ru</a></p>
     <p class="foot-line">Moscow, Russia, 119334</p>
     <p class="foot-social">{socials}</p>
-    <p class="foot-line" style="margin-top:10px"><a href="open-positions.html">Open positions</a> · <a href="https://colab.ws/labs/765" rel="noopener">Lab on colab.ws</a></p>
+    <p class="foot-line" style="margin-top:10px"><a href="{prefix}open-positions.html">Open positions</a> · <a href="https://colab.ws/labs/765" rel="noopener">Lab on colab.ws</a></p>
     <p class="foot-copy">©2026 by Chemistry for me</p>
   </div>
 </footer>
@@ -261,7 +262,9 @@ def page_head(title, sub=None):
 
 
 def write(name, content):
-    with open(os.path.join(ROOT, name), "w", encoding="utf-8") as f:
+    path = os.path.join(ROOT, name)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
         f.write(content)
     print("wrote", name)
 
@@ -296,7 +299,7 @@ def build_home():
     for p in people[:3]:
         role = "Principal Investigator" if p["slug"] == "denis-chusov" else (p["role"] or p["group_role"])
         strip.append(f"""
-      <a class="person-mini" href="{E(p["slug"])}.html">
+      <a class="person-mini" href="people/{E(p["slug"])}.html">
         <img src="assets/{E(p["photo"])}" alt="{E(p["name"])}" loading="lazy">
         <span class="n">{E(p["name"])}</span>
         <span class="r">{E(role)}</span>
@@ -553,9 +556,9 @@ def build_people():
             role = p["role"] or p["group_role"]
             cards.append(f"""
     <article class="person-card">
-      <a href="{E(s)}.html" tabindex="-1" aria-hidden="true"><img class="photo" src="assets/{E(p["photo"])}" alt="{E(p["name"])}" loading="lazy"></a>
+      <a href="people/{E(s)}.html" tabindex="-1" aria-hidden="true"><img class="photo" src="assets/{E(p["photo"])}" alt="{E(p["name"])}" loading="lazy"></a>
       <div class="pad">
-        <h3 class="n"><a href="{E(s)}.html">{E(p["name"])}</a></h3>
+        <h3 class="n"><a href="people/{E(s)}.html">{E(p["name"])}</a></h3>
         <p class="r">{E(role)}</p>
         {fields_html(p)}
       </div>
@@ -575,9 +578,9 @@ def build_people():
   <section class="group-section" style="margin-top:26px">
     <div class="group-head"><h2>Principal Investigator</h2></div>
     <article class="pi-card">
-      <a href="denis-chusov.html" tabindex="-1" aria-hidden="true"><img class="photo" src="assets/{E(pi["photo"])}" alt="{E(pi["name"])}"></a>
+      <a href="people/denis-chusov.html" tabindex="-1" aria-hidden="true"><img class="photo" src="assets/{E(pi["photo"])}" alt="{E(pi["name"])}"></a>
       <div class="pad">
-        <h3 class="n"><a href="denis-chusov.html">Prof. Dr. Denis Chusov</a></h3>
+        <h3 class="n"><a href="people/denis-chusov.html">Prof. Dr. Denis Chusov</a></h3>
         <p class="r">Principal Investigator · {E(pi["role"])}</p>
         {fields_html(pi)}
         {profile_links_html("denis-chusov")}
@@ -605,13 +608,13 @@ def build_alumni():
     for a in DATA["alumni"]:
         slug = a["slug"] or ALUM_SLUG[a["name"]]
         after = md_inline(a["after"]) if a["after"] else ""
-        photo = f'<a href="{E(slug)}.html" tabindex="-1" aria-hidden="true"><img class="photo" src="assets/{E(a["photo"])}" alt="{E(a["name"])}" loading="lazy"></a>' if a["photo"] else ""
+        photo = f'<a href="people/{E(slug)}.html" tabindex="-1" aria-hidden="true"><img class="photo" src="assets/{E(a["photo"])}" alt="{E(a["name"])}" loading="lazy"></a>' if a["photo"] else ""
         extra = fields_html(a, keys=("education", "interests")) if (a.get("education") or a.get("interests")) else ""
         cards.append(f"""
     <article class="alum-card">
       {photo}
       <div class="pad">
-        <h3 class="n"><a href="{E(slug)}.html">{E(a["name"])}</a></h3>
+        <h3 class="n"><a href="people/{E(slug)}.html">{E(a["name"])}</a></h3>
         <p class="after">{after}</p>
         {extra}
       </div>
@@ -630,12 +633,12 @@ def build_alumni():
 
     fcards = []
     for a in DATA["former"]:
-        photo = f'<a href="{E(a["slug"])}.html" tabindex="-1" aria-hidden="true"><img class="photo" src="assets/{E(a["photo"])}" alt="{E(a["name"])}" loading="lazy"></a>' if a["photo"] else ""
+        photo = f'<a href="people/{E(a["slug"])}.html" tabindex="-1" aria-hidden="true"><img class="photo" src="assets/{E(a["photo"])}" alt="{E(a["name"])}" loading="lazy"></a>' if a["photo"] else ""
         fcards.append(f"""
     <article class="alum-card">
       {photo}
       <div class="pad">
-        <h3 class="n"><a href="{E(a["slug"])}.html">{E(a["name"])}</a></h3>
+        <h3 class="n"><a href="people/{E(a["slug"])}.html">{E(a["name"])}</a></h3>
         <p class="r" style="font-size:13px;color:var(--muted);font-style:italic">{E(a["role"] or "")}</p>
         {fields_html(a)}
       </div>
@@ -749,7 +752,7 @@ def stats_html(slug):
     return f'<p class="stats-line">{line}{gs} {note}</p>'
 
 
-def person_pub_rows(slug):
+def person_pub_rows(slug, prefix=""):
     st = PEOPLE_PUBS.get(slug)
     if not st or not st["pubs"]:
         return ""
@@ -760,7 +763,7 @@ def person_pub_rows(slug):
         toc = ""
         if p["toc_local"]:
             toc = (f'<a class="toc" href="{E(p["doi"])}" rel="noopener" tabindex="-1" aria-hidden="true">'
-                   f'<img src="assets/{E(p["toc_local"])}" alt="" loading="lazy"></a>')
+                   f'<img src="{prefix}assets/{E(p["toc_local"])}" alt="" loading="lazy"></a>')
         cited = cited_of(n)
         cited_html = f' <span class="cited">· Citations: {cited}</span>' if cited else ""
         rows.append(f"""
@@ -776,7 +779,7 @@ def person_pub_rows(slug):
   <section class="section" style="padding-top:36px">
     <div class="section-head">
       <h2>Publications</h2>
-      <a class="more" href="publications.html">All group publications</a>
+      <a class="more" href="{prefix}publications.html">All group publications</a>
     </div>
     {"".join(rows)}
   </section>"""
@@ -807,13 +810,14 @@ def build_person_pages():
         else:
             role = rec.get("role") or ""
             status = '<p class="after-line">Former member</p>'
-        photo = f'<img class="photo" src="assets/{E(rec["photo"])}" alt="{E(name)}">' if rec.get("photo") else ""
+        photo = f'<img class="photo" src="../assets/{E(rec["photo"])}" alt="{E(name)}">' if rec.get("photo") else ""
+        back = "people.html" if kind == "member" else "alumni.html"
         body = f"""
 <div class="wrap">
   <div class="profile-head">
     {photo}
     <div>
-      <p class="crumb"><a href="{'people.html' if kind == 'member' else 'alumni.html'}">{'Personnel' if kind == 'member' else 'Alumni'}</a> /</p>
+      <p class="crumb"><a href="../{back}">{'Personnel' if kind == 'member' else 'Alumni'}</a> /</p>
       <h1>{E(name)}</h1>
       <p class="r">{E(role)}</p>
       {status}
@@ -822,14 +826,14 @@ def build_person_pages():
       {stats_html(slug)}
     </div>
   </div>
-  {person_pub_rows(slug)}
+  {person_pub_rows(slug, prefix="../")}
 </div>
 """
-        write(f"{slug}.html", shell(
+        write(f"people/{slug}.html", shell(
             title=f"{name} | ChemCatGroup",
             desc=f"{name} — Group of Effective Catalysis (Denis Chusov lab, INEOS RAS): profile, publications and citation statistics.",
             active="people.html" if kind == "member" else "alumni.html",
-            body=body, page=slug))
+            body=body, page=f"people/{slug}.html", prefix="../"))
 
 
 # ---------------------------------------------------------------- open positions
