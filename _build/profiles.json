@@ -1,0 +1,81 @@
+{
+  "_comment": "Verified external profiles. Sources: ORCID taken from the group's own papers (OpenAlex authorship records) or ORCID public API with INEOS/HSE/MSU affiliation; Scholar/Scopus/RG verified by affiliation on the profile page. Add or edit freely — build.py picks this file up. scholar_citations/scholar_h are from the person's Google Scholar profile (all works, July 2026).",
+  "denis-chusov": {
+    "links": [
+      {"type": "scholar", "url": "https://scholar.google.com/citations?user=3AIlVEMAAAAJ"},
+      {"type": "orcid", "url": "https://orcid.org/0000-0001-6770-5484"},
+      {"type": "scopus", "url": "https://www.scopus.com/authid/detail.uri?authorId=14822070300"},
+      {"type": "istina", "url": "https://istina.msu.ru/workers/49771193/"},
+      {"type": "researchgate", "url": "https://www.researchgate.net/profile/Denis-Chusov"}
+    ],
+    "scholar_citations": 3078,
+    "scholar_h": 26
+  },
+  "oleg-afanasyev": {
+    "links": [
+      {"type": "scholar", "url": "https://scholar.google.com/citations?user=2PbSKB8AAAAJ"},
+      {"type": "orcid", "url": "https://orcid.org/0000-0002-6224-6407"}
+    ],
+    "scholar_citations": 1715,
+    "scholar_h": 16
+  },
+  "evgeniya-podyacheva": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0000-0002-0228-9261"}]
+  },
+  "artemy-fatkulin": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0000-0001-9308-284X"}]
+  },
+  "andrey-kozlov": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0000-0002-8338-3419"}]
+  },
+  "klim-birukov": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0000-0002-2305-2706"}]
+  },
+  "alexandra-balalaeva": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0009-0007-5861-3554"}]
+  },
+  "ilya-aniskin": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0009-0006-0503-894X"}]
+  },
+  "fedor-kluev": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0000-0002-9712-6085"}]
+  },
+  "olesya-zvereva": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0009-0004-4038-5184"}]
+  },
+  "mikhail-losev": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0009-0008-9005-9255"}]
+  },
+  "ivan-smirnov": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0009-0008-5098-7647"}]
+  },
+  "mariya-makarova": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0000-0001-6918-3202"}]
+  },
+  "ekaterina-kuchuk": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0000-0001-8571-8705"}]
+  },
+  "sofiya-runikhina": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0000-0003-3033-5509"}]
+  },
+  "alexey-tsygankov": {
+    "links": [
+      {"type": "scholar", "url": "https://scholar.google.com/citations?user=nGB3vRIAAAAJ"},
+      {"type": "orcid", "url": "https://orcid.org/0000-0003-3378-4158"}
+    ],
+    "scholar_citations": 502,
+    "scholar_h": 12
+  },
+  "karim-muratov": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0000-0002-1616-1795"}]
+  },
+  "alexander-boldyrev": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0000-0002-8277-3669"}]
+  },
+  "dmitry-malikov": {
+    "links": [{"type": "orcid", "url": "https://orcid.org/0009-0000-6966-4137"}]
+  },
+  "vasilii-fastovskiy": {
+    "links": [{"type": "istina", "url": "https://istina.msu.ru/workers/69383950/"}]
+  }
+}

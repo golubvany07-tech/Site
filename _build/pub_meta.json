@@ -1,0 +1,2578 @@
+{
+ "1": {
+  "doi": "10.1016/j.ccr.2026.217962",
+  "authors": [
+   {
+    "given": "Klim O.",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Ivan",
+    "family": "Smirnov"
+   },
+   {
+    "given": "Evgeniya S.",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Mikhail A.",
+    "family": "Losev"
+   },
+   {
+    "given": "Dmitry",
+    "family": "Malikov"
+   },
+   {
+    "given": "Alexander",
+    "family": "Prokhorov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 1,
+  "source": "crossref"
+ },
+ "2": {
+  "doi": "10.1007/s11426-026-3452-9",
+  "authors": [
+   {
+    "given": "Ivan",
+    "family": "Smirnov"
+   },
+   {
+    "given": "Klim",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Saihu",
+    "family": "Liao"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 0,
+  "source": "crossref"
+ },
+ "3": {
+  "doi": "10.1021/acscatal.6c01391",
+  "authors": [
+   {
+    "given": "Mikhail A.",
+    "family": "Losev"
+   },
+   {
+    "given": "Andrey S.",
+    "family": "Kozlov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Konstantin L.",
+    "family": "Boldyrev"
+   },
+   {
+    "given": "Saihu",
+    "family": "Liao"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 0,
+  "source": "crossref"
+ },
+ "4": {
+  "doi": "10.1016/j.eurpolymj.2025.113817",
+  "authors": [
+   {
+    "given": "Andrey S.",
+    "family": "Kozlov"
+   },
+   {
+    "given": "Ping",
+    "family": "Song"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Klim O.",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Igor A.",
+    "family": "Nikovskii"
+   },
+   {
+    "given": "Konstantin L.",
+    "family": "Boldyrev"
+   },
+   {
+    "given": "Maria I.",
+    "family": "Godovikova"
+   },
+   {
+    "given": "Saihu",
+    "family": "Liao"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 1,
+  "source": "crossref"
+ },
+ "5": {
+  "doi": "10.1016/j.jcat.2025.116042",
+  "authors": [
+   {
+    "given": "Mikhail A.",
+    "family": "Losev"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 5,
+  "source": "crossref"
+ },
+ "6": {
+  "doi": "10.1016/j.jcat.2025.116583",
+  "authors": [
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Zhuang",
+    "family": "Ma"
+   },
+   {
+    "given": "Alexandra I.",
+    "family": "Balalaeva"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Rajenahally V.",
+    "family": "Jagadeesh"
+   },
+   {
+    "given": "Matthias",
+    "family": "Beller"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 0,
+  "source": "crossref"
+ },
+ "7": {
+  "doi": "10.1021/acs.orglett.5c04073",
+  "authors": [
+   {
+    "given": "Olesya",
+    "family": "Zvereva"
+   },
+   {
+    "given": "Fedor S.",
+    "family": "Kliuev"
+   },
+   {
+    "given": "Natalia",
+    "family": "Lebedeva"
+   },
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Evgenii",
+    "family": "Gutsul"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 0,
+  "source": "crossref"
+ },
+ "8": {
+  "doi": "10.1021/acscatal.5c05228",
+  "authors": [
+   {
+    "given": "Xun",
+    "family": "Zhang"
+   },
+   {
+    "given": "Siping",
+    "family": "Hu"
+   },
+   {
+    "given": "Xue",
+    "family": "Yang"
+   },
+   {
+    "given": "Denis A.",
+    "family": "Chusov"
+   },
+   {
+    "given": "Jinshuai",
+    "family": "Song"
+   },
+   {
+    "given": "Saihu",
+    "family": "Liao"
+   }
+  ],
+  "cited_by": 0,
+  "source": "crossref"
+ },
+ "9": {
+  "doi": "10.1016/j.jcat.2025.116495",
+  "authors": [
+   {
+    "given": "Fedor S.",
+    "family": "Kliuev"
+   },
+   {
+    "given": "Sofiya A.",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 2,
+  "source": "crossref"
+ },
+ "10": {
+  "doi": "10.1039/D5SC00723B",
+  "authors": [
+   {
+    "given": "Nikita M.",
+    "family": "Ankudinov"
+   },
+   {
+    "given": "Nikita V.",
+    "family": "Alexeev"
+   },
+   {
+    "given": "Evgeniya S.",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Denis A.",
+    "family": "Chusov"
+   },
+   {
+    "given": "Konstantin A.",
+    "family": "Lyssenko"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   }
+  ],
+  "cited_by": 9,
+  "source": "crossref"
+ },
+ "11": {
+  "doi": "10.59761/RCR5170",
+  "authors": [
+   {
+    "given": "A. R.",
+    "family": "Fatkulin"
+   },
+   {
+    "given": "O. I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "D. A.",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 7,
+  "source": "crossref"
+ },
+ "12": {
+  "doi": "10.1021/acs.joc.5c00962",
+  "authors": [
+   {
+    "given": "Artemy R.",
+    "family": "Fatkulin"
+   },
+   {
+    "given": "Vasily A.",
+    "family": "Korochantsev"
+   },
+   {
+    "given": "Evgeniya S.",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Fedor S.",
+    "family": "Kliuev"
+   },
+   {
+    "given": "Olesya V.",
+    "family": "Zvereva"
+   },
+   {
+    "given": "Mikhail A.",
+    "family": "Losev"
+   },
+   {
+    "given": "Alexey N.",
+    "family": "Rodionov"
+   },
+   {
+    "given": "Ivan V.",
+    "family": "Smirnov"
+   },
+   {
+    "given": "Maria I.",
+    "family": "Godovikova"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis A.",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 5,
+  "source": "crossref"
+ },
+ "13": {
+  "doi": "10.1002/cssc.202402622",
+  "authors": [
+   {
+    "given": "Alexandra I.",
+    "family": "Balalaeva"
+   },
+   {
+    "given": "Zechen",
+    "family": "Wu"
+   },
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Rajenahally V.",
+    "family": "Jagadeesh"
+   },
+   {
+    "given": "Matthias",
+    "family": "Beller"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 0,
+  "source": "crossref"
+ },
+ "14": {
+  "doi": "10.3762/bjoc.21.130",
+  "authors": [
+   {
+    "given": "Natalia",
+    "family": "Lebedeva"
+   },
+   {
+    "given": "Fedor",
+    "family": "Kliuev"
+   },
+   {
+    "given": "Olesya",
+    "family": "Zvereva"
+   },
+   {
+    "given": "Klim",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Maria",
+    "family": "Godovikova"
+   },
+   {
+    "given": "Oleg I",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 2,
+  "source": "crossref"
+ },
+ "15": {
+  "doi": "10.1021/acs.orglett.4c03495",
+  "authors": [
+   {
+    "given": "Rongbiao",
+    "family": "Wei"
+   },
+   {
+    "given": "Yao",
+    "family": "Huang"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Yuanming",
+    "family": "Li"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Saihu",
+    "family": "Liao"
+   }
+  ],
+  "cited_by": 5,
+  "source": "crossref"
+ },
+ "16": {
+  "doi": "10.1016/j.ccr.2024.216114",
+  "authors": [
+   {
+    "given": "Aleksei A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Andrey S.",
+    "family": "Kozlov"
+   },
+   {
+    "given": "Saihu",
+    "family": "Liao"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 10,
+  "source": "crossref"
+ },
+ "17": {
+  "doi": "10.1021/acs.joc.3c02476",
+  "authors": [
+   {
+    "given": "Klim O.",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Ignatii",
+    "family": "Tarabrin"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 16,
+  "source": "crossref"
+ },
+ "18": {
+  "doi": "10.1021/acs.joc.4c00842",
+  "authors": [
+   {
+    "given": "Ivan V.",
+    "family": "Smirnov"
+   },
+   {
+    "given": "Klim O.",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Nikita V.",
+    "family": "Shvydkiy"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 5,
+  "source": "crossref"
+ },
+ "19": {
+  "doi": "10.1039/D4CC00181H",
+  "authors": [
+   {
+    "given": "Mikhail A.",
+    "family": "Boym"
+   },
+   {
+    "given": "Roman A.",
+    "family": "Pototskiy"
+   },
+   {
+    "given": "Evgeniya S.",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Denis A.",
+    "family": "Chusov"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   }
+  ],
+  "cited_by": 14,
+  "source": "crossref"
+ },
+ "20": {
+  "doi": "10.1016/j.mencom.2024.10.020",
+  "authors": [
+   {
+    "given": "Ivan V.",
+    "family": "Smirnov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Klim O.",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Maria I.",
+    "family": "Godovikova"
+   },
+   {
+    "given": "Denis A.",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 1,
+  "source": "crossref"
+ },
+ "21": {
+  "doi": "10.1016/j.mencom.2024.02.014",
+  "authors": [
+   {
+    "given": "Svetlana A.",
+    "family": "Kuznetsova"
+   },
+   {
+    "given": "Safar M.",
+    "family": "Yunusov"
+   },
+   {
+    "given": "Ekaterina A.",
+    "family": "Khakina"
+   },
+   {
+    "given": "Alexander V.",
+    "family": "Naumkin"
+   },
+   {
+    "given": "Denis A.",
+    "family": "Chusov"
+   },
+   {
+    "given": "Elena S.",
+    "family": "Kalyuzhnaya"
+   },
+   {
+    "given": "Mikhail M.",
+    "family": "Ilyin"
+   },
+   {
+    "given": "Viacheslav V.",
+    "family": "Morozov"
+   },
+   {
+    "given": "Alexey S.",
+    "family": "Kashin"
+   },
+   {
+    "given": "Yuri N.",
+    "family": "Belokon"
+   }
+  ],
+  "cited_by": 3,
+  "source": "crossref"
+ },
+ "22": {
+  "doi": "10.1002/ejoc.202401108",
+  "authors": [
+   {
+    "given": "Vasily",
+    "family": "Korochantsev"
+   },
+   {
+    "given": "Artemy",
+    "family": "Fatkulin"
+   },
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Alexander",
+    "family": "Boldyrev"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 4,
+  "source": "crossref"
+ },
+ "23": {
+  "doi": "10.1002/slct.202402788",
+  "authors": [
+   {
+    "given": "Svetlana A.",
+    "family": "Kuznetsova"
+   },
+   {
+    "given": "Safar M.",
+    "family": "Yunusov"
+   },
+   {
+    "given": "Michael",
+    "family": "North"
+   },
+   {
+    "given": "Vladimir P.",
+    "family": "Zhereb"
+   },
+   {
+    "given": "Ekaterina A.",
+    "family": "Khakina"
+   },
+   {
+    "given": "Alexander",
+    "family": "Naumkin"
+   },
+   {
+    "given": "Nikolai N.",
+    "family": "Lobanov"
+   },
+   {
+    "given": "Victor N.",
+    "family": "Khrustalev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Elena S.",
+    "family": "Kalyuzhnaya"
+   },
+   {
+    "given": "Mikhail M.",
+    "family": "Ilyin"
+   },
+   {
+    "given": "Viacheslav V.",
+    "family": "Morozov"
+   },
+   {
+    "given": "Alexey S.",
+    "family": "Kashin"
+   },
+   {
+    "given": "Mariam G.",
+    "family": "Ezernitskaya"
+   },
+   {
+    "given": "Yuri N.",
+    "family": "Belokon"
+   }
+  ],
+  "cited_by": 1,
+  "source": "crossref"
+ },
+ "24": {
+  "doi": "10.1038/s41467-023-40614-1",
+  "authors": [
+   {
+    "given": "Jie",
+    "family": "Gao"
+   },
+   {
+    "given": "Rui",
+    "family": "Ma"
+   },
+   {
+    "given": "Fairoosa",
+    "family": "Poovan"
+   },
+   {
+    "given": "Lan",
+    "family": "Zhang"
+   },
+   {
+    "given": "Hanan",
+    "family": "Atia"
+   },
+   {
+    "given": "Narayana V.",
+    "family": "Kalevaru"
+   },
+   {
+    "given": "Wenjing",
+    "family": "Sun"
+   },
+   {
+    "given": "Sebastian",
+    "family": "Wohlrab"
+   },
+   {
+    "given": "Denis A.",
+    "family": "Chusov"
+   },
+   {
+    "given": "Ning",
+    "family": "Wang"
+   },
+   {
+    "given": "Rajenahally V.",
+    "family": "Jagadeesh"
+   },
+   {
+    "given": "Matthias",
+    "family": "Beller"
+   }
+  ],
+  "cited_by": 34,
+  "source": "crossref"
+ },
+ "25": {
+  "doi": "10.1039/D3SC00257H",
+  "authors": [
+   {
+    "given": "Sofiya A.",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Ekaterina A.",
+    "family": "Kuchuk"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   },
+   {
+    "given": "Rajenahally V.",
+    "family": "Jagadeesh"
+   },
+   {
+    "given": "Matthias",
+    "family": "Beller"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 14,
+  "source": "crossref"
+ },
+ "26": {
+  "doi": "10.1021/acscatal.3c02965",
+  "authors": [
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Gary A.",
+    "family": "Molander"
+   },
+   {
+    "given": "Virginie",
+    "family": "Ratovelomanana-Vidal"
+   },
+   {
+    "given": "Olivier",
+    "family": "Riant"
+   },
+   {
+    "given": "Emmanuelle",
+    "family": "Schulz"
+   }
+  ],
+  "cited_by": 4,
+  "source": "crossref"
+ },
+ "27": {
+  "doi": "10.1021/acs.orglett.3c03726",
+  "authors": [
+   {
+    "given": "Vladimir B.",
+    "family": "Kharitonov"
+   },
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Dmitry V.",
+    "family": "Muratov"
+   },
+   {
+    "given": "Dmitry A.",
+    "family": "Loginov"
+   }
+  ],
+  "cited_by": 24,
+  "source": "crossref"
+ },
+ "28": {
+  "doi": "10.1039/D3OB01452E",
+  "authors": [
+   {
+    "given": "Mikhail A.",
+    "family": "Losev"
+   },
+   {
+    "given": "Andrey S.",
+    "family": "Kozlov"
+   },
+   {
+    "given": "Vladimir B.",
+    "family": "Kharitonov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Fedor S.",
+    "family": "Kliuev"
+   },
+   {
+    "given": "Ludmila A.",
+    "family": "Bulygina"
+   },
+   {
+    "given": "Natalya S.",
+    "family": "Khrushcheva"
+   },
+   {
+    "given": "Dmitry A.",
+    "family": "Loginov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 9,
+  "source": "crossref"
+ },
+ "29": {
+  "doi": "10.1016/j.mcat.2023.113432",
+  "authors": [
+   {
+    "given": "Klim O.",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Svetlana A.",
+    "family": "Belova"
+   },
+   {
+    "given": "Semyon V.",
+    "family": "Dudkin"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Maria",
+    "family": "Godovikova"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 1,
+  "source": "crossref"
+ },
+ "30": {
+  "doi": "10.1039/D3NJ01258A",
+  "authors": [
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Alexandra I.",
+    "family": "Balalaeva"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Sofiya A.",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Olga",
+    "family": "Chusova"
+   },
+   {
+    "given": "Andrey S.",
+    "family": "Kozlov"
+   },
+   {
+    "given": "Saihu",
+    "family": "Liao"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 3,
+  "source": "crossref"
+ },
+ "31": {
+  "doi": "10.1016/j.mencom.2023.02.008",
+  "authors": [
+   {
+    "given": "Andrey S.",
+    "family": "Kozlov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Mikhail A.",
+    "family": "Losev"
+   },
+   {
+    "given": "Maria I.",
+    "family": "Godovikova"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 0,
+  "source": "crossref"
+ },
+ "32": {
+  "doi": "10.1016/j.mencom.2023.01.005",
+  "authors": [
+   {
+    "given": "Sofiya A.",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 5,
+  "source": "crossref"
+ },
+ "33": {
+  "doi": "10.1039/D3NJ00728F",
+  "authors": [
+   {
+    "given": "Artemy R.",
+    "family": "Fatkulin"
+   },
+   {
+    "given": "Vasily",
+    "family": "Korochantsev"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Olga",
+    "family": "Chusova"
+   },
+   {
+    "given": "Dmitry V.",
+    "family": "Muratov"
+   },
+   {
+    "given": "Maria I.",
+    "family": "Godovikova"
+   },
+   {
+    "given": "Sergei",
+    "family": "Semenov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 3,
+  "source": "crossref"
+ },
+ "34": {
+  "doi": "10.1021/acscatal.2c01133",
+  "authors": [
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Dmitry V.",
+    "family": "Vasilyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 121,
+  "source": "crossref"
+ },
+ "35": {
+  "doi": "10.1021/acscatal.2c01000",
+  "authors": [
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Vladimir S.",
+    "family": "Ostrovskii"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 13,
+  "source": "crossref"
+ },
+ "36": {
+  "doi": "10.1070/rcr5045",
+  "authors": [
+   {
+    "given": "K. O.",
+    "family": "Biriukov"
+   },
+   {
+    "given": "O. I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "M. I.",
+    "family": "Godovikova"
+   },
+   {
+    "given": "D. A.",
+    "family": "Loginov"
+   },
+   {
+    "given": "D. A.",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 8,
+  "source": "crossref-search"
+ },
+ "37": {
+  "doi": "10.1021/acs.orglett.2c02807",
+  "authors": [
+   {
+    "given": "Fedor",
+    "family": "Kliuev"
+   },
+   {
+    "given": "Anton",
+    "family": "Kuznetsov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Sofiya A.",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Ekaterina",
+    "family": "Kuchuk"
+   },
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 21,
+  "source": "crossref"
+ },
+ "38": {
+  "doi": "10.1016/j.jcat.2021.12.018",
+  "authors": [
+   {
+    "given": "Artemy R.",
+    "family": "Fatkulin"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 16,
+  "source": "crossref"
+ },
+ "39": {
+  "doi": "10.1016/j.jcat.2022.08.014",
+  "authors": [
+   {
+    "given": "Andrey S.",
+    "family": "Kozlov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 21,
+  "source": "crossref"
+ },
+ "40": {
+  "doi": "10.1039/D2CC01648F",
+  "authors": [
+   {
+    "given": "Evgeniya A.",
+    "family": "Trifonova"
+   },
+   {
+    "given": "Nikita M.",
+    "family": "Ankudinov"
+   },
+   {
+    "given": "Denis A.",
+    "family": "Chusov"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   }
+  ],
+  "cited_by": 9,
+  "source": "crossref"
+ },
+ "41": {
+  "doi": "10.1021/acs.joc.2c01339",
+  "authors": [
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Fedor S.",
+    "family": "Kliuev"
+   },
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Evgenii",
+    "family": "Gutsul"
+   },
+   {
+    "given": "Valentin V.",
+    "family": "Novikov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 10,
+  "source": "crossref"
+ },
+ "42": {
+  "doi": "10.1002/anie.202105179",
+  "authors": [
+   {
+    "given": "Nikita M.",
+    "family": "Ankudinov"
+   },
+   {
+    "given": "Denis A.",
+    "family": "Chusov"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   }
+  ],
+  "cited_by": 40,
+  "source": "crossref"
+ },
+ "43": {
+  "doi": "10.1021/acscatal.1c03785",
+  "authors": [
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 21,
+  "source": "crossref"
+ },
+ "44": {
+  "doi": "10.1002/chem.202100572",
+  "authors": [
+   {
+    "given": "Vladimir B.",
+    "family": "Kharitonov"
+   },
+   {
+    "given": "Sofiya A.",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Dmitry V.",
+    "family": "Muratov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Dmitry A.",
+    "family": "Loginov"
+   }
+  ],
+  "cited_by": 26,
+  "source": "crossref"
+ },
+ "45": {
+  "doi": "10.1039/D1CY00695A",
+  "authors": [
+   {
+    "given": "Klim O.",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Mikhail M.",
+    "family": "Vinogradov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Dmitry V.",
+    "family": "Vasilyev"
+   },
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Maria",
+    "family": "Godovikova"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Dmitry A.",
+    "family": "Loginov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 11,
+  "source": "crossref"
+ },
+ "46": {
+  "doi": "10.1002/chem.202101768",
+  "authors": [
+   {
+    "given": "Sofiya",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Dmitry",
+    "family": "Eremin"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 12,
+  "source": "crossref"
+ },
+ "47": {
+  "doi": "10.1002/chem.202186262",
+  "authors": [
+   {
+    "given": "Sofiya",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Dmitry",
+    "family": "Eremin"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 0,
+  "source": "crossref"
+ },
+ "48": {
+  "doi": "10.1016/j.jorganchem.2021.121806",
+  "authors": [
+   {
+    "given": "Maria",
+    "family": "Makarova"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Fedor",
+    "family": "Kliuev"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Maria",
+    "family": "Godovikova"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 7,
+  "source": "crossref"
+ },
+ "49": {
+  "doi": "10.1016/j.mencom.2021.11.004",
+  "authors": [
+   {
+    "given": "Sofiya",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 3,
+  "source": "crossref"
+ },
+ "50": {
+  "doi": "10.1039/D1CY00695A",
+  "authors": [
+   {
+    "given": "Klim O.",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Mikhail M.",
+    "family": "Vinogradov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Dmitry V.",
+    "family": "Vasilyev"
+   },
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Maria",
+    "family": "Godovikova"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Dmitry A.",
+    "family": "Loginov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 11,
+  "source": "crossref"
+ },
+ "51": {
+  "doi": "10.1002/anie.201914233",
+  "authors": [
+   {
+    "given": "Gabrielle A.",
+    "family": "Leith"
+   },
+   {
+    "given": "Allison M.",
+    "family": "Rice"
+   },
+   {
+    "given": "Brandon J.",
+    "family": "Yarbrough"
+   },
+   {
+    "given": "Anna A.",
+    "family": "Berseneva"
+   },
+   {
+    "given": "Richard T.",
+    "family": "Ly"
+   },
+   {
+    "given": "Charles N.",
+    "family": "Buck"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Amy J.",
+    "family": "Brandt"
+   },
+   {
+    "given": "Donna A.",
+    "family": "Chen"
+   },
+   {
+    "given": "Benjamin W.",
+    "family": "Lamm"
+   },
+   {
+    "given": "Morgan",
+    "family": "Stefik"
+   },
+   {
+    "given": "Kenneth S.",
+    "family": "Stephenson"
+   },
+   {
+    "given": "Mark D.",
+    "family": "Smith"
+   },
+   {
+    "given": "Aaron K.",
+    "family": "Vannucci"
+   },
+   {
+    "given": "Perry J.",
+    "family": "Pellechia"
+   },
+   {
+    "given": "Sophya",
+    "family": "Garashchuk"
+   },
+   {
+    "given": "Natalia B.",
+    "family": "Shustova"
+   }
+  ],
+  "cited_by": 31,
+  "source": "crossref"
+ },
+ "52": {
+  "doi": "10.1021/acs.joc.0c00794",
+  "authors": [
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Alexander",
+    "family": "Rudenko"
+   },
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Maria",
+    "family": "Makarova"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 34,
+  "source": "crossref"
+ },
+ "53": {
+  "doi": "10.1016/j.jorganchem.2020.121468",
+  "authors": [
+   {
+    "given": "Vladimir B.",
+    "family": "Kharitonov"
+   },
+   {
+    "given": "Vladimir S.",
+    "family": "Ostrovskii"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Dmitry V.",
+    "family": "Muratov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Dmitry A.",
+    "family": "Loginov"
+   }
+  ],
+  "cited_by": 9,
+  "source": "crossref-search"
+ },
+ "54": {
+  "doi": "10.1002/cctc.201901465",
+  "authors": [
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Maria",
+    "family": "Makarova"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Alexey S.",
+    "family": "Kashin"
+   },
+   {
+    "given": "Alexander V.",
+    "family": "Naumkin"
+   },
+   {
+    "given": "Dmitry A.",
+    "family": "Loginov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 11,
+  "source": "crossref-search"
+ },
+ "55": {
+  "doi": "10.1055/s-0040-1707961",
+  "authors": [
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   },
+   {
+    "given": "Evgeniya A.",
+    "family": "Trifonova"
+   },
+   {
+    "given": "Alina A.",
+    "family": "Komarova"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 11,
+  "source": "crossref"
+ },
+ "56": {
+  "doi": "10.1016/j.mencom.2020.01.037",
+  "authors": [
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Ilia",
+    "family": "Cherkashchenko"
+   },
+   {
+    "given": "Anton",
+    "family": "Kuznetsov"
+   },
+   {
+    "given": "Fedor",
+    "family": "Kliuev"
+   },
+   {
+    "given": "Sergey",
+    "family": "Semenov"
+   },
+   {
+    "given": "Olga",
+    "family": "Chusova"
+   },
+   {
+    "given": "Gleb",
+    "family": "Denisov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 7,
+  "source": "crossref-search"
+ },
+ "57": {
+  "doi": "10.1002/ejoc.202001087",
+  "authors": [
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Artemy R.",
+    "family": "Fatkulin"
+   },
+   {
+    "given": "Pavel N.",
+    "family": "Solyev"
+   },
+   {
+    "given": "Ivan",
+    "family": "Smirnov"
+   },
+   {
+    "given": "Artem",
+    "family": "Amangeldyev"
+   },
+   {
+    "given": "Sergey E.",
+    "family": "Semenov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 5,
+  "source": "crossref"
+ },
+ "58": {
+  "doi": "10.1002/ejoc.202000438",
+  "authors": [
+   {
+    "given": "Vladimir S.",
+    "family": "Ostrovskii"
+   },
+   {
+    "given": "Sofiya A.",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 2,
+  "source": "crossref"
+ },
+ "59": {
+  "doi": "10.1021/acs.chemrev.9b00383",
+  "authors": [
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Ekaterina",
+    "family": "Kuchuk"
+   },
+   {
+    "given": "Dmitry L.",
+    "family": "Usanov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 761,
+  "source": "crossref"
+ },
+ "60": {
+  "doi": "10.1002/ejoc.201801412",
+  "authors": [
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Alexander",
+    "family": "Zarochintsev"
+   },
+   {
+    "given": "Tatiana",
+    "family": "Petrushina"
+   },
+   {
+    "given": "Anastasia",
+    "family": "Cherkasova"
+   },
+   {
+    "given": "Gleb",
+    "family": "Denisov"
+   },
+   {
+    "given": "Ilia",
+    "family": "Cherkashchenko"
+   },
+   {
+    "given": "Olga",
+    "family": "Chusova"
+   },
+   {
+    "given": "Oh",
+    "family": "Jinho"
+   },
+   {
+    "given": "Chun",
+    "family": "Man‐Seog"
+   },
+   {
+    "given": "Dmitry L.",
+    "family": "Usanov"
+   },
+   {
+    "given": "Sergei E.",
+    "family": "Semenov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 7,
+  "source": "crossref"
+ },
+ "61": {
+  "doi": "10.1055/s-0037-1611788",
+  "authors": [
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Maria",
+    "family": "Makarova"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 89,
+  "source": "crossref"
+ },
+ "62": {
+  "doi": "10.1002/chem.201904605",
+  "authors": [
+   {
+    "given": "Sofiya A.",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Klim",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   },
+   {
+    "given": "Martin",
+    "family": "Klussmann"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 16,
+  "source": "crossref"
+ },
+ "63": {
+  "doi": "10.1002/ejoc.201901175",
+  "authors": [
+   {
+    "given": "Karim",
+    "family": "Muratov"
+   },
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Ekaterina",
+    "family": "Kuchuk"
+   },
+   {
+    "given": "Sofiya",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 4,
+  "source": "crossref"
+ },
+ "64": {
+  "doi": "10.1021/acs.organomet.9b00378",
+  "authors": [
+   {
+    "given": "Vladimir B.",
+    "family": "Kharitonov"
+   },
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Dmitry V.",
+    "family": "Muratov"
+   },
+   {
+    "given": "Alexander S.",
+    "family": "Peregudov"
+   },
+   {
+    "given": "Gleb",
+    "family": "Denisov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Dmitry A.",
+    "family": "Loginov"
+   }
+  ],
+  "cited_by": 17,
+  "source": "crossref"
+ },
+ "65": {
+  "doi": "10.1039/C8OB02561D",
+  "authors": [
+   {
+    "given": "Ekaterina",
+    "family": "Kuchuk"
+   },
+   {
+    "given": "Karim",
+    "family": "Muratov"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 7,
+  "source": "crossref"
+ },
+ "66": {
+  "doi": "10.1016/j.tetlet.2018.12.070",
+  "authors": [
+   {
+    "given": "Evgeniya",
+    "family": "Podyacheva"
+   },
+   {
+    "given": "Ekaterina",
+    "family": "Kuchuk"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 46,
+  "source": "crossref-search"
+ },
+ "67": {
+  "doi": "10.1002/anie.201801703",
+  "authors": [
+   {
+    "given": "Evgeniya A.",
+    "family": "Trifonova"
+   },
+   {
+    "given": "Nikita M.",
+    "family": "Ankudinov"
+   },
+   {
+    "given": "Andrey A.",
+    "family": "Mikhaylov"
+   },
+   {
+    "given": "Denis A.",
+    "family": "Chusov"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   }
+  ],
+  "cited_by": 209,
+  "source": "crossref"
+ },
+ "68": {
+  "doi": "10.1021/acs.orglett.8b03375",
+  "authors": [
+   {
+    "given": "Sofiya A.",
+    "family": "Runikhina"
+   },
+   {
+    "given": "Dmitry L.",
+    "family": "Usanov"
+   },
+   {
+    "given": "Alexander O.",
+    "family": "Chizhov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 12,
+  "source": "crossref"
+ },
+ "69": {
+  "doi": "10.1021/acs.organomet.8b00311",
+  "authors": [
+   {
+    "given": "Vladimir B.",
+    "family": "Kharitonov"
+   },
+   {
+    "given": "Maria",
+    "family": "Makarova"
+   },
+   {
+    "given": "Mikhail A.",
+    "family": "Arsenov"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Olga",
+    "family": "Chusova"
+   },
+   {
+    "given": "Alexander S.",
+    "family": "Peregudov"
+   },
+   {
+    "given": "Semen S.",
+    "family": "Zlotskii"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Dmitry A.",
+    "family": "Loginov"
+   }
+  ],
+  "cited_by": 30,
+  "source": "crossref"
+ },
+ "70": {
+  "doi": "10.1016/j.mencom.2018.03.001",
+  "authors": [
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Maria",
+    "family": "Makarova"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 46,
+  "source": "crossref"
+ },
+ "71": {
+  "doi": "10.1055/s-0036-1588817",
+  "authors": [
+   {
+    "given": "Oleg",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Alexey",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Dmitry",
+    "family": "Usanov"
+   },
+   {
+    "given": "Dmitry",
+    "family": "Perekalin"
+   },
+   {
+    "given": "Alexandra",
+    "family": "Samoylova"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 10,
+  "source": "crossref"
+ },
+ "72": {
+  "doi": "10.1039/c7ob02795h",
+  "authors": [
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Dmitry L.",
+    "family": "Usanov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 21,
+  "source": "crossref-search"
+ },
+ "73": {
+  "doi": "10.1055/s-0036-1588382",
+  "authors": [
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Alexey",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Man-Seog",
+    "family": "Chun"
+   },
+   {
+    "given": "Alexandra",
+    "family": "Samoylova"
+   },
+   {
+    "given": "Seongyeon",
+    "family": "Kwon"
+   },
+   {
+    "given": "Yuliya",
+    "family": "Kreschenova"
+   },
+   {
+    "given": "Suhyeon",
+    "family": "Kim"
+   },
+   {
+    "given": "Euijin",
+    "family": "Shin"
+   },
+   {
+    "given": "Jinho",
+    "family": "Oh"
+   },
+   {
+    "given": "Tatyana",
+    "family": "Strelkova"
+   },
+   {
+    "given": "Valerii",
+    "family": "Kolesov"
+   },
+   {
+    "given": "Fedor",
+    "family": "Zubkov"
+   },
+   {
+    "given": "Sergei",
+    "family": "Semenov"
+   },
+   {
+    "given": "Ivan",
+    "family": "Fedyanin"
+   }
+  ],
+  "cited_by": 2,
+  "source": "crossref"
+ },
+ "74": {
+  "doi": "10.1039/c5cc08577b",
+  "authors": [
+   {
+    "given": "Niyaz Z.",
+    "family": "Yagafarov"
+   },
+   {
+    "given": "Pavel N.",
+    "family": "Kolesnikov"
+   },
+   {
+    "given": "Dmitry L.",
+    "family": "Usanov"
+   },
+   {
+    "given": "Valentin V.",
+    "family": "Novikov"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 27,
+  "source": "crossref"
+ },
+ "75": {
+  "doi": "10.1021/acscatal.5b02916",
+  "authors": [
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Dmitry L.",
+    "family": "Usanov"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   },
+   {
+    "given": "Nikita V.",
+    "family": "Shvydkiy"
+   },
+   {
+    "given": "Victor I.",
+    "family": "Maleev"
+   },
+   {
+    "given": "Alexander R.",
+    "family": "Kudinov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 55,
+  "source": "crossref"
+ },
+ "76": {
+  "doi": "10.1021/acs.orglett.6b02945",
+  "authors": [
+   {
+    "given": "Oleg I.",
+    "family": "Afanasyev"
+   },
+   {
+    "given": "Alexey A.",
+    "family": "Tsygankov"
+   },
+   {
+    "given": "Dmitry L.",
+    "family": "Usanov"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 20,
+  "source": "crossref"
+ },
+ "77": {
+  "doi": "10.1021/acs.organomet.6b00539",
+  "authors": [
+   {
+    "given": "Nikita V.",
+    "family": "Shvydkiy"
+   },
+   {
+    "given": "Evgeniya A.",
+    "family": "Trifonova"
+   },
+   {
+    "given": "Andrei M.",
+    "family": "Shved"
+   },
+   {
+    "given": "Yulia V.",
+    "family": "Nelyubina"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Dmitry S.",
+    "family": "Perekalin"
+   },
+   {
+    "given": "Alexander R.",
+    "family": "Kudinov"
+   }
+  ],
+  "cited_by": 27,
+  "source": "crossref"
+ },
+ "78": {
+  "doi": "10.1021/ol503595m",
+  "authors": [
+   {
+    "given": "Pavel N.",
+    "family": "Kolesnikov"
+   },
+   {
+    "given": "Niyaz Z.",
+    "family": "Yagafarov"
+   },
+   {
+    "given": "Dmitry L.",
+    "family": "Usanov"
+   },
+   {
+    "given": "Victor I.",
+    "family": "Maleev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 56,
+  "source": "crossref"
+ },
+ "79": {
+  "doi": "10.1002/cctc.201500493",
+  "authors": [
+   {
+    "given": "Niyaz Z.",
+    "family": "Yagafarov"
+   },
+   {
+    "given": "Dmitry L.",
+    "family": "Usanov"
+   },
+   {
+    "given": "Alexey P.",
+    "family": "Moskovets"
+   },
+   {
+    "given": "Nikolai D.",
+    "family": "Kagramanov"
+   },
+   {
+    "given": "Victor I.",
+    "family": "Maleev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 22,
+  "source": "crossref-search"
+ },
+ "80": {
+  "doi": "10.1002/anie.201400059",
+  "authors": [
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   },
+   {
+    "given": "Benjamin",
+    "family": "List"
+   }
+  ],
+  "cited_by": 115,
+  "source": "crossref-search"
+ },
+ "81": {
+  "doi": "10.1021/ol502424t",
+  "authors": [
+   {
+    "given": "Pavel N.",
+    "family": "Kolesnikov"
+   },
+   {
+    "given": "Dmitry L.",
+    "family": "Usanov"
+   },
+   {
+    "given": "Evgeniya A.",
+    "family": "Barablina"
+   },
+   {
+    "given": "Victor I.",
+    "family": "Maleev"
+   },
+   {
+    "given": "Denis",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 28,
+  "source": "crossref"
+ },
+ "_fetched": "2026-07-07"
+}
