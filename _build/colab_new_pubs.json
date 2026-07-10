@@ -1,0 +1,33 @@
+{
+ "_fetched": "2026-07-10",
+ "_source": "OpenAlex (colab list endpoint down)",
+ "confident_new_group_papers": [
+  {
+   "doi": "https://doi.org/10.71267/mencom.7990",
+   "title": "Efficiency and sustainability in cyclizine synthesis: a comparative analysis of reductive amination methodologies",
+   "year": 2026,
+   "journal": "Mendeleev Communications",
+   "volume": "36",
+   "issue": null,
+   "pages": null,
+   "cited_by": 0,
+   "group_coauthors": [
+    "0000-0002-9712-6085"
+   ]
+  },
+  {
+   "doi": "https://doi.org/10.71267/mencom.7796",
+   "title": "Chiral hydrogen-bonded frameworks featuring proline motifs as heterogeneous catalysts for the enantioselective synthesis of warfarin",
+   "year": 2025,
+   "journal": "Mendeleev Communications",
+   "volume": "35",
+   "issue": "6",
+   "pages": "642-644",
+   "cited_by": 0,
+   "group_coauthors": [
+    "0000-0002-2305-2706"
+   ]
+  }
+ ],
+ "other_new_candidates": []
+}

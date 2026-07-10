@@ -85,7 +85,7 @@ def main():
     ok = sum(1 for k, v in out.items() if k != "_fetched" and v["authors"])
     cited = sum(1 for k, v in out.items() if k != "_fetched" and v["cited_by"] is not None)
     miss = [k for k, v in out.items() if k != "_fetched" and not v["authors"]]
-    print(f"authors: {ok}/81, citations: {cited}/81, missing authors: {miss}")
+    print(f"authors: {ok}/{len(DATA['pubs'])}, citations: {cited}/{len(DATA['pubs'])}, missing authors: {miss}")
 
 
 if __name__ == "__main__":

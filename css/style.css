@@ -83,7 +83,7 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 700; color: var(--text); letter-
   .nav-toggle:checked ~ .nav-burger span:nth-child(2) { opacity: 0; }
   .nav-toggle:checked ~ .nav-burger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
   .nav {
-    display: none; position: absolute; left: -24px; right: -24px; top: 100%;
+    display: none; position: absolute; left: 0; right: 0; top: 100%;
     background: rgba(20, 20, 22, 0.97);
     -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
     flex-direction: column; align-items: stretch;
@@ -212,11 +212,12 @@ figure.plate img { margin: 0 auto; }
 .year-bar a { display: inline-block; font-weight: 600; font-size: 14px; text-decoration: none; padding: 7px 10px; border-radius: 99px; transition: background 120ms ease; }
 .year-bar a:hover { background: #f0f0f2; }
 
+.year-block { scroll-margin-top: calc(var(--head-h) + 52px); }
 .year-block h2 { font-size: 28px; margin: 40px 0 4px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
 
 .pub-row { display: grid; grid-template-columns: 48px 225px 1fr; gap: 20px; padding: 22px 0; border-bottom: 1px solid var(--line); align-items: start; }
 .pub-row.no-toc { grid-template-columns: 48px 1fr; }
-.pub-row .num { font-size: 15px; font-weight: 600; color: #aeaeb2; padding-top: 2px; font-variant-numeric: tabular-nums; }
+.pub-row .num { font-size: 15px; font-weight: 600; color: #747479; padding-top: 2px; font-variant-numeric: tabular-nums; }
 .pub-row .toc { border: 1px solid var(--line); border-radius: var(--radius); aspect-ratio: 4/3; display: flex; align-items: center; justify-content: center; padding: 8px; overflow: hidden; transition: border-color 140ms ease, box-shadow 140ms ease; }
 .pub-row .toc:hover { border-color: #c9c9ce; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06); }
 .pub-row .toc img { max-height: 100%; max-width: 100%; width: auto; object-fit: contain; transition: transform 250ms ease; }
@@ -227,7 +228,8 @@ figure.plate img { margin: 0 auto; }
 .pub-row .ref { margin-top: 6px; font-size: 15px; }
 .pub-row .ref .if { color: var(--muted); font-size: 13.5px; white-space: nowrap; }
 .pub-row .links { margin-top: 4px; font-size: 14px; }
-.pub-row .links a { display: inline-block; padding: 4px 0; text-decoration: none; }
+.pub-row .links a { display: inline-block; padding: 4px 0; text-decoration: none; overflow-wrap: anywhere; }
+.draft-tag { display: inline-block; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: #835000; background: #f6ebd4; border-radius: 5px; padding: 1px 7px; margin-left: 6px; vertical-align: 1px; }
 .pub-row .links a:hover { text-decoration: underline; }
 @media (max-width: 700px) {
   .pub-row, .pub-row.no-toc { grid-template-columns: 1fr; gap: 10px; }
@@ -354,7 +356,7 @@ figure.plate img { margin: 0 auto; }
 
 /* ---------- баннер Telegram ---------- */
 
-.tg-band { margin-top: 56px; background: linear-gradient(120deg, #2AABEE 0%, #229ED9 100%); }
+.tg-band { margin-top: 56px; background: linear-gradient(120deg, #1179ad 0%, #0b6ea0 100%); }
 .tg-inner {
   max-width: var(--w); margin: 0 auto; padding: 24px;
   display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
@@ -363,7 +365,7 @@ figure.plate img { margin: 0 auto; }
 .tg-icon { width: 52px; height: 52px; flex: none; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.15)); }
 .tg-text { flex: 1 1 280px; }
 .tg-title { display: block; font-size: 20px; font-weight: 700; letter-spacing: -0.01em; }
-.tg-sub { display: block; font-size: 14.5px; margin-top: 2px; color: rgba(255,255,255,0.92); }
+.tg-sub { display: block; font-size: 14.5px; margin-top: 2px; color: #fff; }
 .tg-sub b { font-weight: 700; color: #fff; }
 .tg-btn {
   background: #fff; color: #0f6ba8; font-weight: 700; font-size: 15px;
@@ -388,7 +390,7 @@ body:has(.tg-band) .site-foot { margin-top: 0; }
 .foot-line { margin: 4px 0; }
 .foot-social { margin-top: 12px; }
 .foot-social a { margin: 0 8px; }
-.foot-copy { margin-top: 16px; color: #7c7c80; font-size: 13px; }
+.foot-copy { margin-top: 16px; color: #8b8b90; font-size: 13px; }
 
 .skip { position: absolute; left: -9999px; top: 0; background: #fff; color: var(--text); padding: 10px 16px; z-index: 100; }
 .skip:focus { left: 8px; top: 8px; }
@@ -398,4 +400,29 @@ body:has(.tg-band) .site-foot { margin-top: 0; }
   .page-head { padding-top: 28px; }
   .page-head h1 { font-size: 30px; }
   .site-foot { margin-top: 56px; }
+}
+
+/* ---------- курсорные эффекты (js/effects.js) ---------- */
+
+/* молекулярная сетка в hero */
+.hero { position: relative; overflow: hidden; }
+.hero > .wrap { position: relative; z-index: 1; }
+.fx-net { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+
+/* наклон карточек к курсору + блик */
+.pub-card, .person-card, .alum-card {
+  transition: border-color 140ms ease, box-shadow 140ms ease, transform 180ms ease;
+  transform-style: preserve-3d;
+}
+.fx-sheen {
+  position: absolute; inset: 0; z-index: 2; pointer-events: none; opacity: 0;
+  border-radius: var(--radius);
+  background: radial-gradient(240px circle at var(--fx-mx, 50%) var(--fx-my, 50%),
+              rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 60%);
+  transition: opacity 200ms ease;
+}
+.fx-lit .fx-sheen { opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .pub-card, .person-card, .alum-card { transition: border-color 140ms ease, box-shadow 140ms ease; }
 }

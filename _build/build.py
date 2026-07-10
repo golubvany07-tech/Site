@@ -24,10 +24,17 @@ CSS_VER = str(int(os.path.getmtime(os.path.join(ROOT, "css", "style.css"))))  # 
 PUB_META = _load("pub_meta.json", {})          # authors + citation counts per publication
 PEOPLE_PUBS = _load("people_pubs.json", {})    # per-person publication lists + stats
 PROFILES = _load("profiles.json", {})          # verified external profiles per person
+COLAB = _load("colab_meta.json", {})           # colab.ws metrics/ids/interests (layered as supplement)
+COLAB_PEOPLE = COLAB.get("people", {})
+COLAB_ARTS = COLAB.get("articles", {})
 PUB_BY_N = {p["n"]: p for p in DATA["pubs"]}
 N_PUBS = len(DATA["pubs"])
 
 E = html.escape
+
+# Privacy-friendly analytics snippet (no cookies). Paste a GoatCounter/Plausible
+# <script>…</script> here to enable it site-wide; empty string = analytics disabled.
+ANALYTICS = ""
 
 
 def meta_month():
@@ -38,9 +45,21 @@ def meta_month():
         return ""
 
 
+def _bare_doi(url):
+    if not url:
+        return None
+    m = re.search(r"(10\.\d{4,9}/[^\s?#]+?)(?:\?|#|$)", url)
+    return m.group(1).rstrip("/.").lower() if m else None
+
+
 def cited_of(n):
     rec = PUB_META.get(str(n)) or {}
-    return rec.get("cited_by")
+    c = rec.get("cited_by")
+    if c is None:  # supplement: fall back to colab.ws citation count where Crossref has none
+        doi = _bare_doi((PUB_BY_N.get(n) or {}).get("doi"))
+        if doi:
+            c = (COLAB_ARTS.get(doi) or {}).get("citations")
+    return c
 
 
 # alumni without personal pages on the old site -> slugs used for their new pages
@@ -187,8 +206,9 @@ def fields_html(p, keys=("education", "email", "interests", "hobby")):
     return f'<div class="fields">{"".join(rows)}</div>' if rows else ""
 
 
-def shell(*, title, desc, active, body, page="index.html", prefix=""):
+def shell(*, title, desc, active, body, page="index.html", prefix="", og_image=None, og_type="website"):
     # prefix = relative path back to site root ("" for root pages, "../" for pages in a subfolder)
+    og_abs = "https://www.chemcatgroup.com/" + (og_image or "assets/img/misc/hero-sketch.jpg")
     nav_items = []
     for href, label in NAV:
         cur = ' aria-current="page"' if href == active else ""
@@ -205,14 +225,18 @@ def shell(*, title, desc, active, body, page="index.html", prefix=""):
 <meta name="keywords" content="group of effective catalysis, группа эффективного катализа, Denis Chusov, Chemistry for me, Денис Чусов">
 <link rel="canonical" href="{canonical}">
 <meta property="og:site_name" content="chemistryforme">
-<meta property="og:type" content="website">
+<meta property="og:type" content="{og_type}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:title" content="{E(title)}">
 <meta property="og:description" content="{E(desc)}">
-<meta property="og:image" content="https://www.chemcatgroup.com/assets/img/misc/logo.png">
+<meta property="og:image" content="{og_abs}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{E(title)}">
+<meta name="twitter:description" content="{E(desc)}">
+<meta name="twitter:image" content="{og_abs}">
 <link rel="icon" type="image/png" href="{prefix}assets/img/misc/favicon.png">
 <link rel="stylesheet" href="{prefix}css/style.css?v={CSS_VER}">
-</head>
+{ANALYTICS}</head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-head">
@@ -237,13 +261,14 @@ def shell(*, title, desc, active, body, page="index.html", prefix=""):
 <footer class="site-foot">
   <div class="wrap">
     <img class="foot-logo" src="{prefix}assets/img/misc/logo.png" alt="" width="54" height="54" loading="lazy">
-    <p class="foot-line"><a href="mailto:Chden@ya.ru">Chden@ya.ru</a></p>
+    <p class="foot-line"><a href="mailto:chden@ya.ru">chden@ya.ru</a></p>
     <p class="foot-line">Moscow, Russia, 119334</p>
     <p class="foot-social">{socials}</p>
     <p class="foot-line" style="margin-top:10px"><a href="{prefix}open-positions.html">Open positions</a> · <a href="https://colab.ws/labs/765" rel="noopener">Lab on colab.ws</a></p>
     <p class="foot-copy">©2026 by Chemistry for me</p>
   </div>
 </footer>
+<script src="{prefix}js/effects.js" defer></script>
 </body>
 </html>
 """
@@ -477,7 +502,7 @@ def build_publications():
       {toc}
       <div>
         <h3><a href="{E(p["doi"])}" rel="noopener">{E(p["title"])}</a></h3>
-        <p class="ref">{ref_html(p)}</p>
+        <p class="ref">{ref_html(p)}{' <span class="draft-tag">draft</span>' if p.get("draft") else ""}</p>
         <p class="links">DOI: <a href="{E(p["doi"])}" rel="noopener">{E(p["doi"].replace("https://doi.org/", "").replace("https://", ""))}</a>{f'<span class="cited"> · Citations: {cited_of(p["n"])}</span>' if cited_of(p["n"]) else ''}</p>
       </div>
     </article>""")
@@ -528,7 +553,7 @@ def build_research():
     write("research.html", shell(
         title="Research | ChemCatGroup",
         desc="Research of the Group of Effective Catalysis: carbon monoxide as reducing agent, selective reductive amination, hydrogen borrowing, simplified Eschweiler-Clarke, fluoride activated catalysis.",
-        active="research.html", body=body, page="research-chemcatgroup"))
+        active="research.html", body=body, page="research.html"))
 
 
 # ---------------------------------------------------------------- people
@@ -598,7 +623,7 @@ def build_people():
     write("people.html", shell(
         title="Personnel | ChemCatGroup",
         desc="Members of the Group of Effective Catalysis — Denis Chusov lab at INEOS RAS, Moscow.",
-        active="people.html", body=body, page="personnel"))
+        active="people.html", body=body, page="people.html"))
 
 
 # ---------------------------------------------------------------- alumni + former
@@ -629,7 +654,7 @@ def build_alumni():
     write("alumni.html", shell(
         title="Alumni | ChemCatGroup",
         desc="Alumni of the Group of Effective Catalysis and their current positions.",
-        active="alumni.html", body=body, page="alumni"))
+        active="alumni.html", body=body, page="alumni.html"))
 
     fcards = []
     for a in DATA["former"]:
@@ -690,7 +715,7 @@ def build_news():
     write("news.html", shell(
         title="Blog | ChemCatGroup",
         desc="Blog of the Group of Effective Catalysis: publications, defenses, conferences and lab life.",
-        active="news.html", body=body, page="blog"))
+        active="news.html", body=body, page="news.html"))
 
 
 # ---------------------------------------------------------------- media
@@ -714,14 +739,24 @@ def build_media():
     write("media.html", shell(
         title="Media | ChemCatGroup",
         desc="Press about the Group of Effective Catalysis: Nature highlight, Chemistry World, Organic Chemistry Portal, interviews.",
-        active="media.html", body=body, page="media"))
+        active="media.html", body=body, page="media.html"))
 
 
 # ---------------------------------------------------------------- personal pages
 
 def profile_links_html(slug):
     rec = PROFILES.get(slug) or {}
-    links = [l for l in rec.get("links", []) if l.get("url")]
+    links = [dict(l) for l in rec.get("links", []) if l.get("url")]
+    have = {l["type"] for l in links}
+    cids = (COLAB_PEOPLE.get(slug) or {}).get("ids") or {}
+    colab_links = {  # fill only the profile types the curated data is missing
+        "scholar": f'https://scholar.google.com/citations?user={cids["scholar"]}' if cids.get("scholar") else None,
+        "scopus": f'https://www.scopus.com/authid/detail.uri?authorId={cids["scopus"]}' if cids.get("scopus") else None,
+        "orcid": f'https://orcid.org/{cids["orcid"]}' if cids.get("orcid") else None,
+    }
+    for t, u in colab_links.items():
+        if u and t not in have:
+            links.append({"type": t, "url": u}); have.add(t)
     if not links:
         return ""
     order = {"scholar": 0, "orcid": 1, "scopus": 2, "istina": 3, "researchgate": 4, "other": 9}
@@ -742,13 +777,20 @@ def stats_html(slug):
         parts.append(f'h-index <b>{st["h_index"]}</b>')
     line = " · ".join(parts)
     rec = PROFILES.get(slug) or {}
-    gs = ""
+    cp = COLAB_PEOPLE.get(slug) or {}
+    gs, used_colab = "", False
     if rec.get("scholar_citations"):
         gs = f' &nbsp;·&nbsp; Google Scholar (all works): <b>{rec["scholar_citations"]}</b> citations'
         if rec.get("scholar_h"):
             gs += f', h-index <b>{rec["scholar_h"]}</b>'
-    note = meta_month()
-    note = f'<span class="src">— Crossref, {note}</span>' if note else ""
+    elif cp.get("citations"):  # supplement: colab.ws all-works stats where no Scholar number exists
+        gs = f' &nbsp;·&nbsp; colab.ws (all works): <b>{cp["citations"]}</b> citations'
+        if cp.get("h_index"):
+            gs += f', h-index <b>{cp["h_index"]}</b>'
+        used_colab = True
+    month = meta_month()
+    src = "Crossref &amp; colab.ws" if used_colab else "Crossref"
+    note = f'<span class="src">— {src}, {month}</span>' if month else ""
     return f'<p class="stats-line">{line}{gs} {note}</p>'
 
 
@@ -772,7 +814,7 @@ def person_pub_rows(slug, prefix=""):
       {toc}
       <div>
         <h3><a href="{E(p["doi"])}" rel="noopener">{E(p["title"])}</a></h3>
-        <p class="ref">{ref_html(p)}{cited_html}</p>
+        <p class="ref">{ref_html(p)}{cited_html}{' <span class="draft-tag">draft</span>' if p.get("draft") else ""}</p>
       </div>
     </article>""")
     return f"""
@@ -795,6 +837,10 @@ def build_person_pages():
         records.append((f["slug"], f, "former"))
 
     for slug, rec, kind in records:
+        if not rec.get("interests"):  # supplement: colab.ws research interests where none are curated
+            ci = (COLAB_PEOPLE.get(slug) or {}).get("interests_en")
+            if ci:
+                rec = {**rec, "interests": ", ".join(ci)}
         name = rec["name"]
         if slug == "denis-chusov":
             name = "Prof. Dr. Denis Chusov"
@@ -833,7 +879,8 @@ def build_person_pages():
             title=f"{name} | ChemCatGroup",
             desc=f"{name} — Group of Effective Catalysis (Denis Chusov lab, INEOS RAS): profile, publications and citation statistics.",
             active="people.html" if kind == "member" else "alumni.html",
-            body=body, page=f"people/{slug}.html", prefix="../"))
+            body=body, page=f"people/{slug}.html", prefix="../",
+            og_image=(f"assets/{rec['photo']}" if rec.get("photo") else None), og_type="profile"))
 
 
 # ---------------------------------------------------------------- open positions
@@ -845,14 +892,45 @@ def build_positions():
   <div class="prose" style="margin-top:26px">
     <h2>PhD in chemistry (аспирантура)</h2>
     <p lang="ru">Мы всегда рады приветствовать активных молодых учёных, которые хотели бы переписать учебники.
-    По вопросам поступления пишите на <a href="mailto:Chden@ya.ru">Chden@ya.ru</a>.</p>
+    По вопросам поступления пишите на <a href="mailto:chden@ya.ru">chden@ya.ru</a>.</p>
   </div>
 </div>
 """
     write("open-positions.html", shell(
         title="Open Positions | ChemCatGroup",
         desc="PhD positions in the Group of Effective Catalysis (Denis Chusov lab, INEOS RAS, Moscow).",
-        active=None, body=body, page="open-positions"))
+        active=None, body=body, page="open-positions.html"))
+
+
+# ---------------------------------------------------------------- SEO / hosting files
+
+def build_seo_files():
+    base = "https://www.chemcatgroup.com/"
+    roots = ["", "research.html", "publications.html", "people.html", "alumni.html",
+             "news.html", "media.html", "open-positions.html", "former-members.html"]
+    slugs = [p["slug"] for p in DATA["people"]]
+    slugs += [a["slug"] or ALUM_SLUG[a["name"]] for a in DATA["alumni"]]
+    slugs += [f["slug"] for f in DATA["former"]]
+    urls = [base + r for r in roots] + [f"{base}people/{s}.html" for s in slugs]
+    urls = list(dict.fromkeys(urls))  # dedupe, preserve order
+    today = datetime.now().strftime("%Y-%m-%d")
+    locs = "\n".join(f"  <url><loc>{u}</loc><lastmod>{today}</lastmod></url>" for u in urls)
+    write("sitemap.xml",
+          '<?xml version="1.0" encoding="UTF-8"?>\n'
+          '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+          f"{locs}\n</urlset>\n")
+    write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {base}sitemap.xml\n")
+    write("CNAME", "www.chemcatgroup.com\n")
+    nf = """
+<div class="wrap" style="padding:72px 24px;text-align:center">
+  <h1 style="font-size:44px">404</h1>
+  <p class="sub" style="font-size:18px;color:var(--muted);margin-top:8px">Page not found.</p>
+  <p style="margin-top:22px"><a class="btn" href="/index.html">Back to home</a></p>
+</div>
+"""
+    write("404.html", shell(title="Page not found | ChemCatGroup",
+                            desc="The page you are looking for does not exist.",
+                            active=None, body=nf, page="404.html", prefix="/"))
 
 
 # ---------------------------------------------------------------- run
@@ -866,4 +944,5 @@ build_news()
 build_media()
 build_positions()
 build_person_pages()
+build_seo_files()
 print("done")

@@ -29,17 +29,35 @@ _build/people_pubs.json    — публикации и статистика по
 _build/profiles.json       — проверенные внешние профили (правится руками)
 _build/fetch_pub_meta.py   — обновить цитирования: python3 _build/fetch_pub_meta.py
 _build/match_people.py     — пересчитать статистику людей после обновления
+_build/fetch_colab.py      — подтянуть данные с colab.ws (метрики/интересы/ID людей,
+                             цитирования, поиск новых статей). Ключ — в _build/colab_key.txt
+_build/colab_ids.json      — slug → colab-id (автоопределяется, правится руками)
+_build/colab_meta.json     — метрики/интересы/ID с colab.ws (наслаивается в build.py)
+_build/colab_new_pubs.json — найденные новые статьи Чусова, которых нет на сайте
 _build/build.py            — генератор: python3 _build/build.py пересобирает все
                              HTML-страницы
 ```
 
-## Обновление цитирований
+## Обновление цитирований и данных
 
 ```
-python3 _build/fetch_pub_meta.py   # тянет свежие числа из Crossref/OpenAlex
-python3 _build/match_people.py     # пересчитывает статистику по людям
+python3 _build/fetch_colab.py      # данные с colab.ws (метрики людей, интересы, ID, новые статьи)
+python3 _build/fetch_pub_meta.py   # цитирования из Crossref/OpenAlex
+python3 _build/match_people.py     # пересчёт статистики по людям
 python3 _build/build.py            # пересборка страниц
 ```
+
+`fetch_colab.py` кэширует ответы в `_build/.colab_cache/`, так что повторный запуск
+почти не тратит квоту (1000 запросов); `--force` игнорирует кэш. Данные colab.ws
+**наслаиваются** поверх ручных (`profiles.json`/`site_data.json` не перезаписываются):
+метрики «all works» показываются там, где нет ручных чисел Scholar; интересы и
+недостающие ссылки Scopus/Scholar добавляются на страницы профилей.
+
+### API-ключ colab.ws (секрет!)
+
+Ключ лежит в `_build/colab_key.txt` (или переменной `COLAB_API_KEY`) и **в git не
+попадает** — файл в `.gitignore`. Никогда не коммить ключ и не вставляй его в HTML/JS:
+сайт статический, любой его JS публичен. Синхронизация — только билд-тайм.
 
 ## Как править
 
