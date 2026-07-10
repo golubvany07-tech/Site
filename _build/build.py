@@ -10,6 +10,7 @@ import json
 import os
 import re
 from datetime import datetime
+from urllib.parse import urlparse
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = json.load(open(os.path.join(ROOT, "_build", "site_data.json"), encoding="utf-8"))
@@ -31,6 +32,13 @@ PUB_BY_N = {p["n"]: p for p in DATA["pubs"]}
 N_PUBS = len(DATA["pubs"])
 
 E = html.escape
+
+# Where the site is actually served. Defaults to the GitHub Pages project URL;
+# override for the custom domain:  SITE_URL=https://www.chemcatgroup.com python3 _build/build.py
+SITE_URL = os.environ.get("SITE_URL", "https://fkliuev.github.io/chemcatgroup").rstrip("/")
+_host = urlparse(SITE_URL).hostname or ""
+BASE_PATH = (urlparse(SITE_URL).path or "").rstrip("/") + "/"  # "/chemcatgroup/" or "/"
+IS_GH_PAGES = _host.endswith("github.io")                      # no CNAME on github.io
 
 # Privacy-friendly analytics snippet (no cookies). Paste a GoatCounter/Plausible
 # <script>…</script> here to enable it site-wide; empty string = analytics disabled.
@@ -208,13 +216,13 @@ def fields_html(p, keys=("education", "email", "interests", "hobby")):
 
 def shell(*, title, desc, active, body, page="index.html", prefix="", og_image=None, og_type="website"):
     # prefix = relative path back to site root ("" for root pages, "../" for pages in a subfolder)
-    og_abs = "https://www.chemcatgroup.com/" + (og_image or "assets/img/misc/hero-sketch.jpg")
+    og_abs = f"{SITE_URL}/" + (og_image or "assets/img/misc/hero-sketch.jpg")
     nav_items = []
     for href, label in NAV:
         cur = ' aria-current="page"' if href == active else ""
         nav_items.append(f'<a href="{prefix}{href}"{cur}>{label}</a>')
     socials = " · ".join(f'<a href="{E(u)}" rel="noopener">{E(n)}</a>' for n, u in SOCIALS)
-    canonical = f"https://www.chemcatgroup.com/{page}" if page != "index.html" else "https://www.chemcatgroup.com/"
+    canonical = f"{SITE_URL}/{page}" if page != "index.html" else f"{SITE_URL}/"
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -905,7 +913,7 @@ def build_positions():
 # ---------------------------------------------------------------- SEO / hosting files
 
 def build_seo_files():
-    base = "https://www.chemcatgroup.com/"
+    base = f"{SITE_URL}/"
     roots = ["", "research.html", "publications.html", "people.html", "alumni.html",
              "news.html", "media.html", "open-positions.html", "former-members.html"]
     slugs = [p["slug"] for p in DATA["people"]]
@@ -920,17 +928,18 @@ def build_seo_files():
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
           f"{locs}\n</urlset>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {base}sitemap.xml\n")
-    write("CNAME", "www.chemcatgroup.com\n")
-    nf = """
+    if not IS_GH_PAGES:  # a CNAME forces a custom domain — only emit one when using it
+        write("CNAME", _host + "\n")
+    nf = f"""
 <div class="wrap" style="padding:72px 24px;text-align:center">
   <h1 style="font-size:44px">404</h1>
   <p class="sub" style="font-size:18px;color:var(--muted);margin-top:8px">Page not found.</p>
-  <p style="margin-top:22px"><a class="btn" href="/index.html">Back to home</a></p>
+  <p style="margin-top:22px"><a class="btn" href="{BASE_PATH}index.html">Back to home</a></p>
 </div>
 """
     write("404.html", shell(title="Page not found | ChemCatGroup",
                             desc="The page you are looking for does not exist.",
-                            active=None, body=nf, page="404.html", prefix="/"))
+                            active=None, body=nf, page="404.html", prefix=BASE_PATH))
 
 
 # ---------------------------------------------------------------- run

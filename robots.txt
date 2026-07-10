@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.chemcatgroup.com/sitemap.xml
+Sitemap: https://fkliuev.github.io/chemcatgroup/sitemap.xml
