@@ -3,6 +3,19 @@
   {
    "n": 1,
    "year": 2026,
+   "title": "Efficiency and sustainability in cyclizine synthesis: a comparative analysis of reductive amination methodologies",
+   "title_link": null,
+   "journal_line": "Mendeleev Communications 2026, 36",
+   "doi": "https://doi.org/10.71267/mencom.7990",
+   "toc": null,
+   "toc_local": "",
+   "journal_ref": "Mendeleev Communications 2026, 36",
+   "impact": null,
+   "draft": true
+  },
+  {
+   "n": 2,
+   "year": 2026,
    "title": "Application of computational tools for experimental data analysis of homogeneous catalytic systems in the synthesis of cyclic carbonates",
    "title_link": null,
    "journal_line": "Coord. Chem. Rev. , 2026, 563, 217962, Impact Factor: 26.529",
@@ -13,7 +26,7 @@
    "impact": "26.529"
   },
   {
-   "n": 2,
+   "n": 3,
    "year": 2026,
    "title": "When the “co-catalyst” may be the real catalyst: example of synthesis of cyclic organic carbonates",
    "title_link": null,
@@ -25,7 +38,7 @@
    "impact": "9.003"
   },
   {
-   "n": 3,
+   "n": 4,
    "year": 2026,
    "title": "TBAT as “Multitool” Catalyst for Polysiloxane Synthesis, Modification, and Recycling",
    "title_link": null,
@@ -37,7 +50,20 @@
    "impact": "12.987"
   },
   {
-   "n": 4,
+   "n": 5,
+   "year": 2025,
+   "title": "Chiral hydrogen-bonded frameworks featuring proline motifs as heterogeneous catalysts for the enantioselective synthesis of warfarin",
+   "title_link": null,
+   "journal_line": "Mendeleev Communications 2025, 35, 6, 642-644",
+   "doi": "https://doi.org/10.71267/mencom.7796",
+   "toc": null,
+   "toc_local": "",
+   "journal_ref": "Mendeleev Communications 2025, 35, 6, 642-644",
+   "impact": null,
+   "draft": true
+  },
+  {
+   "n": 6,
    "year": 2025,
    "title": "Krossing’s acid as efficient and versatile catalyst for ε-caprolactone polymerization",
    "title_link": null,
@@ -49,7 +75,7 @@
    "impact": "6.038"
   },
   {
-   "n": 5,
+   "n": 7,
    "year": 2025,
    "title": "Direct synthesis of amides from nitroarenes and carboxylic acids via CO-mediated reduction",
    "title_link": null,
@@ -61,7 +87,7 @@
    "impact": "6.615"
   },
   {
-   "n": 6,
+   "n": 8,
    "year": 2025,
    "title": "Reductive alkylation of ketones with aldehydes using a simple catalyst and waste reductants",
    "title_link": "https://www.sciencedirect.com/science/article/pii/S0021951725006499",
@@ -73,7 +99,7 @@
    "impact": "6.615"
   },
   {
-   "n": 7,
+   "n": 9,
    "year": 2025,
    "title": "Sodium Hypophosphite Assisted Ruthenium Catalyzed Reductive Amination under Mild Conditions",
    "title_link": null,
@@ -81,11 +107,11 @@
    "doi": "https://doi.org/10.1021/acs.orglett.5c04073",
    "toc": "https://static.wixstatic.com/media/9e96bb_2047af7419d247c4910791372e72b89a~mv2.jpeg",
    "toc_local": "img/pubs/p07.jpeg",
-   "journal_ref": "Org. Lett. 2025 , ASAP",
+   "journal_ref": "Org. Lett. 2025, 27, 50, 13711-13716",
    "impact": "5.051"
   },
   {
-   "n": 8,
+   "n": 10,
    "year": 2025,
    "title": "Developing Thiols as a Versatile Organo-Photocatalyst for the Visible-Light-Mediated Polymerization",
    "title_link": null,
@@ -97,7 +123,7 @@
    "impact": "12.795"
   },
   {
-   "n": 9,
+   "n": 11,
    "year": 2025,
    "title": "Aldehydes as reducing agents: Reductive alkylation of ketones",
    "title_link": null,
@@ -109,7 +135,7 @@
    "impact": "6.615"
   },
   {
-   "n": 10,
+   "n": 12,
    "year": 2025,
    "title": "Catalytic insertion of nitrenes into B–H bonds",
    "title_link": null,
@@ -121,7 +147,7 @@
    "impact": "7.202"
   },
   {
-   "n": 11,
+   "n": 13,
    "year": 2025,
    "title": "The halogen effect in ruthenium catalysis",
    "title_link": null,
@@ -133,7 +159,7 @@
    "impact": "5.787"
   },
   {
-   "n": 12,
+   "n": 14,
    "year": 2025,
    "title": "Reductive Amination Reactions Using Sodium Hypophosphite: a Guide to Substrates",
    "title_link": null,
@@ -145,7 +171,7 @@
    "impact": "3.458"
   },
   {
-   "n": 13,
+   "n": 15,
    "year": 2025,
    "title": "Cobalt-Catalyzed Green Alkylations of Anilines with Tetrahydrofurans",
    "title_link": null,
@@ -157,7 +183,7 @@
    "impact": "6.947"
   },
   {
-   "n": 14,
+   "n": 16,
    "year": 2025,
    "title": "Influence of the cation in hypophosphite-mediated catalyst-free reductive amination",
    "title_link": null,
@@ -169,7 +195,7 @@
    "impact": "2.112"
   },
   {
-   "n": 15,
+   "n": 17,
    "year": 2024,
    "title": "Cyano-Fluorosulfonylation of Unactivated Alkenes by Photoredox and Copper Dual Catalysis",
    "title_link": null,
@@ -181,7 +207,7 @@
    "impact": "4.885"
   },
   {
-   "n": 16,
+   "n": 18,
    "year": 2024,
    "title": "Application of transition metal fluorides in catalysis",
    "title_link": null,
@@ -193,7 +219,7 @@
    "impact": "20.63"
   },
   {
-   "n": 17,
+   "n": 19,
    "year": 2024,
    "title": "Simplified Version of the Eschweiler–Clarke Reaction",
    "title_link": null,
@@ -205,7 +231,7 @@
    "impact": "3.458"
   },
   {
-   "n": 18,
+   "n": 20,
    "year": 2024,
    "title": "Air-Stable Arene Manganese Complexes as Catalysts for the Syngas-Assisted Direct Reductive Amination, Cyanation of Aldehyde, and CO2 Fixation by Epoxide with High Functional Groups Tolerance",
    "title_link": null,
@@ -217,7 +243,7 @@
    "impact": "3.458"
   },
   {
-   "n": 19,
+   "n": 21,
    "year": 2024,
    "title": "Planar-chiral arene ruthenium complexes: synthesis, separation of enantiomers, and application for catalytic C–H activation",
    "title_link": null,
@@ -225,11 +251,11 @@
    "doi": "https://doi.org/10.1039/D4CC00181H",
    "toc": "https://static.wixstatic.com/media/9e96bb_4b1a8e2c5cfb421a9bfcffff3aa9bed7~mv2.jpg",
    "toc_local": "img/pubs/p19.jpg",
-   "journal_ref": "Chem. Commun., 2024, Advance Article",
+   "journal_ref": "Chem. Commun. 2024, 60, 33, 4491-4494",
    "impact": "6.222"
   },
   {
-   "n": 20,
+   "n": 22,
    "year": 2024,
    "title": "Mn-catalyzed syngas-assisted reductive Knoevenagel condensation",
    "title_link": null,
@@ -241,7 +267,7 @@
    "impact": "1.786"
   },
   {
-   "n": 21,
+   "n": 23,
    "year": 2024,
    "title": "Chiral crystalline organic salts as supports of Pd nanoparticles forming selective heterogeneous catalysts for hydrogenation of nitroarenes",
    "title_link": null,
@@ -253,7 +279,7 @@
    "impact": "1.786"
   },
   {
-   "n": 22,
+   "n": 24,
    "year": 2024,
    "title": "Tandem, Catalyst-Free C−C Synthesis of Nitriles from Aldehydes and Methyl Cyanoacetate with Sodium Hypophosphite",
    "title_link": null,
@@ -265,7 +291,7 @@
    "impact": "2.528"
   },
   {
-   "n": 23,
+   "n": 25,
    "year": 2024,
    "title": "Chiral Organic Salt Supported Pd Nanoparticles as Selective Heterogeneous Catalysts of Hydrogenation Reactions",
    "title_link": null,
@@ -277,7 +303,7 @@
    "impact": "2.09"
   },
   {
-   "n": 24,
+   "n": 26,
    "year": 2023,
    "title": "Streamlining the synthesis of amides using Nickel-based nanocatalysts",
    "title_link": null,
@@ -289,7 +315,7 @@
    "impact": "15.405"
   },
   {
-   "n": 25,
+   "n": 27,
    "year": 2023,
    "title": "Catalytic utilization of converter gas – an industrial waste for the synthesis of pharmaceuticals",
    "title_link": null,
@@ -297,13 +323,13 @@
    "doi": "https://doi.org/10.1039/D3SC00257H",
    "toc": "https://static.wixstatic.com/media/9e96bb_303893cd77e44877bed5714f3af18daf~mv2.gif",
    "toc_local": "img/pubs/p25.gif",
-   "journal_ref": "Chem. Sci. , 2023, Advance Article",
+   "journal_ref": "Chem. Sci. 2023, 14, 16, 4346-4350",
    "impact": "9.204"
   },
   {
-   "n": 26,
+   "n": 28,
    "year": 2023,
-   "title": "​ A Pioneering Career in Catalysis: Henri B. Kagan",
+   "title": "A Pioneering Career in Catalysis: Henri B. Kagan",
    "title_link": null,
    "journal_line": "ACS Catal., 13, 11494-11508, Impact Factor: 13.084",
    "doi": "https://doi.org/10.1021/acscatal.3c02965",
@@ -313,7 +339,7 @@
    "impact": "13.084"
   },
   {
-   "n": 27,
+   "n": 29,
    "year": 2023,
    "title": "Planar Chiral Rhodium Complex Based on the Tetrahydrofluorenyl Core for Enantioselective Catalysis",
    "title_link": null,
@@ -325,7 +351,7 @@
    "impact": "6.005"
   },
   {
-   "n": 28,
+   "n": 30,
    "year": 2023,
    "title": "Reductive coupling of nitroarenes with carboxylic acids – a direct route to amide synthesis",
    "title_link": null,
@@ -337,7 +363,7 @@
    "impact": "3.876"
   },
   {
-   "n": 29,
+   "n": 31,
    "year": 2023,
    "title": "Peculiarities of fluoride activation of porphyrin and phthalocyanine catalysts by the example of zirconium and hafnium in the production of cyclic carbonates",
    "title_link": null,
@@ -349,7 +375,7 @@
    "impact": "5.062"
   },
   {
-   "n": 30,
+   "n": 32,
    "year": 2023,
    "title": "Syngas as a synergistic reducing agent for selective reductive amination—a mild route to bioactive amines",
    "title_link": null,
@@ -361,7 +387,7 @@
    "impact": "3.925"
   },
   {
-   "n": 31,
+   "n": 33,
    "year": 2023,
    "title": "Nitrogen ligand influence on the CO-assisted ruthenium-catalyzed reductive amination",
    "title_link": null,
@@ -373,7 +399,7 @@
    "impact": "1.694"
   },
   {
-   "n": 32,
+   "n": 34,
    "year": 2023,
    "title": "Reductive α-alkylation of ketones with aldehydes at atmospheric pressure of carbon monoxide: the effect of fluoride activation in ruthenium catalysis",
    "title_link": null,
@@ -385,7 +411,7 @@
    "impact": "1.694"
   },
   {
-   "n": 33,
+   "n": 35,
    "year": 2023,
    "title": "Sodium hypophosphite mediated reductive amination of carbonyl compounds with N, N-dialkylformamides",
    "title_link": null,
@@ -397,7 +423,7 @@
    "impact": "3.591"
   },
   {
-   "n": 34,
+   "n": 36,
    "year": 2022,
    "title": "Borrowing Hydrogen Amination Reactions: A Complex Analysis of Trends and Correlations of the Various Reaction Parameters",
    "title_link": null,
@@ -409,7 +435,7 @@
    "impact": "13.084"
   },
   {
-   "n": 35,
+   "n": 37,
    "year": 2022,
    "title": "Syngas Instead of Hydrogen Gas as a Reducing Agent─ A Strategy To Improve the Selectivity and Efficiency of Organometallic Catalysts",
    "title_link": null,
@@ -421,7 +447,7 @@
    "impact": "13.084"
   },
   {
-   "n": 36,
+   "n": 38,
    "year": 2022,
    "title": "Osmium-catalyzed reduction processes",
    "title_link": null,
@@ -433,7 +459,7 @@
    "impact": "7.460"
   },
   {
-   "n": 37,
+   "n": 39,
    "year": 2022,
    "title": "Sodium Hypophosphite as a Bulk and Environmentally Friendly Reducing Agent in the Reductive Amination",
    "title_link": null,
@@ -441,11 +467,11 @@
    "doi": "https://doi.org/10.1021/acs.orglett.2c02807",
    "toc": "https://static.wixstatic.com/media/9e96bb_6a86cdad04fb4792a39db75d4011edcd~mv2.png",
    "toc_local": "img/pubs/p37.png",
-   "journal_ref": "Org. Lett. 2022, Articles ASAP",
+   "journal_ref": "Org. Lett. 2022, 24, 42, 7717-7721",
    "impact": "6.005"
   },
   {
-   "n": 38,
+   "n": 40,
    "year": 2022,
    "title": "Enhancing the efficiency of the ruthenium catalysts in the reductive amination without an external hydrogen source",
    "title_link": null,
@@ -457,7 +483,7 @@
    "impact": "7.92"
   },
   {
-   "n": 39,
+   "n": 41,
    "year": 2022,
    "title": "Borrowing hydrogen amination: Whether a catalyst is required?",
    "title_link": null,
@@ -469,7 +495,7 @@
    "impact": "7.92"
   },
   {
-   "n": 40,
+   "n": 42,
    "year": 2022,
    "title": "Asymmetric cyclopropanation of electron-rich alkenes by the racemic diene rhodium catalyst: the chiral poisoning approach",
    "title_link": null,
@@ -481,7 +507,7 @@
    "impact": "5.996"
   },
   {
-   "n": 41,
+   "n": 43,
    "year": 2022,
    "title": "Fluoride Additive as a Simple Tool to Qualitatively Improve Performance of Nickel-Catalyzed Asymmetric Michael Addition of Malonates to Nitroolefins",
    "title_link": null,
@@ -493,7 +519,7 @@
    "impact": "4.335"
   },
   {
-   "n": 42,
+   "n": 44,
    "year": 2021,
    "title": "Synthesis of Rhodium Complexes with Chiral Diene Ligands via Diastereoselective Coordination and Their Application in the Asymmetric Insertion of Diazo Compounds into E−H Bonds",
    "title_link": null,
@@ -505,7 +531,7 @@
    "impact": "15.336"
   },
   {
-   "n": 43,
+   "n": 45,
    "year": 2021,
    "title": "Straightforward Access to High-Performance Organometallic Catalysts by Fluoride Activation: Proof of Principle on Asymmetric Cyanation, Asymmetric Michael Addition, CO2 Addition to Epoxide, and Reductive Alkylation of Amines by Tetrahydrofuran",
    "title_link": null,
@@ -517,7 +543,7 @@
    "impact": "13.084"
   },
   {
-   "n": 44,
+   "n": 46,
    "year": 2021,
    "title": "Easy Access to Versatile Catalytic Systems for C−H Activation and Reductive Amination Based on Tetrahydrofluorenyl Rhodium(III) Complexes",
    "title_link": null,
@@ -529,7 +555,7 @@
    "impact": "5.236"
   },
   {
-   "n": 45,
+   "n": 47,
    "year": 2021,
    "title": "Carbon monoxide-driven osmium catalyzed reductive amination harvesting WGSR power",
    "title_link": null,
@@ -541,7 +567,7 @@
    "impact": "6.119"
   },
   {
-   "n": 46,
+   "n": 48,
    "year": 2021,
    "title": "Reductive Aldol-type Reactions in the Synthesis of Pharmaceuticals",
    "title_link": null,
@@ -553,19 +579,7 @@
    "impact": "5.236"
   },
   {
-   "n": 47,
-   "year": 2021,
-   "title": "Frontispiece: Reductive Aldol-type Reactions in the Synthesis of Pharmaceuticals",
-   "title_link": null,
-   "journal_line": "Chem. Eur. J., 2021, 27 (62), Impact Factor: 5.236",
-   "doi": "https://doi.org/10.1002/chem.202186262",
-   "toc": "https://static.wixstatic.com/media/9e96bb_f8b9f2f5179b468682eb812f4021e6f9~mv2.png",
-   "toc_local": "img/pubs/p47.png",
-   "journal_ref": "Chem. Eur. J., 2021, 27 (62)",
-   "impact": "5.236"
-  },
-  {
-   "n": 48,
+   "n": 49,
    "year": 2021,
    "title": "Phosphine ligands in the ruthenium-catalyzed reductive amination without an external hydrogen source",
    "title_link": null,
@@ -577,7 +591,7 @@
    "impact": "2.369"
   },
   {
-   "n": 49,
+   "n": 50,
    "year": 2021,
    "title": "Hayashi ligand-based rhodium complex in carbon monoxide and molecular hydrogen-assisted reductive amination",
    "title_link": null,
@@ -589,7 +603,7 @@
    "impact": "1.694"
   },
   {
-   "n": 50,
+   "n": 51,
    "year": 2021,
    "title": "Symmetrical Tertiary Amines: Applications and Synthetic Approaches",
    "title_link": "https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/ejoc.202001171",
@@ -601,7 +615,7 @@
    "impact": "2.889"
   },
   {
-   "n": 51,
+   "n": 52,
    "year": 2020,
    "title": "A Dual Threat: Redox‐Activity and Electronic Structures of Well‐Defined Donor–Acceptor Fulleretic Covalent‐Organic Materials",
    "title_link": null,
@@ -613,7 +627,7 @@
    "impact": "15.336"
   },
   {
-   "n": 52,
+   "n": 53,
    "year": 2020,
    "title": "Redox Condensations of o-Nitrobenzaldehydes with Amines under Mild Conditions: Total Synthesis of the Vasicinone Family",
    "title_link": null,
@@ -625,7 +639,7 @@
    "impact": "4.335"
   },
   {
-   "n": 53,
+   "n": 54,
    "year": 2020,
    "title": "Tris(pyrazolyl)borate rhodium complexes. Application for reductive amination and esterification of aldehydes in the presence of carbon monoxide",
    "title_link": null,
@@ -637,7 +651,7 @@
    "impact": "2.369"
   },
   {
-   "n": 54,
+   "n": 55,
    "year": 2020,
    "title": "Reductive Amidation without an External Hydrogen Source Using Rhodium on Carbon Matrix as a Catalyst",
    "title_link": null,
@@ -649,7 +663,7 @@
    "impact": "5.686"
   },
   {
-   "n": 55,
+   "n": 56,
    "year": 2020,
    "title": "Variability of Rhodium(III)-Catalyzed Reactions of Aromatic Oximes with Alkenes",
    "title_link": null,
@@ -661,7 +675,7 @@
    "impact": "2.006"
   },
   {
-   "n": 56,
+   "n": 57,
    "year": 2020,
    "title": "Alkyl formates as reagents for reductive amination of carbonyl compounds",
    "title_link": null,
@@ -673,7 +687,7 @@
    "impact": "1.694"
   },
   {
-   "n": 57,
+   "n": 58,
    "year": 2020,
    "title": "Direct Reductive Amination of Camphor Using Iron Pentacarbonyl as Stoichiometric Reducing Agent: Features and Limitations",
    "title_link": null,
@@ -685,7 +699,7 @@
    "impact": "2.889"
   },
   {
-   "n": 58,
+   "n": 59,
    "year": 2020,
    "title": "Rhodium‐Catalyzed Reductive Esterification Using Carbon Monoxide as a Reducing Agent",
    "title_link": null,
@@ -697,7 +711,7 @@
    "impact": "2.889"
   },
   {
-   "n": 59,
+   "n": 60,
    "year": 2019,
    "title": "Reductive Amination in the Synthesis of Pharmaceuticals",
    "title_link": null,
@@ -709,7 +723,7 @@
    "impact": "52.758"
   },
   {
-   "n": 60,
+   "n": 61,
    "year": 2019,
    "title": "Synthesis of Nitriles from Aldehydes with Elongation of the Molecule with Two Carbon Atoms",
    "title_link": null,
@@ -721,7 +735,7 @@
    "impact": null
   },
   {
-   "n": 61,
+   "n": 62,
    "year": 2019,
    "title": "Hitchhiker’s Guide to Reductive Amination",
    "title_link": null,
@@ -733,7 +747,7 @@
    "impact": "3.157"
   },
   {
-   "n": 62,
+   "n": 63,
    "year": 2019,
    "title": "Aldehydes as Alkylating Agents for Ketones",
    "title_link": null,
@@ -745,7 +759,7 @@
    "impact": "5.236"
   },
   {
-   "n": 63,
+   "n": 64,
    "year": 2019,
    "title": "One‐Pot Synthesis of Symmetrical Tertiary and Secondary Amines from Carbonyl Compounds, Ammonium Carbonate and Carbon Monoxide as a Reductant",
    "title_link": null,
@@ -757,7 +771,7 @@
    "impact": "2.889"
   },
   {
-   "n": 64,
+   "n": 65,
    "year": 2019,
    "title": "Fluorene Complexes of Group 9 Metals: Fluorene Effect and Application for Reductive Amination",
    "title_link": null,
@@ -769,7 +783,7 @@
    "impact": "3.876"
   },
   {
-   "n": 65,
+   "n": 66,
    "year": 2019,
    "title": "Anthracene–rhodium complexes with metal coordination at the central ring – a new class of catalysts for reductive amination",
    "title_link": null,
@@ -781,7 +795,7 @@
    "impact": "3.876"
   },
   {
-   "n": 66,
+   "n": 67,
    "year": 2019,
    "title": "Reduction of phosphine oxides to phosphines",
    "title_link": null,
@@ -793,7 +807,7 @@
    "impact": "2.415"
   },
   {
-   "n": 67,
+   "n": 68,
    "year": 2018,
    "title": "Planar‐chiral rhodium(III) catalyst with sterically demanding cyclopentadienyl ligand and its application for enantioselective synthesis of dihydroisoquinolones",
    "title_link": null,
@@ -805,7 +819,7 @@
    "impact": "15.336"
   },
   {
-   "n": 68,
+   "n": 69,
    "year": 2018,
    "title": "Atom- and Step-Economical Ruthenium-Catalyzed Synthesis of Esters from Aldehydes or Ketones and Carboxylic Acids",
    "title_link": null,
@@ -817,7 +831,7 @@
    "impact": null
   },
   {
-   "n": 69,
+   "n": 70,
    "year": 2018,
    "title": "Indenyl Rhodium Complexes with Arene Ligands: Synthesis and Application for Reductive Amination",
    "title_link": null,
@@ -829,7 +843,7 @@
    "impact": "3.876"
   },
   {
-   "n": 70,
+   "n": 71,
    "year": 2018,
    "title": "Carbon monoxide as a selective reducing agent in organic chemistry",
    "title_link": null,
@@ -841,7 +855,7 @@
    "impact": "1.694"
   },
   {
-   "n": 71,
+   "n": 72,
    "year": 2017,
    "title": "Dichotomy of Atom-Economical Hydrogen-Free Reductive Amidation vs Exhaustive Reductive Amination",
    "title_link": null,
@@ -853,7 +867,7 @@
    "impact": "6.005"
   },
   {
-   "n": 72,
+   "n": 73,
    "year": 2017,
    "title": "Hydrogen-Free Reductive Amination Using Iron Pentacarbonyl as a Reducing Agent",
    "title_link": null,
@@ -865,7 +879,7 @@
    "impact": "3.412"
   },
   {
-   "n": 73,
+   "n": 74,
    "year": 2017,
    "title": "Synthesis of N,N′-Dialkylated Cyclohexane-1,2-diamines and Their Application as Asymmetric Ligands and Organocatalysts for the Synthesis of Alcohols",
    "title_link": null,
@@ -877,7 +891,7 @@
    "impact": "2.006"
   },
   {
-   "n": 74,
+   "n": 75,
    "year": 2016,
    "title": "The synthesis of sterically hindered amines by a direct reductive amination of ketones",
    "title_link": null,
@@ -889,7 +903,7 @@
    "impact": "5.996"
   },
   {
-   "n": 75,
+   "n": 76,
    "year": 2016,
    "title": "Cyclobutadiene Metal Complexes: A New Class of Highly Selective Catalysts. An Application to Direct Reductive Amination",
    "title_link": null,
@@ -901,7 +915,7 @@
    "impact": "13.084"
   },
   {
-   "n": 76,
+   "n": 77,
    "year": 2016,
    "title": "Dichotomy of Reductive Addition of Amines to Cyclopropyl Ketones vs Pyrrolidine Synthesis",
    "title_link": null,
@@ -913,7 +927,7 @@
    "impact": "6.005"
   },
   {
-   "n": 77,
+   "n": 78,
    "year": 2016,
    "title": "Cyclobutadiene Arene Complexes of Rhodium and Iridium",
    "title_link": null,
@@ -925,7 +939,7 @@
    "impact": "3.876"
   },
   {
-   "n": 78,
+   "n": 79,
    "year": 2015,
    "title": "Ruthenium-Catalyzed Reductive Amination without an External Hydrogen Source",
    "title_link": null,
@@ -937,7 +951,7 @@
    "impact": "6.005"
   },
   {
-   "n": 79,
+   "n": 80,
    "year": 2015,
    "title": "Reductive Transformations of Carbonyl Compounds Catalyzed by Rhodium Supported on a Carbon Matrix by using Carbon Monoxide as a Deoxygenative Agent.",
    "title_link": null,
@@ -949,7 +963,7 @@
    "impact": "5.686"
   },
   {
-   "n": 80,
+   "n": 81,
    "year": 2014,
    "title": "Reductive Amination without an External Hydrogen Source",
    "title_link": null,
@@ -961,7 +975,7 @@
    "impact": "15.336"
   },
   {
-   "n": 81,
+   "n": 82,
    "year": 2014,
    "title": "Atom- and Step-Economical Preparation of Reduced Knoevenagel Adducts Using CO as a Deoxygenative Agent",
    "title_link": null,
@@ -1576,7 +1590,7 @@
    "source_url": "https://www.chemcatgroup.com/single-post/new-article-which-was-published-in-coordination-chemistry-reviews",
    "slug": "new-article-which-was-published-in-coordination-chemistry-re",
    "cover": "img/news/congratulations-for-the-new-article-whic-cover.jpg",
-   "body_md": "Application of transition metal fluorides in catalysis - this is our new article, which was published in Coordination Chemistry Reviews on 9 August 2024. Congratulations to our authors - Andrey​ Kozlov, Dr. Alexey Tsygankov and Prof. Dr. Denis Chusov!\n\nDOI: [https://doi.org/10.1016/j.ccr.2024.216114](https://doi.org/10.1016/j.ccr.2024.216114)"
+   "body_md": "Application of transition metal fluorides in catalysis - this is our new article, which was published in Coordination Chemistry Reviews on 9 August 2024. Congratulations to our authors - Andrey Kozlov, Dr. Alexey Tsygankov and Prof. Dr. Denis Chusov!\n\nDOI: [https://doi.org/10.1016/j.ccr.2024.216114](https://doi.org/10.1016/j.ccr.2024.216114)"
   },
   {
    "title": "Our new article was published in The Journal of Organic Chemistry",
@@ -1664,7 +1678,7 @@
    "source_url": "https://www.chemcatgroup.com/single-post/new-article-which-was-published-in-acs-catalysis-1",
    "slug": "new-article-which-was-published-in-acs-catalysis-1",
    "cover": "img/news/congratulations-for-the-new-article-whic-cover.jpg",
-   "body_md": "​\n\nA Pioneering Career in Catalysis: Henri B. Kagan - this is the new our article, which was published in ACS Catalysis on 16 August 2023. Congratulations to our author - Prof. Dr. Denis Chusov!\n\nDOI: https://doi.org/10.1021/acscatal.3c02965\n\n![](img/news/new-article-which-was-published-in-acs-c-37.jpg)"
+   "body_md": "\n\nA Pioneering Career in Catalysis: Henri B. Kagan - this is the new our article, which was published in ACS Catalysis on 16 August 2023. Congratulations to our author - Prof. Dr. Denis Chusov!\n\nDOI: https://doi.org/10.1021/acscatal.3c02965\n\n![](img/news/new-article-which-was-published-in-acs-c-37.jpg)"
   },
   {
    "title": "New article, which was published in New Journal of Chemistry",

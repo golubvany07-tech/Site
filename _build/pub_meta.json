@@ -1,5 +1,24 @@
 {
  "1": {
+  "doi": "10.71267/mencom.7990",
+  "authors": [
+   {
+    "given": "Egor A",
+    "family": "Cherezov"
+   },
+   {
+    "given": "Fedor S",
+    "family": "Kliuev"
+   },
+   {
+    "given": "Denis Alexandrovich",
+    "family": "Chusov"
+   }
+  ],
+  "cited_by": 0,
+  "source": "crossref"
+ },
+ "2": {
   "doi": "10.1016/j.ccr.2026.217962",
   "authors": [
    {
@@ -38,7 +57,7 @@
   "cited_by": 1,
   "source": "crossref"
  },
- "2": {
+ "3": {
   "doi": "10.1007/s11426-026-3452-9",
   "authors": [
    {
@@ -65,7 +84,7 @@
   "cited_by": 0,
   "source": "crossref"
  },
- "3": {
+ "4": {
   "doi": "10.1021/acscatal.6c01391",
   "authors": [
    {
@@ -96,7 +115,62 @@
   "cited_by": 0,
   "source": "crossref"
  },
- "4": {
+ "5": {
+  "doi": "10.71267/mencom.7796",
+  "authors": [
+   {
+    "given": "Ilya S.",
+    "family": "Aniskin"
+   },
+   {
+    "given": "Maxim A.",
+    "family": "Shandybo"
+   },
+   {
+    "given": "Svetlana A",
+    "family": "Kuznetsova"
+   },
+   {
+    "given": "Klim Olegovich",
+    "family": "Biriukov"
+   },
+   {
+    "given": "Mikhail Mikhailovich, Jr",
+    "family": "Ilyin"
+   },
+   {
+    "given": "Mariam Grigoryevna",
+    "family": "Ezernitskaya"
+   },
+   {
+    "given": "Sergey P.",
+    "family": "Kutumov"
+   },
+   {
+    "given": "Artavazd S.",
+    "family": "Poghosyan"
+   },
+   {
+    "given": "Ashot S.",
+    "family": "Saghyan"
+   },
+   {
+    "given": "Valerij P.",
+    "family": "Chernyshev"
+   },
+   {
+    "given": "Denis Alexandrovich",
+    "family": "Chusov"
+   },
+   {
+    "given": "Yurii Nikolaevich",
+    "family": "Belokon"
+   }
+  ],
+  "cited_by": 0,
+  "source": "crossref"
+ },
+ "6": {
   "doi": "10.1016/j.eurpolymj.2025.113817",
   "authors": [
    {
@@ -139,7 +213,7 @@
   "cited_by": 1,
   "source": "crossref"
  },
- "5": {
+ "7": {
   "doi": "10.1016/j.jcat.2025.116042",
   "authors": [
    {
@@ -158,7 +232,7 @@
   "cited_by": 5,
   "source": "crossref"
  },
- "6": {
+ "8": {
   "doi": "10.1016/j.jcat.2025.116583",
   "authors": [
    {
@@ -193,7 +267,7 @@
   "cited_by": 0,
   "source": "crossref"
  },
- "7": {
+ "9": {
   "doi": "10.1021/acs.orglett.5c04073",
   "authors": [
    {
@@ -228,7 +302,7 @@
   "cited_by": 0,
   "source": "crossref"
  },
- "8": {
+ "10": {
   "doi": "10.1021/acscatal.5c05228",
   "authors": [
    {
@@ -259,7 +333,7 @@
   "cited_by": 0,
   "source": "crossref"
  },
- "9": {
+ "11": {
   "doi": "10.1016/j.jcat.2025.116495",
   "authors": [
    {
@@ -282,7 +356,7 @@
   "cited_by": 2,
   "source": "crossref"
  },
- "10": {
+ "12": {
   "doi": "10.1039/D5SC00723B",
   "authors": [
    {
@@ -313,7 +387,7 @@
   "cited_by": 9,
   "source": "crossref"
  },
- "11": {
+ "13": {
   "doi": "10.59761/RCR5170",
   "authors": [
    {
@@ -332,7 +406,7 @@
   "cited_by": 7,
   "source": "crossref"
  },
- "12": {
+ "14": {
   "doi": "10.1021/acs.joc.5c00962",
   "authors": [
    {
@@ -383,7 +457,7 @@
   "cited_by": 5,
   "source": "crossref"
  },
- "13": {
+ "15": {
   "doi": "10.1002/cssc.202402622",
   "authors": [
    {
@@ -418,7 +492,7 @@
   "cited_by": 0,
   "source": "crossref"
  },
- "14": {
+ "16": {
   "doi": "10.3762/bjoc.21.130",
   "authors": [
    {
@@ -457,7 +531,7 @@
   "cited_by": 2,
   "source": "crossref"
  },
- "15": {
+ "17": {
   "doi": "10.1021/acs.orglett.4c03495",
   "authors": [
    {
@@ -488,7 +562,7 @@
   "cited_by": 5,
   "source": "crossref"
  },
- "16": {
+ "18": {
   "doi": "10.1016/j.ccr.2024.216114",
   "authors": [
    {
@@ -511,7 +585,7 @@
   "cited_by": 10,
   "source": "crossref"
  },
- "17": {
+ "19": {
   "doi": "10.1021/acs.joc.3c02476",
   "authors": [
    {
@@ -538,7 +612,7 @@
   "cited_by": 16,
   "source": "crossref"
  },
- "18": {
+ "20": {
   "doi": "10.1021/acs.joc.4c00842",
   "authors": [
    {
@@ -569,7 +643,7 @@
   "cited_by": 5,
   "source": "crossref"
  },
- "19": {
+ "21": {
   "doi": "10.1039/D4CC00181H",
   "authors": [
    {
@@ -597,10 +671,10 @@
     "family": "Perekalin"
    }
   ],
-  "cited_by": 14,
+  "cited_by": 15,
   "source": "crossref"
  },
- "20": {
+ "22": {
   "doi": "10.1016/j.mencom.2024.10.020",
   "authors": [
    {
@@ -627,7 +701,7 @@
   "cited_by": 1,
   "source": "crossref"
  },
- "21": {
+ "23": {
   "doi": "10.1016/j.mencom.2024.02.014",
   "authors": [
    {
@@ -674,7 +748,7 @@
   "cited_by": 3,
   "source": "crossref"
  },
- "22": {
+ "24": {
   "doi": "10.1002/ejoc.202401108",
   "authors": [
    {
@@ -705,7 +779,7 @@
   "cited_by": 4,
   "source": "crossref"
  },
- "23": {
+ "25": {
   "doi": "10.1002/slct.202402788",
   "authors": [
    {
@@ -772,7 +846,7 @@
   "cited_by": 1,
   "source": "crossref"
  },
- "24": {
+ "26": {
   "doi": "10.1038/s41467-023-40614-1",
   "authors": [
    {
@@ -827,7 +901,7 @@
   "cited_by": 34,
   "source": "crossref"
  },
- "25": {
+ "27": {
   "doi": "10.1039/D3SC00257H",
   "authors": [
    {
@@ -862,7 +936,7 @@
   "cited_by": 14,
   "source": "crossref"
  },
- "26": {
+ "28": {
   "doi": "10.1021/acscatal.3c02965",
   "authors": [
    {
@@ -889,7 +963,7 @@
   "cited_by": 4,
   "source": "crossref"
  },
- "27": {
+ "29": {
   "doi": "10.1021/acs.orglett.3c03726",
   "authors": [
    {
@@ -920,7 +994,7 @@
   "cited_by": 24,
   "source": "crossref"
  },
- "28": {
+ "30": {
   "doi": "10.1039/D3OB01452E",
   "authors": [
    {
@@ -963,7 +1037,7 @@
   "cited_by": 9,
   "source": "crossref"
  },
- "29": {
+ "31": {
   "doi": "10.1016/j.mcat.2023.113432",
   "authors": [
    {
@@ -994,7 +1068,7 @@
   "cited_by": 1,
   "source": "crossref"
  },
- "30": {
+ "32": {
   "doi": "10.1039/D3NJ01258A",
   "authors": [
    {
@@ -1033,7 +1107,7 @@
   "cited_by": 3,
   "source": "crossref"
  },
- "31": {
+ "33": {
   "doi": "10.1016/j.mencom.2023.02.008",
   "authors": [
    {
@@ -1060,7 +1134,7 @@
   "cited_by": 0,
   "source": "crossref"
  },
- "32": {
+ "34": {
   "doi": "10.1016/j.mencom.2023.01.005",
   "authors": [
    {
@@ -1083,7 +1157,7 @@
   "cited_by": 5,
   "source": "crossref"
  },
- "33": {
+ "35": {
   "doi": "10.1039/D3NJ00728F",
   "authors": [
    {
@@ -1126,7 +1200,7 @@
   "cited_by": 3,
   "source": "crossref"
  },
- "34": {
+ "36": {
   "doi": "10.1021/acscatal.2c01133",
   "authors": [
    {
@@ -1149,7 +1223,7 @@
   "cited_by": 121,
   "source": "crossref"
  },
- "35": {
+ "37": {
   "doi": "10.1021/acscatal.2c01000",
   "authors": [
    {
@@ -1172,7 +1246,7 @@
   "cited_by": 13,
   "source": "crossref"
  },
- "36": {
+ "38": {
   "doi": "10.1070/rcr5045",
   "authors": [
    {
@@ -1197,9 +1271,9 @@
    }
   ],
   "cited_by": 8,
-  "source": "crossref-search"
+  "source": "crossref"
  },
- "37": {
+ "39": {
   "doi": "10.1021/acs.orglett.2c02807",
   "authors": [
    {
@@ -1238,7 +1312,7 @@
   "cited_by": 21,
   "source": "crossref"
  },
- "38": {
+ "40": {
   "doi": "10.1016/j.jcat.2021.12.018",
   "authors": [
    {
@@ -1261,7 +1335,7 @@
   "cited_by": 16,
   "source": "crossref"
  },
- "39": {
+ "41": {
   "doi": "10.1016/j.jcat.2022.08.014",
   "authors": [
    {
@@ -1280,7 +1354,7 @@
   "cited_by": 21,
   "source": "crossref"
  },
- "40": {
+ "42": {
   "doi": "10.1039/D2CC01648F",
   "authors": [
    {
@@ -1307,7 +1381,7 @@
   "cited_by": 9,
   "source": "crossref"
  },
- "41": {
+ "43": {
   "doi": "10.1021/acs.joc.2c01339",
   "authors": [
    {
@@ -1342,7 +1416,7 @@
   "cited_by": 10,
   "source": "crossref"
  },
- "42": {
+ "44": {
   "doi": "10.1002/anie.202105179",
   "authors": [
    {
@@ -1365,7 +1439,7 @@
   "cited_by": 40,
   "source": "crossref"
  },
- "43": {
+ "45": {
   "doi": "10.1021/acscatal.1c03785",
   "authors": [
    {
@@ -1380,7 +1454,7 @@
   "cited_by": 21,
   "source": "crossref"
  },
- "44": {
+ "46": {
   "doi": "10.1002/chem.202100572",
   "authors": [
    {
@@ -1411,7 +1485,7 @@
   "cited_by": 26,
   "source": "crossref"
  },
- "45": {
+ "47": {
   "doi": "10.1039/D1CY00695A",
   "authors": [
    {
@@ -1454,7 +1528,7 @@
   "cited_by": 11,
   "source": "crossref"
  },
- "46": {
+ "48": {
   "doi": "10.1002/chem.202101768",
   "authors": [
    {
@@ -1473,26 +1547,7 @@
   "cited_by": 12,
   "source": "crossref"
  },
- "47": {
-  "doi": "10.1002/chem.202186262",
-  "authors": [
-   {
-    "given": "Sofiya",
-    "family": "Runikhina"
-   },
-   {
-    "given": "Dmitry",
-    "family": "Eremin"
-   },
-   {
-    "given": "Denis",
-    "family": "Chusov"
-   }
-  ],
-  "cited_by": 0,
-  "source": "crossref"
- },
- "48": {
+ "49": {
   "doi": "10.1016/j.jorganchem.2021.121806",
   "authors": [
    {
@@ -1523,7 +1578,7 @@
   "cited_by": 7,
   "source": "crossref"
  },
- "49": {
+ "50": {
   "doi": "10.1016/j.mencom.2021.11.004",
   "authors": [
    {
@@ -1538,7 +1593,7 @@
   "cited_by": 3,
   "source": "crossref"
  },
- "50": {
+ "51": {
   "doi": "10.1039/D1CY00695A",
   "authors": [
    {
@@ -1581,7 +1636,7 @@
   "cited_by": 11,
   "source": "crossref"
  },
- "51": {
+ "52": {
   "doi": "10.1002/anie.201914233",
   "authors": [
    {
@@ -1656,7 +1711,7 @@
   "cited_by": 31,
   "source": "crossref"
  },
- "52": {
+ "53": {
   "doi": "10.1021/acs.joc.0c00794",
   "authors": [
    {
@@ -1687,7 +1742,7 @@
   "cited_by": 34,
   "source": "crossref"
  },
- "53": {
+ "54": {
   "doi": "10.1016/j.jorganchem.2020.121468",
   "authors": [
    {
@@ -1716,9 +1771,9 @@
    }
   ],
   "cited_by": 9,
-  "source": "crossref-search"
+  "source": "crossref"
  },
- "54": {
+ "55": {
   "doi": "10.1002/cctc.201901465",
   "authors": [
    {
@@ -1751,9 +1806,9 @@
    }
   ],
   "cited_by": 11,
-  "source": "crossref-search"
+  "source": "crossref"
  },
- "55": {
+ "56": {
   "doi": "10.1055/s-0040-1707961",
   "authors": [
    {
@@ -1776,7 +1831,7 @@
   "cited_by": 11,
   "source": "crossref"
  },
- "56": {
+ "57": {
   "doi": "10.1016/j.mencom.2020.01.037",
   "authors": [
    {
@@ -1813,9 +1868,9 @@
    }
   ],
   "cited_by": 7,
-  "source": "crossref-search"
+  "source": "crossref"
  },
- "57": {
+ "58": {
   "doi": "10.1002/ejoc.202001087",
   "authors": [
    {
@@ -1850,7 +1905,7 @@
   "cited_by": 5,
   "source": "crossref"
  },
- "58": {
+ "59": {
   "doi": "10.1002/ejoc.202000438",
   "authors": [
    {
@@ -1873,7 +1928,7 @@
   "cited_by": 2,
   "source": "crossref"
  },
- "59": {
+ "60": {
   "doi": "10.1021/acs.chemrev.9b00383",
   "authors": [
    {
@@ -1893,10 +1948,10 @@
     "family": "Chusov"
    }
   ],
-  "cited_by": 761,
+  "cited_by": 762,
   "source": "crossref"
  },
- "60": {
+ "61": {
   "doi": "10.1002/ejoc.201801412",
   "authors": [
    {
@@ -1951,7 +2006,7 @@
   "cited_by": 7,
   "source": "crossref"
  },
- "61": {
+ "62": {
   "doi": "10.1055/s-0037-1611788",
   "authors": [
    {
@@ -1975,10 +2030,10 @@
     "family": "Chusov"
    }
   ],
-  "cited_by": 89,
+  "cited_by": 90,
   "source": "crossref"
  },
- "62": {
+ "63": {
   "doi": "10.1002/chem.201904605",
   "authors": [
    {
@@ -2009,7 +2064,7 @@
   "cited_by": 16,
   "source": "crossref"
  },
- "63": {
+ "64": {
   "doi": "10.1002/ejoc.201901175",
   "authors": [
    {
@@ -2036,7 +2091,7 @@
   "cited_by": 4,
   "source": "crossref"
  },
- "64": {
+ "65": {
   "doi": "10.1021/acs.organomet.9b00378",
   "authors": [
    {
@@ -2075,7 +2130,7 @@
   "cited_by": 17,
   "source": "crossref"
  },
- "65": {
+ "66": {
   "doi": "10.1039/C8OB02561D",
   "authors": [
    {
@@ -2098,7 +2153,7 @@
   "cited_by": 7,
   "source": "crossref"
  },
- "66": {
+ "67": {
   "doi": "10.1016/j.tetlet.2018.12.070",
   "authors": [
    {
@@ -2115,9 +2170,9 @@
    }
   ],
   "cited_by": 46,
-  "source": "crossref-search"
+  "source": "crossref"
  },
- "67": {
+ "68": {
   "doi": "10.1002/anie.201801703",
   "authors": [
    {
@@ -2148,7 +2203,7 @@
   "cited_by": 209,
   "source": "crossref"
  },
- "68": {
+ "69": {
   "doi": "10.1021/acs.orglett.8b03375",
   "authors": [
    {
@@ -2171,7 +2226,7 @@
   "cited_by": 12,
   "source": "crossref"
  },
- "69": {
+ "70": {
   "doi": "10.1021/acs.organomet.8b00311",
   "authors": [
    {
@@ -2214,7 +2269,7 @@
   "cited_by": 30,
   "source": "crossref"
  },
- "70": {
+ "71": {
   "doi": "10.1016/j.mencom.2018.03.001",
   "authors": [
    {
@@ -2233,7 +2288,7 @@
   "cited_by": 46,
   "source": "crossref"
  },
- "71": {
+ "72": {
   "doi": "10.1055/s-0036-1588817",
   "authors": [
    {
@@ -2264,7 +2319,7 @@
   "cited_by": 10,
   "source": "crossref"
  },
- "72": {
+ "73": {
   "doi": "10.1039/c7ob02795h",
   "authors": [
    {
@@ -2281,9 +2336,9 @@
    }
   ],
   "cited_by": 21,
-  "source": "crossref-search"
+  "source": "crossref"
  },
- "73": {
+ "74": {
   "doi": "10.1055/s-0036-1588382",
   "authors": [
    {
@@ -2346,7 +2401,7 @@
   "cited_by": 2,
   "source": "crossref"
  },
- "74": {
+ "75": {
   "doi": "10.1039/c5cc08577b",
   "authors": [
    {
@@ -2377,7 +2432,7 @@
   "cited_by": 27,
   "source": "crossref"
  },
- "75": {
+ "76": {
   "doi": "10.1021/acscatal.5b02916",
   "authors": [
    {
@@ -2416,7 +2471,7 @@
   "cited_by": 55,
   "source": "crossref"
  },
- "76": {
+ "77": {
   "doi": "10.1021/acs.orglett.6b02945",
   "authors": [
    {
@@ -2439,7 +2494,7 @@
   "cited_by": 20,
   "source": "crossref"
  },
- "77": {
+ "78": {
   "doi": "10.1021/acs.organomet.6b00539",
   "authors": [
    {
@@ -2474,7 +2529,7 @@
   "cited_by": 27,
   "source": "crossref"
  },
- "78": {
+ "79": {
   "doi": "10.1021/ol503595m",
   "authors": [
    {
@@ -2501,7 +2556,7 @@
   "cited_by": 56,
   "source": "crossref"
  },
- "79": {
+ "80": {
   "doi": "10.1002/cctc.201500493",
   "authors": [
    {
@@ -2530,9 +2585,9 @@
    }
   ],
   "cited_by": 22,
-  "source": "crossref-search"
+  "source": "crossref"
  },
- "80": {
+ "81": {
   "doi": "10.1002/anie.201400059",
   "authors": [
    {
@@ -2545,9 +2600,9 @@
    }
   ],
   "cited_by": 115,
-  "source": "crossref-search"
+  "source": "crossref"
  },
- "81": {
+ "82": {
   "doi": "10.1021/ol502424t",
   "authors": [
    {
@@ -2574,5 +2629,5 @@
   "cited_by": 28,
   "source": "crossref"
  },
- "_fetched": "2026-07-07"
+ "_fetched": "2026-07-10"
 }

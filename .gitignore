@@ -1,2 +1,12 @@
 .DS_Store
 .claude/
+__pycache__/
+*.pyc
+
+# secrets — never commit API keys
+.env
+_build/colab_key.txt
+_build/secrets.json
+
+# colab.ws raw response cache (regenerable)
+_build/.colab_cache/

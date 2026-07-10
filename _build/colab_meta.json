@@ -1,0 +1,419 @@
+{
+ "_fetched": "2026-07-10",
+ "people": {
+  "alexander-boldyrev": {
+   "colab_id": "R-3AE33-0E2BB-YV80F",
+   "citations": 4,
+   "h_index": 1,
+   "articles_count": 1,
+   "ids": {
+    "orcid": "0009-0006-1818-7696",
+    "scopus": null,
+    "scholar": null,
+    "wos": null
+   },
+   "interests_en": [
+    "Organic chemistry",
+    "Catalysis",
+    "Machine Leaning & Artificial Intelligence"
+   ],
+   "interests_ru": [
+    "Органическая химия",
+    "Катализ",
+    "Машинное обучение и искусственный интеллект"
+   ]
+  },
+  "alexander-modin": {
+   "colab_id": "R-3AD06-0EA93-MI94I",
+   "citations": 0,
+   "h_index": 0,
+   "articles_count": null,
+   "ids": {
+    "orcid": "0009-0004-1754-2663",
+    "scopus": null,
+    "scholar": null,
+    "wos": null
+   },
+   "interests_en": [],
+   "interests_ru": []
+  },
+  "alexandra-balalaeva": {
+   "colab_id": "R-3F8E7-06D8B-UA50S",
+   "citations": 3,
+   "h_index": 1,
+   "articles_count": 3,
+   "ids": {
+    "orcid": "0009-0007-5861-3554",
+    "scopus": null,
+    "scholar": null,
+    "wos": null
+   },
+   "interests_en": [],
+   "interests_ru": []
+  },
+  "denis-chusov": {
+   "colab_id": "R-3873A-14857-VP91K",
+   "citations": 2606,
+   "h_index": 25,
+   "articles_count": 106,
+   "ids": {
+    "orcid": "0000-0001-6770-5484",
+    "scopus": "14822070300",
+    "scholar": "3AIlVEMAAAAJ",
+    "wos": "S-3767-2018"
+   },
+   "interests_en": [
+    "Catalysis",
+    "Asymmetric metal complex catalysis",
+    "Organic chemistry",
+    "Medicinal Chemistry",
+    "Total synthesis"
+   ],
+   "interests_ru": [
+    "Катализ",
+    "Асимметрический металлокомплексный катализ",
+    "Органическая химия",
+    "Медицинская химия",
+    "Полный синтез"
+   ]
+  },
+  "evgeniya-podyacheva": {
+   "colab_id": "R-3AD6B-0EE7D-HW92T",
+   "citations": 432,
+   "h_index": 11,
+   "articles_count": 17,
+   "ids": {
+    "orcid": null,
+    "scopus": "57209296384",
+    "scholar": null,
+    "wos": null
+   },
+   "interests_en": [],
+   "interests_ru": []
+  },
+  "fedor-kluev": {
+   "colab_id": "R-35EF0-10213-LC69A",
+   "citations": 128,
+   "h_index": 6,
+   "articles_count": 10,
+   "ids": {
+    "orcid": "0000-0002-9712-6085",
+    "scopus": "57215186493",
+    "scholar": null,
+    "wos": "AAD-7508-2021"
+   },
+   "interests_en": [
+    "Organic chemistry",
+    "Catalysis"
+   ],
+   "interests_ru": [
+    "Органическая химия",
+    "Катализ"
+   ]
+  },
+  "ivan-smirnov": {
+   "colab_id": "R-3AA5D-128FD-TL05Y",
+   "citations": 17,
+   "h_index": 3,
+   "articles_count": 5,
+   "ids": {
+    "orcid": "0009-0008-5098-7647",
+    "scopus": null,
+    "scholar": null,
+    "wos": null
+   },
+   "interests_en": [
+    "Organic chemistry",
+    "Catalysis",
+    "Organometallic Chemistry",
+    "Data analysis",
+    "Machine Leaning"
+   ],
+   "interests_ru": [
+    "Органическая химия",
+    "Катализ",
+    "Металлоорганическая химия",
+    "Анализ данных",
+    "Машинное обучение"
+   ]
+  },
+  "mariya-makarova": {
+   "colab_id": "R-3FA00-0AC12-DI16E",
+   "citations": 230,
+   "h_index": 6,
+   "articles_count": 9,
+   "ids": {
+    "orcid": "0000-0001-7742-2170",
+    "scopus": "57527475200",
+    "scholar": null,
+    "wos": null
+   },
+   "interests_en": [],
+   "interests_ru": []
+  },
+  "max-shandybo": {
+   "colab_id": "R-3F8DE-0B3E5-MF09B",
+   "citations": 0,
+   "h_index": 0,
+   "articles_count": 1,
+   "ids": {
+    "orcid": "0009-0001-3645-8828",
+    "scopus": null,
+    "scholar": null,
+    "wos": null
+   },
+   "interests_en": [],
+   "interests_ru": []
+  },
+  "oleg-afanasyev": {
+   "colab_id": "R-35D70-059FF-WS47S",
+   "citations": 1407,
+   "h_index": 14,
+   "articles_count": 54,
+   "ids": {
+    "orcid": "0000-0002-6224-6407",
+    "scopus": "57160166600",
+    "scholar": null,
+    "wos": null
+   },
+   "interests_en": [],
+   "interests_ru": []
+  }
+ },
+ "articles": {
+  "10.71267/mencom.7796": {
+   "citations": 0
+  },
+  "10.1016/j.ccr.2026.217962": {
+   "citations": 1
+  },
+  "10.1007/s11426-026-3452-9": {
+   "citations": 0
+  },
+  "10.1021/acscatal.6c01391": {
+   "citations": 0
+  },
+  "10.1016/j.eurpolymj.2025.113817": {
+   "citations": 1
+  },
+  "10.1016/j.jcat.2025.116042": {
+   "citations": 5
+  },
+  "10.1016/j.jcat.2025.116583": {
+   "citations": 0
+  },
+  "10.1021/acs.orglett.5c04073": {
+   "citations": 0
+  },
+  "10.1021/acscatal.5c05228": {
+   "citations": 0
+  },
+  "10.1016/j.jcat.2025.116495": {
+   "citations": 1
+  },
+  "10.1039/d5sc00723b": {
+   "citations": 9
+  },
+  "10.59761/rcr5170": {
+   "citations": 7
+  },
+  "10.1021/acs.joc.5c00962": {
+   "citations": 5
+  },
+  "10.1002/cssc.202402622": {
+   "citations": 0
+  },
+  "10.3762/bjoc.21.130": {
+   "citations": 2
+  },
+  "10.1021/acs.orglett.4c03495": {
+   "citations": 5
+  },
+  "10.1016/j.ccr.2024.216114": {
+   "citations": 9
+  },
+  "10.1021/acs.joc.3c02476": {
+   "citations": 13
+  },
+  "10.1021/acs.joc.4c00842": {
+   "citations": 5
+  },
+  "10.1039/d4cc00181h": {
+   "citations": 12
+  },
+  "10.1016/j.mencom.2024.10.020": {
+   "citations": 1
+  },
+  "10.1016/j.mencom.2024.02.014": {
+   "citations": 3
+  },
+  "10.1002/ejoc.202401108": {
+   "citations": 4
+  },
+  "10.1002/slct.202402788": {
+   "citations": 1
+  },
+  "10.1038/s41467-023-40614-1": {
+   "citations": 34
+  },
+  "10.1039/d3sc00257h": {
+   "citations": 14
+  },
+  "10.1021/acscatal.3c02965": {
+   "citations": 4
+  },
+  "10.1021/acs.orglett.3c03726": {
+   "citations": 23
+  },
+  "10.1039/d3ob01452e": {
+   "citations": 9
+  },
+  "10.1016/j.mcat.2023.113432": {
+   "citations": 3
+  },
+  "10.1039/d3nj01258a": {
+   "citations": 3
+  },
+  "10.1016/j.mencom.2023.02.008": {
+   "citations": 0
+  },
+  "10.1016/j.mencom.2023.01.005": {
+   "citations": 5
+  },
+  "10.1039/d3nj00728f": {
+   "citations": 3
+  },
+  "10.1021/acscatal.2c01133": {
+   "citations": 118
+  },
+  "10.1021/acscatal.2c01000": {
+   "citations": 13
+  },
+  "10.1070/rcr5045": {
+   "citations": 8
+  },
+  "10.1021/acs.orglett.2c02807": {
+   "citations": 21
+  },
+  "10.1016/j.jcat.2021.12.018": {
+   "citations": 16
+  },
+  "10.1016/j.jcat.2022.08.014": {
+   "citations": 20
+  },
+  "10.1039/d2cc01648f": {
+   "citations": 9
+  },
+  "10.1021/acs.joc.2c01339": {
+   "citations": 9
+  },
+  "10.1002/anie.202105179": {
+   "citations": 39
+  },
+  "10.1021/acscatal.1c03785": {
+   "citations": 21
+  },
+  "10.1002/chem.202100572": {
+   "citations": 26
+  },
+  "10.1039/d1cy00695a": {
+   "citations": 11
+  },
+  "10.1002/chem.202101768": {
+   "citations": 12
+  },
+  "10.1016/j.jorganchem.2021.121806": {
+   "citations": 6
+  },
+  "10.1016/j.mencom.2021.11.004": {
+   "citations": 3
+  },
+  "10.1002/anie.201914233": {
+   "citations": 29
+  },
+  "10.1021/acs.joc.0c00794": {
+   "citations": 33
+  },
+  "10.1016/j.jorganchem.2020.121468": {
+   "citations": 8
+  },
+  "10.1002/cctc.201901465": {
+   "citations": 11
+  },
+  "10.1055/s-0040-1707961": {
+   "citations": 11
+  },
+  "10.1016/j.mencom.2020.01.037": {
+   "citations": 7
+  },
+  "10.1002/ejoc.202001087": {
+   "citations": 5
+  },
+  "10.1002/ejoc.202000438": {
+   "citations": 2
+  },
+  "10.1021/acs.chemrev.9b00383": {
+   "citations": 737
+  },
+  "10.1002/ejoc.201801412": {
+   "citations": 7
+  },
+  "10.1055/s-0037-1611788": {
+   "citations": 87
+  },
+  "10.1002/chem.201904605": {
+   "citations": 15
+  },
+  "10.1002/ejoc.201901175": {
+   "citations": 4
+  },
+  "10.1021/acs.organomet.9b00378": {
+   "citations": 17
+  },
+  "10.1016/j.tetlet.2018.12.070": {
+   "citations": 46
+  },
+  "10.1002/anie.201801703": {
+   "citations": 209
+  },
+  "10.1021/acs.orglett.8b03375": {
+   "citations": 13
+  },
+  "10.1021/acs.organomet.8b00311": {
+   "citations": 29
+  },
+  "10.1016/j.mencom.2018.03.001": {
+   "citations": 45
+  },
+  "10.1055/s-0036-1588817": {
+   "citations": 10
+  },
+  "10.1039/c7ob02795h": {
+   "citations": 21
+  },
+  "10.1055/s-0036-1588382": {
+   "citations": 2
+  },
+  "10.1021/acscatal.5b02916": {
+   "citations": 57
+  },
+  "10.1021/acs.orglett.6b02945": {
+   "citations": 22
+  },
+  "10.1021/acs.organomet.6b00539": {
+   "citations": 28
+  },
+  "10.1021/ol503595m": {
+   "citations": 59
+  },
+  "10.1002/cctc.201500493": {
+   "citations": 24
+  },
+  "10.1002/anie.201400059": {
+   "citations": 109
+  },
+  "10.1021/ol502424t": {
+   "citations": 29
+  }
+ }
+}
