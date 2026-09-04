@@ -1,0 +1,186 @@
+{
+  "items": [
+    {
+      "img": "img/news/team-s-participation-in-ncocs-2022-22.jpg",
+      "anchor": "team-s-participation-in-ncocs-2022",
+      "alt": "NCOCS-2022 symposium in Stavropol — group photo of the participants",
+      "cls": "s22",
+      "source": "news:team-s-participation-in-ncocs-2022"
+    },
+    {
+      "img": "img/news/our-group-has-successfully-participated--56.jpg",
+      "anchor": "our-group-has-successfully-participated-in-the-rcoc-conferen",
+      "alt": "RCOC conference — a talk wrapping up",
+      "cls": "s22",
+      "source": "news:our-group-has-successfully-participated-in-the-rcoc-conferen"
+    },
+    {
+      "img": "img/news/our-group-has-successfully-participated--53.jpg",
+      "anchor": "our-group-has-successfully-participated-in-the-rcoc-conferen",
+      "alt": "RCOC conference — the group on the steps",
+      "cls": "",
+      "source": "news:our-group-has-successfully-participated-in-the-rcoc-conferen"
+    },
+    {
+      "img": "img/news/congrats-to-our-april-adviser-of-the-mon-0.jpg",
+      "anchor": "congrats-to-our-april-adviser-of-the-month-see-what-they-had",
+      "alt": "Intel ISEF — the team with their award",
+      "cls": "",
+      "source": "news:congrats-to-our-april-adviser-of-the-month-see-what-they-had"
+    },
+    {
+      "img": "img/news/our-lab-took-part-in-the-sixth-internati-31.jpg",
+      "anchor": "our-lab-took-part-in-the-sixth-international-scientific-conf",
+      "alt": "The Sixth International Scientific Conference — a talk in progress",
+      "cls": "s12",
+      "source": "news:our-lab-took-part-in-the-sixth-international-scientific-conf"
+    },
+    {
+      "img": "img/news/participation-in-ix-young-scientists-con-18.jpg",
+      "anchor": "participation-in-ix-young-scientists-conference",
+      "alt": "IX Young Scientists Conference — award ceremony",
+      "cls": "",
+      "source": "news:participation-in-ix-young-scientists-conference"
+    },
+    {
+      "img": "img/telegram/outreach-course-group-1.jpg",
+      "anchor": "",
+      "alt": "Outreach organic chemistry course for high-schoolers — the group at the bench",
+      "cls": "",
+      "source": "telegram:117"
+    },
+    {
+      "img": "img/telegram/outreach-course-group-2.jpg",
+      "anchor": "",
+      "alt": "Outreach organic chemistry course for high-schoolers — planning the experiment",
+      "cls": "",
+      "source": "telegram:117"
+    },
+    {
+      "img": "img/telegram/conference-talk-stavropol.jpg",
+      "anchor": "",
+      "alt": "Denis Chusov giving a talk at a chemistry conference in Stavropol",
+      "cls": "",
+      "source": "telegram:112"
+    },
+    {
+      "img": "img/telegram/ix-young-scientists-conference-duo.jpg",
+      "anchor": "",
+      "alt": "IX Young Scientists Conference — two of our team at the venue",
+      "cls": "",
+      "source": "telegram:100"
+    },
+    {
+      "img": "img/telegram/ncocs-anniversary-baseball.jpg",
+      "anchor": "",
+      "alt": "A playful moment on stage at a conference anniversary talk",
+      "cls": "",
+      "source": "telegram:112"
+    },
+    {
+      "img": "img/telegram/diploma-defense-presentation.jpg",
+      "anchor": "",
+      "alt": "Defending a diploma thesis at the Faculty of Chemistry, HSE",
+      "cls": "",
+      "source": "telegram:105"
+    },
+    {
+      "img": "img/news/congratulations-to-artemy-fatkulin-and-v-41.jpg",
+      "anchor": "congradulations-to-artemy-fatkulin-and-vladimir-ostrovskii-w",
+      "alt": "Congratulations to Artemy Fatkulin and Vladimir Ostrovskii with defending their PhD theses!",
+      "cls": "",
+      "source": "news:congradulations-to-artemy-fatkulin-and-vladimir-ostrovskii-w"
+    },
+    {
+      "img": "img/news/congratulations-to-alexey-tsygankov-with-34.jpg",
+      "anchor": "congradulations-to-alexey-tsygankov-with-defending-his-phd-t",
+      "alt": "Congratulations to Alexey Tsygankov with defending his PhD thesis!",
+      "cls": "",
+      "source": "news:congradulations-to-alexey-tsygankov-with-defending-his-phd-t"
+    },
+    {
+      "img": "img/news/congratulations-to-evgeniya-podyacheva-w-19.jpg",
+      "anchor": "congradulations-to-evgeniya-podyacheva-with-defending-her-ph",
+      "alt": "Congratulations to Evgeniya Podyacheva with defending her PhD thesis!",
+      "cls": "",
+      "source": "news:congradulations-to-evgeniya-podyacheva-with-defending-her-ph"
+    }
+  ],
+  "seen_telegram_ids": [
+    "100",
+    "103",
+    "105",
+    "108",
+    "111",
+    "112",
+    "117"
+  ],
+  "seen_news_slugs": [
+    "alex-and-alexander-welcome-to-the-lab",
+    "alexey-tsygankov-has-left-our-laboratory",
+    "congradulations-for-the-new-article-which-was-published-in-c",
+    "congradulations-to-alexey-tsygankov-with-defending-his-phd-t",
+    "congradulations-to-artemy-fatkulin-and-vladimir-ostrovskii-w",
+    "congradulations-to-evgeniya-podyacheva-with-defending-her-ph",
+    "congradulations-to-the-winners-of-the-contest-of-scientific-",
+    "congrats-to-our-april-adviser-of-the-month-see-what-they-had",
+    "cyano-fluorosulfonylation-of-unactivated-alkenes-by-photored",
+    "denis-chusov-was-interviewed-about-the-nobel-prize-in-chemis",
+    "evgeniya-welcome-to-the-lab",
+    "interview-with-fedor-kluev-and-denis-chusov",
+    "klim-and-maria-graduated",
+    "klim-entered-our-lab-as-ph-d-student",
+    "mariya-has-left-our-laboratory",
+    "max-mikhail-and-ivan-welcome-to-the-lab",
+    "natalya-welcome-to-the-lab",
+    "new-article-about-sodium-hypophosphite-was-published-in-jour",
+    "new-article-about-synthesis-of-amides-was-published-in-journ",
+    "new-article-was-published-in-angewandte-chemie-international",
+    "new-article-was-published-in-catalysis-science-technology",
+    "new-article-was-published-in-journal-of-catalysis",
+    "new-article-was-published-in-journal-of-catalysis-1",
+    "new-article-was-published-in-new-journal-of-chemistry",
+    "new-article-which-was-published-in-acs-catalysis",
+    "new-article-which-was-published-in-acs-catalysis-1",
+    "new-article-which-was-published-in-chemical-communications",
+    "new-article-which-was-published-in-chemical-communications-1",
+    "new-article-which-was-published-in-coordination-chemistry-re",
+    "new-article-which-was-published-in-european-journal-of-organ",
+    "new-article-which-was-published-in-mendeleev-communications",
+    "new-article-which-was-published-in-mendeleev-communications-",
+    "new-article-which-was-published-in-mendeleev-communications-2023-02-28",
+    "new-article-which-was-published-in-molecular-catalysis",
+    "new-article-which-was-published-in-new-journal-of-chemistry",
+    "new-article-which-was-published-in-organic-letters",
+    "new-publication-in-beilstein-j-org-chem",
+    "new-publication-in-organic-letters",
+    "new-sustainable-ketone-alkylation-published-in-journal-of-ca",
+    "organic-chemistry-portal-covered-our-recent-work-on-simplify",
+    "organic-chemistry-portal-mentioned-our-recent-work-in-the-pa",
+    "our-group-has-successfully-participated-in-the-rcoc-conferen",
+    "our-lab-took-part-in-the-sixth-international-scientific-conf",
+    "our-new-article-in-acs-catalysis",
+    "our-new-article-in-acs-catalysis-1",
+    "our-new-article-in-chemistry-a-european-journal",
+    "our-new-article-was-published-in-chemical-science",
+    "our-new-article-was-published-in-chemistry-a-european-journa",
+    "our-new-article-was-published-in-european-journal-of-organic",
+    "our-new-article-was-published-in-journal-of-organometallic-c",
+    "our-new-article-was-published-in-nature-communications",
+    "our-new-article-was-published-in-organic-biomolecular-chemis",
+    "our-new-article-was-published-in-the-journal-of-organic-chem",
+    "our-new-article-was-published-in-the-journal-of-organic-chem-2022-09-06",
+    "our-new-article-was-published-in-the-journal-of-organic-chem-2024-02-15",
+    "our-new-comprehensive-review-about-the-halogen-effect-in-rut",
+    "our-new-publication-in-chemsuschem-about",
+    "our-new-work-about-polymerization-was-published-in-european-",
+    "our-team-publishes-in-journal-of-catalysis-with-aldehydes-as",
+    "participation-in-ix-young-scientists-conference",
+    "participation-in-vesnyanka-conference",
+    "sofiya-has-left-our-laboratory",
+    "team-s-participation-in-ncocs-2022",
+    "vasilii-welcome-to-the-lab",
+    "vasiliy-and-alexandra-joined-our-lab",
+    "vsevolod-danil-and-olesya-welcome-to-the-lab"
+  ]
+}

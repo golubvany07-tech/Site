@@ -10,3 +10,7 @@ _build/secrets.json
 
 # colab.ws raw response cache (regenerable)
 _build/.colab_cache/
+
+# scratch patch scripts and preview archives (not part of the site)
+_patches/
+_preview*.tar.gz
