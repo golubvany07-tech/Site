@@ -238,6 +238,37 @@
   });
 })();
 
+/* ---------- gallery carousel arrows (blog page) ---------- */
+(function () {
+  function initCarousel(car) {
+    var track = car.querySelector(".lc-track");
+    var prev = car.querySelector(".lc-prev");
+    var next = car.querySelector(".lc-next");
+    if (!track || !prev || !next) return;
+
+    function step() { return Math.max(track.clientWidth * 0.8, 240); }
+    prev.addEventListener("click", function () {
+      track.scrollBy({ left: -step(), behavior: "smooth" });
+    });
+    next.addEventListener("click", function () {
+      track.scrollBy({ left: step(), behavior: "smooth" });
+    });
+
+    function updateArrows() {
+      var max = track.scrollWidth - track.clientWidth - 2;
+      prev.disabled = track.scrollLeft <= 2;
+      next.disabled = max <= 2 || track.scrollLeft >= max;
+    }
+    track.addEventListener("scroll", updateArrows, { passive: true });
+    window.addEventListener("resize", updateArrows);
+    updateArrows();
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    Array.prototype.forEach.call(document.querySelectorAll(".lablife-carousel"), initCarousel);
+  });
+})();
+
 /* ---------- 4. lab mascot: click-to-run distillation toy ---------- */
 /* Click the wheel: the mascot takes off running, the pot flask heats,
    vapour travels through the condenser to the receiving flask, and the

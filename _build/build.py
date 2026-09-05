@@ -362,7 +362,7 @@ def build_home():
     # photo collage from the group's own blog photos, drawn from the shared
     # people-free LAB_LIFE_POOL (defined above build_home) so it never shows
     # someone who has since left the group; rotated client-side over time.
-    lablife_visible = LAB_LIFE_POOL[:5]
+    lablife_visible = LAB_LIFE_POOL[:8]
     lablife = "".join(f"""
       <a class="ph {t['cls']}" href="{'news.html#' + E(t['anchor']) if t['anchor'] else 'news.html'}" data-img="{E(t['img'])}"><img src="assets/{E(t['img'])}" alt="{E(t['alt'])}" loading="lazy"></a>"""
                       for t in lablife_visible)
@@ -768,23 +768,25 @@ def build_news():
 
     # Same curated, people-free pool used on the homepage -- a post cover can
     # be a close-up of whoever gave the talk, so picking straight from post
-    # covers risked exactly the mix-up this section exists to avoid. Shown in
-    # a different order here and rotated client-side, each tile still links
-    # to the real post.
-    life_visible = LAB_LIFE_POOL[::-1][:5]
+    # covers risked exactly the mix-up this section exists to avoid. The blog
+    # page has room to show every photo in the pool (newest first), so it's a
+    # scrollable carousel here instead of a small fixed mosaic.
+    life_all = LAB_LIFE_POOL[::-1]
     life_tiles = "".join(f"""
-      <a class="ph {t['cls']}" href="{'#' + E(t['anchor']) if t['anchor'] else 'news.html'}" data-img="{E(t['img'])}">
+      <a class="lc-item" href="{'#' + E(t['anchor']) if t['anchor'] else 'news.html'}">
         <img src="assets/{E(t['img'])}" alt="{E(t['alt'])}" loading="lazy">
         <span class="cap">{E(t['alt'])}</span>
-      </a>""" for t in life_visible)
-    life_pool_json = json.dumps(LAB_LIFE_POOL).replace("</", "<\/")
+      </a>""" for t in life_all)
     life_section = f"""
 <div class="wrap">
   <div class="section-head" style="margin-top:8px">
     <h2>Gallery</h2>
   </div>
-  <div class="lablife lablife-blog" id="gallery-blog">{life_tiles}</div>
-  <script type="application/json" id="gallery-blog-pool">{life_pool_json}</script>
+  <div class="lablife-carousel" id="gallery-blog">
+    <button class="lc-arrow lc-prev" type="button" aria-label="Show previous photos">&#8249;</button>
+    <div class="lc-track">{life_tiles}</div>
+    <button class="lc-arrow lc-next" type="button" aria-label="Show more photos">&#8250;</button>
+  </div>
 </div>""" if life_tiles else ""
 
     # curated cards mirroring a handful of recent @chusov_lab posts -- photo
