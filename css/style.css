@@ -291,20 +291,26 @@ figure.plate img { margin: 0 auto; }
   background: radial-gradient(circle, rgba(242, 184, 7, .22), transparent 68%);
 }
 .hero-emblem { cursor: pointer; }
-.hero-emblem img {
-  position: relative; width: 100%; max-width: 380px;
+.emblem-stack { position: relative; width: 100%; max-width: 380px; }
+.emblem-badge {
+  position: relative; width: 100%; height: auto; display: block;
+  clip-path: circle(47.78% at 50% 49.56%);
   filter: drop-shadow(0 26px 46px rgba(0, 0, 0, .45));
-  animation: emblem-spin 22s linear infinite;
   transition: filter 200ms ease;
 }
-.hero-emblem:hover img, .hero-emblem:focus-visible img { filter: drop-shadow(0 26px 46px rgba(0, 0, 0, .45)) brightness(1.06); }
+.emblem-ring {
+  position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible;
+  animation: emblem-spin 22s linear infinite;
+}
+.emblem-ring path { fill: #b7bcc0; stroke: #1a1a1a; stroke-width: 6; stroke-linejoin: round; }
+.hero-emblem:hover .emblem-badge, .hero-emblem:focus-visible .emblem-badge { filter: drop-shadow(0 26px 46px rgba(0, 0, 0, .45)) brightness(1.06); }
 .hero-emblem:focus-visible { outline: 2px solid var(--accent2); outline-offset: 6px; border-radius: 50%; }
-.hero-emblem.spin-boost img { animation-duration: 1.4s; animation-timing-function: cubic-bezier(.2, .8, .3, 1); }
+.hero-emblem.spin-boost .emblem-ring { animation-duration: 1.4s; animation-timing-function: cubic-bezier(.2, .8, .3, 1); }
 @keyframes emblem-spin { to { transform: rotate(360deg); } }
 @media (max-width: 860px) {
   .hero .wrap { grid-template-columns: 1fr; gap: 36px; padding-top: 48px; padding-bottom: 48px; }
   .hero-emblem { order: -1; }
-  .hero-emblem img { max-width: 220px; }
+  .emblem-stack { max-width: 220px; }
 }
 
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
