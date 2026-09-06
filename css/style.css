@@ -308,6 +308,7 @@ figure.plate img { margin: 0 auto; }
 .mascot-copy p { color: var(--body); font-size: 15px; max-width: 40ch; }
 .mascot-rig { background: var(--paper); }
 .mascot-rig svg { width: 100%; height: auto; display: block; touch-action: none; }
+.mascot-rig img { width: 100%; height: auto; display: block; border-radius: var(--radius); border: 1px solid var(--line); }
 .mascot-rig { position: relative; }
 #liquid-pot, #liquid-receiver { transition: fill 260ms ease; }
 #mascot-wheel-control { cursor: pointer; user-select: none; }
