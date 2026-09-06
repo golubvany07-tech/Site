@@ -290,7 +290,17 @@ figure.plate img { margin: 0 auto; }
   content: ""; position: absolute; inset: 6%; border-radius: 50%;
   background: radial-gradient(circle, rgba(242, 184, 7, .22), transparent 68%);
 }
-.hero-emblem img { position: relative; width: 100%; max-width: 380px; transform: rotate(4deg); filter: drop-shadow(0 26px 46px rgba(0, 0, 0, .45)); }
+.hero-emblem { cursor: pointer; }
+.hero-emblem img {
+  position: relative; width: 100%; max-width: 380px;
+  filter: drop-shadow(0 26px 46px rgba(0, 0, 0, .45));
+  animation: emblem-spin 22s linear infinite;
+  transition: filter 200ms ease;
+}
+.hero-emblem:hover img, .hero-emblem:focus-visible img { filter: drop-shadow(0 26px 46px rgba(0, 0, 0, .45)) brightness(1.06); }
+.hero-emblem:focus-visible { outline: 2px solid var(--accent2); outline-offset: 6px; border-radius: 50%; }
+.hero-emblem.spin-boost img { animation-duration: 1.4s; animation-timing-function: cubic-bezier(.2, .8, .3, 1); }
+@keyframes emblem-spin { to { transform: rotate(360deg); } }
 @media (max-width: 860px) {
   .hero .wrap { grid-template-columns: 1fr; gap: 36px; padding-top: 48px; padding-bottom: 48px; }
   .hero-emblem { order: -1; }
@@ -299,44 +309,6 @@ figure.plate img { margin: 0 auto; }
 
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }
 
-.mascot-wrap { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 48px; align-items: center; }
-.mascot-copy .k { display: block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--blue); font-weight: 700; margin-bottom: 8px; }
-.mascot-copy h2 {
-  font-family: var(--font-display); font-weight: 900; text-transform: uppercase;
-  font-size: clamp(26px, 3vw, 36px); line-height: 1.05; margin: 0 0 12px; color: var(--text);
-}
-.mascot-copy p { color: var(--body); font-size: 15px; max-width: 40ch; }
-.mascot-rig { background: var(--paper); }
-.mascot-rig svg { width: 100%; height: auto; display: block; touch-action: none; }
-.mascot-rig img { width: 100%; height: auto; display: block; border-radius: var(--radius); border: 1px solid var(--line); }
-.mascot-rig { position: relative; }
-#liquid-pot, #liquid-receiver { transition: fill 260ms ease; }
-#mascot-wheel-control { cursor: pointer; user-select: none; }
-#mascot-wheel-control:focus-visible { outline: 2px solid var(--accent2); outline-offset: 4px; }
-#mascot-wheel { transform-box: fill-box; transform-origin: center; }
-.mascot-rig.running #mascot-wheel { animation: mascot-wheel-spin 420ms linear infinite; }
-@keyframes mascot-wheel-spin { to { transform: rotate(360deg); } }
-.mascot-leg, #paw-front, #paw-back { transform-box: fill-box; transform-origin: center; }
-.mascot-rig.running #leg-front, .mascot-rig.running #paw-front {
-  animation: mascot-run-front 280ms ease-in-out infinite;
-}
-.mascot-rig.running #leg-back, .mascot-rig.running #paw-back {
-  animation: mascot-run-back 280ms ease-in-out infinite;
-}
-@keyframes mascot-run-front { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-@keyframes mascot-run-back { 0%, 100% { transform: translateY(-5px); } 50% { transform: translateY(0); } }
-.mascot-bubble { animation: mascot-rise 1.1s ease-out forwards; pointer-events: none; }
-@keyframes mascot-rise { to { transform: translateY(calc(-1 * var(--rise, 18px))); opacity: 0; } }
-.mascot-vapor { pointer-events: none; }
-#mascot-speech { transition: opacity 200ms ease; }
-#mascot-jump { transition: opacity 200ms ease; transform-box: fill-box; transform-origin: center; animation: mascot-jump-bounce 1100ms ease-in-out infinite; }
-#mascot-jump circle { transition: fill 120ms ease; }
-#mascot-jump:hover circle, #mascot-jump:focus-visible circle { fill: var(--accent2); }
-@keyframes mascot-jump-bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
-@media (max-width: 860px) {
-  .mascot-wrap { grid-template-columns: 1fr; }
-  .mascot-copy p { max-width: none; }
-}
 @media (max-width: 860px) { .two-col { grid-template-columns: 1fr; gap: 32px; } }
 
 .pub-flush { display: grid; grid-template-columns: repeat(3, 1fr); gap: 44px; }

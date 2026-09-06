@@ -319,7 +319,6 @@ LAB_LIFE_POOL = GALLERY_POOL_STATE["items"]
 # ---------------------------------------------------------------- home
 
 def build_home():
-    mascot_section = '<section class="section mascot-section">\n  <div class="wrap mascot-wrap">\n    <div class="mascot-copy">\n      <span class="k">Say hello</span>\n      <h2>Our mascot never stops experimenting</h2>\n      <p>Our lab mascot, always tinkering with something new in the fume hood. Purely for fun, not our actual lab data.</p>\n    </div>\n    <div class="mascot-rig">\n      <img src="assets/img/misc/mascot-illustration.webp" alt="Illustration of the lab\'s mascot squirrel running in a wheel next to a distillation set-up" loading="lazy" width="2048" height="950">\n    </div>\n  </div>\n</section>'
     pubs = DATA["pubs"]
     top3 = [p for p in pubs if p.get("toc_local")][:3]
     pub_cells = "".join(f"""
@@ -371,7 +370,7 @@ def build_home():
     body = f"""
 <section class="hero">
   <div class="wrap">
-    <div class="hero-emblem">
+    <div class="hero-emblem" id="hero-emblem" role="button" tabindex="0" aria-label="Spin the emblem and scroll to Publications">
       <img src="assets/img/misc/emblem-hero.png" width="900" height="912" alt="Group of Effective Catalysis emblem" loading="eager">
     </div>
     <div class="hero-copy">
@@ -388,7 +387,6 @@ def build_home():
   </div>
 </section>
 
-{mascot_section}
 <section class="section" id="publications">
   <div class="wrap">
     <div class="section-head">
