@@ -372,7 +372,7 @@ def build_home():
   <div class="wrap">
     <div class="hero-emblem" id="hero-emblem" role="button" tabindex="0" aria-label="Spin the emblem and scroll to Publications">
       <div class="emblem-stack">
-        <img class="emblem-badge" src="assets/img/misc/emblem-hero.png" width="900" height="912" alt="Group of Effective Catalysis emblem" loading="eager">
+        <svg class="emblem-badge" viewBox="0 0 900 912" role="img" aria-label="Group of Effective Catalysis emblem"><defs><mask id="emblem-badge-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="900" height="912"><image href="assets/img/misc/emblem-badge-mask.png" x="0" y="0" width="900" height="912"></image></mask></defs><image href="assets/img/misc/emblem-hero.png" x="0" y="0" width="900" height="912" mask="url(#emblem-badge-mask)"></image></svg>
         <svg class="emblem-ring" viewBox="0 0 900 912" aria-hidden="true">
           <path d="M 898.0 547.2 A 458.0 458.0 0 0 1 308.5 887.6 L 319.0 855.2 A 424.0 424.0 0 0 0 864.7 540.2 Z"></path>
           <path d="M 305.4 897.1 L 274.2 856.4 L 322.1 845.7 Z"></path>

@@ -269,19 +269,82 @@
   });
 })();
 
-/* ---------- 4. hero emblem: click to spin faster and jump to Publications ---------- */
+/* ---------- 4. hero emblem: ring spins in place, click eases into a slow scroll ---------- */
 (function () {
   "use strict";
   var emblem = document.getElementById("hero-emblem");
+  var ring = document.querySelector(".emblem-ring");
   var target = document.getElementById("publications");
-  if (!emblem || !target) return;
+  if (!emblem || !ring || !target) return;
+
+  var mq = window.matchMedia;
+  var reduceMotion = mq && mq("(prefers-reduced-motion: reduce)").matches;
+
+  function easeInOutCubic(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+  function easeInOutQuad(t) { return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2; }
+
+  var IDLE_DEG_PER_MS = 360 / 22000;
+  var BOOST_DEG_PER_MS = 360 / 2600;
+  var SPIN_UP_MS = 650;
+  var CRUISE_MS = 500;
+  var SPIN_DOWN_MS = 1400;
+
+  var angle = 0;
+  var lastTime = null;
+  var boosting = false;
+  var boostStart = 0;
+
+  function speedAt(now) {
+    if (!boosting) return IDLE_DEG_PER_MS;
+    var elapsed = now - boostStart;
+    if (elapsed < SPIN_UP_MS) {
+      return IDLE_DEG_PER_MS + (BOOST_DEG_PER_MS - IDLE_DEG_PER_MS) * easeInOutCubic(elapsed / SPIN_UP_MS);
+    }
+    if (elapsed < SPIN_UP_MS + CRUISE_MS) {
+      return BOOST_DEG_PER_MS;
+    }
+    if (elapsed < SPIN_UP_MS + CRUISE_MS + SPIN_DOWN_MS) {
+      var p = easeInOutCubic((elapsed - SPIN_UP_MS - CRUISE_MS) / SPIN_DOWN_MS);
+      return BOOST_DEG_PER_MS + (IDLE_DEG_PER_MS - BOOST_DEG_PER_MS) * p;
+    }
+    boosting = false;
+    return IDLE_DEG_PER_MS;
+  }
+
+  function frame(now) {
+    if (lastTime === null) lastTime = now;
+    var dt = now - lastTime;
+    lastTime = now;
+    angle = (angle + speedAt(now) * dt) % 360;
+    ring.style.transform = "rotate(" + angle + "deg)";
+    requestAnimationFrame(frame);
+  }
+  if (!reduceMotion) requestAnimationFrame(frame);
+
+  function smoothScrollTo(el, duration) {
+    var startY = window.scrollY;
+    var endY = el.getBoundingClientRect().top + window.scrollY;
+    var startTime = null;
+    function step(ts) {
+      if (startTime === null) startTime = ts;
+      var t = Math.min((ts - startTime) / duration, 1);
+      window.scrollTo(0, startY + (endY - startY) * easeInOutQuad(t));
+      if (t < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
 
   function go() {
-    emblem.classList.add("spin-boost");
-    window.setTimeout(function () {
+    if (reduceMotion) {
       target.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, 220);
-    window.setTimeout(function () { emblem.classList.remove("spin-boost"); }, 1500);
+      return;
+    }
+    if (boosting) return;
+    boosting = true;
+    boostStart = performance.now();
+    window.setTimeout(function () {
+      smoothScrollTo(target, 2200);
+    }, 380);
   }
 
   emblem.addEventListener("click", go);
