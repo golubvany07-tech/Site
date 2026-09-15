@@ -285,7 +285,7 @@ figure.plate img { margin: 0 auto; }
 .hero .sub { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-top: 0; }
 .hero .lede { margin-top: 0; margin-bottom: 34px; max-width: 48ch; color: #cfe6df; }
 .hero-actions { display: flex; gap: 14px; margin-top: 0; flex-wrap: wrap; }
-.hero-emblem { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.hero-emblem { position: relative; display: flex; align-items: center; justify-content: center; }
 .hero-emblem::before {
   content: ""; position: absolute; inset: 6%; border-radius: 50%;
   background: radial-gradient(circle, rgba(242, 184, 7, .22), transparent 68%);
@@ -304,14 +304,6 @@ figure.plate img { margin: 0 auto; }
 .emblem-ring path { fill: #b7bcc0; stroke: #1a1a1a; stroke-width: 6; stroke-linejoin: round; }
 .hero-emblem:hover .emblem-badge, .hero-emblem:focus-visible .emblem-badge { filter: drop-shadow(0 26px 46px rgba(0, 0, 0, .45)) brightness(1.06); }
 .hero-emblem:focus-visible { outline: 2px solid var(--accent2); outline-offset: 6px; border-radius: 50%; }
-.emblem-hint {
-  margin: 16px 0 0; max-width: 260px; text-align: center;
-  font-size: 12px; font-style: italic; letter-spacing: .01em; line-height: 1.4;
-  color: rgba(255, 255, 255, .5);
-  animation: emblem-hint-fade 3.4s ease-in-out infinite;
-}
-@keyframes emblem-hint-fade { 0%, 100% { opacity: .45; } 50% { opacity: .9; } }
-@media (prefers-reduced-motion: reduce) { .emblem-hint { animation: none; opacity: .7; } }
 @media (max-width: 860px) {
   .hero .wrap { grid-template-columns: 1fr; gap: 36px; padding-top: 48px; padding-bottom: 48px; }
   .hero-emblem { order: -1; }
