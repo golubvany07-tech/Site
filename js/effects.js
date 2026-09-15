@@ -311,12 +311,14 @@
     return IDLE_DEG_PER_MS;
   }
 
+  var PIVOT_X = 464.9, PIVOT_Y = 461.8;
+
   function frame(now) {
     if (lastTime === null) lastTime = now;
     var dt = now - lastTime;
     lastTime = now;
     angle = (angle + speedAt(now) * dt) % 360;
-    ring.style.transform = "rotate(" + angle + "deg)";
+    ring.setAttribute("transform", "rotate(" + angle.toFixed(3) + " " + PIVOT_X + " " + PIVOT_Y + ")");
     requestAnimationFrame(frame);
   }
   if (!reduceMotion) requestAnimationFrame(frame);
