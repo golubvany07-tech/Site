@@ -374,14 +374,15 @@ def build_home():
       <div class="emblem-stack">
         <img class="emblem-badge" src="assets/img/misc/emblem-hero.png" width="900" height="900" alt="Group of Effective Catalysis emblem" loading="eager">
         <svg class="emblem-ring" viewBox="0 0 900 900" aria-hidden="true">
-          <path d="M 908.0 450.0 A 458 458 0 0 1 402.1 905.5 L 405.7 871.7 A 424 424 0 0 0 874.0 450.0 Z"></path>
-          <path d="M 401.1 915.4 L 406.7 861.7 L 362.1 882.1 Z"></path>
-          <path d="M 221.0 846.6 A 458 458 0 0 1 79.5 180.8 L 107.0 200.8 A 424 424 0 0 0 238.0 817.2 Z"></path>
-          <path d="M 71.4 174.9 L 115.1 206.7 L 119.7 157.8 Z"></path>
-          <path d="M 221.0 53.4 A 458 458 0 0 1 868.4 263.7 L 837.3 277.5 A 424 424 0 0 0 238.0 82.8 Z"></path>
-          <path d="M 877.5 259.6 L 828.2 281.6 L 868.2 310.1 Z"></path>
+          <path d="M 898.9 461.8 A 434 434 0 0 1 419.5 893.4 L 423.1 859.6 A 400 400 0 0 0 864.9 461.8 Z"></path>
+          <path d="M 418.5 903.4 L 424.1 849.7 L 381.8 870.4 Z"></path>
+          <path d="M 247.9 837.7 A 434 434 0 0 1 113.8 206.7 L 141.3 226.7 A 400 400 0 0 0 264.9 808.2 Z"></path>
+          <path d="M 105.7 200.8 L 149.4 232.6 L 152.6 185.5 Z"></path>
+          <path d="M 247.9 85.9 A 434 434 0 0 1 861.4 285.3 L 830.3 299.1 A 400 400 0 0 0 264.9 115.4 Z"></path>
+          <path d="M 870.5 281.2 L 821.2 303.2 L 860.4 329.5 Z"></path>
         </svg>
       </div>
+      <p class="emblem-hint">Tap to discover the hidden secrets of effective catalysis</p>
     </div>
     <div class="hero-copy">
       <h1>Waste gas<br><span class="c-accent">in.</span><br>Molecules<br><span class="c-accent2">out.</span></h1>
