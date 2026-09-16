@@ -575,7 +575,7 @@ def build_research():
         {
             "k": "04",
             "title": "Fluoride-activated catalysis",
-            "img": "img/pubs/p41.png",
+            "img": "img/pubs/p43.gif",
             "alt": "Fluoride activation switching on a metal catalyst",
             "body": "A small, in-situ dose of fluoride ion can switch an ordinary metal catalyst into a "
                     "faster, more selective one. We've mapped this effect across ruthenium, nickel, "
@@ -613,8 +613,23 @@ def build_research():
         },
     ]
 
+    def find_pub_data(doi):
+        bare = _bare_doi(doi)
+        return next((p for p in DATA["pubs"] if _bare_doi(p.get("doi")) == bare), None)
+
     def pub_li(pub):
-        return f'<li><a href="{E(pub["doi"])}" rel="noopener">{E(pub["title"])}</a> <span class="jr">\u2014 {E(pub["journal_ref"])}</span></li>'
+        stats = ""
+        data = find_pub_data(pub["doi"])
+        if data:
+            bits = []
+            if data.get("impact"):
+                bits.append(f'IF {E(data["impact"])}')
+            cited = cited_of(data["n"])
+            if cited:
+                bits.append(f'Citations: {cited}')
+            if bits:
+                stats = f' <span class="if">({" &middot; ".join(bits)})</span>'
+        return f'<li><a href="{E(pub["doi"])}" rel="noopener">{E(pub["title"])}</a> <span class="jr">\u2014 {E(pub["journal_ref"])}</span>{stats}</li>'
 
     rows = ""
     for d in directions:
