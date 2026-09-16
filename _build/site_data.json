@@ -1077,17 +1077,6 @@
    "photo": "img/people/ilya-aniskin.jpg"
   },
   {
-   "slug": "olesya-zvereva",
-   "name": "Olesya Zvereva",
-   "role": "Student",
-   "group_role": "Student",
-   "education": "Higher School of Economics",
-   "email": "lesja.zvereva@gmail.com",
-   "interests": "Organic chemistry, coordination chemistry",
-   "hobby": "Theatre, anthropology, fine arts",
-   "photo": "img/people/olesya-zvereva.jpg"
-  },
-  {
    "slug": "mikhail-losev",
    "name": "Mikhail Losev",
    "role": "Student",
@@ -1097,17 +1086,6 @@
    "interests": "Organic chemistry, organometallic chemistry, catalysis",
    "hobby": "Entomology",
    "photo": "img/people/mikhail-losev.jpg"
-  },
-  {
-   "slug": "taisiya-brylova",
-   "name": "Taisiya Brylova",
-   "role": "Student",
-   "group_role": "Student",
-   "education": "Higher School of Economics",
-   "email": "brylovat133@gmail.com",
-   "interests": "Organic chemistry",
-   "hobby": "Playing musical instruments, drawing, sports tourism, volleyball",
-   "photo": "img/people/taisiya-brylova.jpg"
   },
   {
    "slug": "vasilii-korochancev",
@@ -1165,17 +1143,6 @@
    "photo": "img/people/ivan-smirnov.jpg"
   },
   {
-   "slug": "danil-rakitianskii",
-   "name": "Danil Rakitianskii",
-   "role": "Student",
-   "group_role": "Student",
-   "education": "Higher Chemical College",
-   "email": "rdorgchem@gmail.com",
-   "interests": "Organofluorine chemistry, organic synthesis, development of new synthetic methods in organic synthesis",
-   "hobby": "Poetry of the Silver Age , literature, history of the Middle Ages",
-   "photo": "img/people/danil-rakitianskii.jpg"
-  },
-  {
    "slug": "dmitrii-pozdniakov",
    "name": "Dmitrii Pozdniakov",
    "role": "Student",
@@ -1185,6 +1152,72 @@
    "interests": "Organic chemistry, catalysis",
    "hobby": "Sudoku solving, history, building scale models",
    "photo": "img/people/dmitrii-pozdniakov.jpg"
+  },
+  {
+   "slug": "anton-popov",
+   "name": "Anton Popov",
+   "role": "Student",
+   "group_role": "Student",
+   "education": null,
+   "email": null,
+   "interests": null,
+   "hobby": null,
+   "photo": null
+  },
+  {
+   "slug": "kirill-romanov",
+   "name": "Kirill Romanov",
+   "role": "Student",
+   "group_role": "Student",
+   "education": null,
+   "email": null,
+   "interests": null,
+   "hobby": null,
+   "photo": null
+  },
+  {
+   "slug": "baizhigit-busurmankulov",
+   "name": "Baizhigit Busurmankulov",
+   "role": "Student",
+   "group_role": "Student",
+   "education": null,
+   "email": null,
+   "interests": null,
+   "hobby": null,
+   "photo": null
+  },
+  {
+   "slug": "egor-zorin",
+   "name": "Egor Zorin",
+   "role": "Student",
+   "group_role": "Student",
+   "education": null,
+   "email": null,
+   "interests": null,
+   "hobby": null,
+   "photo": null
+  },
+  {
+   "slug": "egor-cherezov",
+   "name": "Egor Cherezov",
+   "role": "Ph. D. Student",
+   "group_role": "Ph. D. Student",
+   "education": null,
+   "email": null,
+   "interests": null,
+   "hobby": null,
+   "photo": null
+  },
+  {
+   "slug": "olga-chusova",
+   "name": "Olga Chusova",
+   "role": "Dr.",
+   "group_role": "Dr.",
+   "education": null,
+   "email": null,
+   "interests": null,
+   "hobby": null,
+   "photo": null
   }
  ],
  "alumni": [
@@ -1318,6 +1351,17 @@
    "email": "go.cat.n.mouse@gmail.com",
    "interests": "Chemical synthesis",
    "hobby": "Sport, drawing, piano playing",
+   "role_then": "Student"
+  },
+  {
+   "name": "Olesya Zvereva",
+   "after": null,
+   "photo": "img/alumni/olesya-zvereva.jpg",
+   "slug": "olesya-zvereva",
+   "education": "Higher School of Economics",
+   "email": "lesja.zvereva@gmail.com",
+   "interests": "Organic chemistry, coordination chemistry",
+   "hobby": "Theatre, anthropology, fine arts",
    "role_then": "Student"
   }
  ],

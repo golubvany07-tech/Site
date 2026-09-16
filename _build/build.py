@@ -197,6 +197,14 @@ def fmt_date(iso):
         return iso or ""
 
 
+def person_photo_tag(p, cls="photo"):
+    """<img> for a person's photo, or an initials placeholder when none is set yet."""
+    if p.get("photo"):
+        return f'<img class="{cls}" src="assets/{E(p["photo"])}" alt="{E(p["name"])}" loading="lazy">'
+    initials = "".join(w[0] for w in p["name"].split() if w)[:2].upper()
+    return f'<div class="{cls} photo-placeholder" aria-hidden="true"><span>{E(initials)}</span></div>'
+
+
 def fields_html(p, keys=("education", "email", "interests", "hobby")):
     """Person details in the same field style the old member pages used."""
     label = {"education": "Education", "email": "Email",
@@ -654,12 +662,14 @@ def build_people():
 
     groups = [
         ("Research staff", "img/misc/Me2CO.png",
-         ["oleg-afanasyev", "evgeniya-podyacheva", "artemy-fatkulin", "andrey-kozlov", "klim-birukov"]),
+         ["oleg-afanasyev", "evgeniya-podyacheva", "artemy-fatkulin", "andrey-kozlov", "klim-birukov",
+          "olga-chusova"]),
         ("Ph.D. students", "img/misc/camphor.png",
-         ["alexandra-balalaeva", "ilya-aniskin"]),
+         ["alexandra-balalaeva", "ilya-aniskin", "egor-cherezov"]),
         ("Students", "img/misc/benzaldehyde.png",
-         ["fedor-kluev", "olesya-zvereva", "mikhail-losev", "taisiya-brylova", "vasilii-korochancev",
-          "ivan-golub", "ivan-smirnov", "danil-rakitianskii", "dmitrii-pozdniakov"]),
+         ["fedor-kluev", "mikhail-losev", "vasilii-korochancev",
+          "ivan-golub", "ivan-smirnov", "dmitrii-pozdniakov",
+          "anton-popov", "kirill-romanov", "baizhigit-busurmankulov", "egor-zorin"]),
         ("Administrator", "img/misc/pyrrolidine.png", ["alexander-modin"]),
     ]
 
@@ -671,7 +681,7 @@ def build_people():
             role = p["role"] or p["group_role"]
             cards.append(f"""
     <article class="person-card">
-      <a href="people/{E(s)}.html" tabindex="-1" aria-hidden="true"><img class="photo" src="assets/{E(p["photo"])}" alt="{E(p["name"])}" loading="lazy"></a>
+      <a href="people/{E(s)}.html" tabindex="-1" aria-hidden="true">{person_photo_tag(p)}</a>
       <div class="pad">
         <h3 class="n"><a href="people/{E(s)}.html">{E(p["name"])}</a></h3>
         <p class="r">{E(role)}</p>
