@@ -373,7 +373,6 @@ def build_home():
     <div class="hero-emblem" id="hero-emblem" role="button" tabindex="0" aria-label="Spin the emblem and scroll to Publications">
       <div class="emblem-stack">
         <svg class="emblem-svg" viewBox="0 0 900 900" role="img" aria-label="Group of Effective Catalysis emblem">
-          <image class="emblem-badge-img" href="assets/img/misc/emblem-hero.png" x="0" y="0" width="900" height="900"></image>
           <g class="emblem-ring">
             <path d="M 898.9 461.8 A 434 434 0 0 1 419.5 893.4 L 423.1 859.6 A 400 400 0 0 0 864.9 461.8 Z"></path>
             <path d="M 418.5 903.4 L 424.1 849.7 L 381.8 870.4 Z"></path>
@@ -382,6 +381,7 @@ def build_home():
             <path d="M 247.9 85.9 A 434 434 0 0 1 861.4 285.3 L 830.3 299.1 A 400 400 0 0 0 264.9 115.4 Z"></path>
             <path d="M 870.5 281.2 L 821.2 303.2 L 860.4 329.5 Z"></path>
           </g>
+          <image class="emblem-badge-img" href="assets/img/misc/emblem-hero.png" x="0" y="0" width="900" height="900"></image>
         </svg>
       </div>
     </div>
