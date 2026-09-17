@@ -1180,10 +1180,10 @@
    "name": "Baizhigit Busurmankulov",
    "role": "Student",
    "group_role": "Student",
-   "education": null,
-   "email": null,
-   "interests": null,
-   "hobby": null,
+   "education": "M.V. Lomonosov Moscow State University",
+   "email": "bbusurmankulovv@gmail.com",
+   "interests": "Catalysis, medicinal chemistry.",
+   "hobby": "Practicing in a vascular surgery department.",
    "photo": "img/people/baizhigit-busurmankulov.jpg"
   },
   {
@@ -1202,11 +1202,11 @@
    "name": "Egor Cherezov",
    "role": "Ph. D. Student",
    "group_role": "Ph. D. Student",
-   "education": null,
-   "email": null,
-   "interests": null,
+   "education": "D. Mendeleev University of Chemical Technology of Russia (MUCTR)",
+   "email": "cherezov.egor.a@gmail.com",
+   "interests": "Asymmetric catalysis.",
    "hobby": null,
-   "photo": null
+   "photo": "img/people/egor-cherezov.jpg"
   },
   {
    "slug": "olga-chusova",
@@ -1505,6 +1505,42 @@
    "title": "Russian journal \"Chemistry and life\" about our approach",
    "url": "http://www.hij.ru/read/issues/2014/june/",
    "thumb": "img/media/m13.jpg"
+  },
+  {
+   "n": 14,
+   "title": "Scientific Russia on our single-step synthesis of amides that could make a lymphoma drug hundreds of times cheaper",
+   "url": "https://scientificrussia.ru/articles/himiki-uprostili-sintez-lekarstv-s-amidnoj-gruppoj",
+   "thumb": "img/media/m14.jpg"
+  },
+  {
+   "n": 15,
+   "title": "HSE.ru: we taught an aldehyde to act as its own reducing agent (Journal of Catalysis)",
+   "url": "https://www.hse.ru/news/science/1134786301.html",
+   "thumb": "img/media/m15.jpg"
+  },
+  {
+   "n": 16,
+   "title": "Poisk News on our eco-friendly, solvent-based route to aniline derivatives",
+   "url": "https://poisknews.ru/himiya/rastvoritel-vmesto-toksichnyh-reagentov-himiki-nashli-ekologichnyj-sposob-sinteza-proizvodnyh-anilina/",
+   "thumb": "img/media/m16.jpg"
+  },
+  {
+   "n": 17,
+   "title": "Denis Chusov's public lecture and visiting professorship at Irkutsk Polytechnic University",
+   "url": "https://www.istu.edu/novosti/pub/81760",
+   "thumb": "img/media/m17.jpg"
+  },
+  {
+   "n": 18,
+   "title": "Denis Chusov and Oleg Afanasyev present the OdanChem platform at the Favorsky Institute of Chemistry",
+   "url": "https://www.irkinstchem.ru/news/rossiyskaya-khimicheskaya-onlayn-platforma-odanchem-lektsiya-i-seminar-denisa-chusova-i-olega-afanas-yeva",
+   "thumb": "img/media/m18.jpg"
+  },
+  {
+   "n": 19,
+   "title": "Oleg Afanasyev's OdanChem seminar at the Zelinsky Institute of Organic Chemistry",
+   "url": "https://zioc.ru/events/news-announcements/pub-41083849",
+   "thumb": "img/media/m19.jpg"
   }
  ],
  "news": [

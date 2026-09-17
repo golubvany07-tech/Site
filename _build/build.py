@@ -926,6 +926,10 @@ MEDIA_OUTLETS = {
     "gazeta.ru": "Газета.Ru",
     "nature.com": "Nature",
     "hij.ru": "Химия и жизнь",
+    "poisknews.ru": "Поиск",
+    "istu.edu": "ИРНИТУ",
+    "irkinstchem.ru": "Институт химии СО РАН",
+    "zioc.ru": "ИОХ РАН",
 }
 
 
