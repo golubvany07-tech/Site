@@ -1523,27 +1523,17 @@
    "title": "Poisk News on our eco-friendly, solvent-based route to aniline derivatives",
    "url": "https://poisknews.ru/himiya/rastvoritel-vmesto-toksichnyh-reagentov-himiki-nashli-ekologichnyj-sposob-sinteza-proizvodnyh-anilina/",
    "thumb": "img/media/m16.jpg"
-  },
-  {
-   "n": 17,
-   "title": "Denis Chusov's public lecture and visiting professorship at Irkutsk Polytechnic University",
-   "url": "https://www.istu.edu/novosti/pub/81760",
-   "thumb": "img/media/m17.jpg"
-  },
-  {
-   "n": 18,
-   "title": "Denis Chusov and Oleg Afanasyev present the OdanChem platform at the Favorsky Institute of Chemistry",
-   "url": "https://www.irkinstchem.ru/news/rossiyskaya-khimicheskaya-onlayn-platforma-odanchem-lektsiya-i-seminar-denisa-chusova-i-olega-afanas-yeva",
-   "thumb": "img/media/m18.jpg"
-  },
-  {
-   "n": 19,
-   "title": "Oleg Afanasyev's OdanChem seminar at the Zelinsky Institute of Organic Chemistry",
-   "url": "https://zioc.ru/events/news-announcements/pub-41083849",
-   "thumb": "img/media/m19.jpg"
   }
  ],
  "news": [
+  {
+   "title": "HSE.ru: we taught an aldehyde to act as its own reducing agent",
+   "date": "2026-03-05T09:00:00.000Z",
+   "source_url": "https://www.hse.ru/news/science/1134786301.html",
+   "slug": "hse-ru-aldehyde-self-reducing-agent",
+   "cover": "img/media/m15.jpg",
+   "body_md": "HSE University's news service featured our new reductive-coupling reaction, in which an aldehyde acts as its own reducing agent — removing the need for an external reducing reagent and simplifying the synthetic route. The work was published in the Journal of Catalysis.\n\nRead the HSE.ru feature [here](https://www.hse.ru/news/science/1134786301.html)."
+  },
   {
    "title": "New publication in Organic Letters",
    "date": "2025-12-07T21:00:00.000Z",
@@ -1569,6 +1559,14 @@
    "body_md": "We are proud to announce that our lab has published a new article in Journal of Catalysis (DOI: [http://doi.org/10.1016/j.jcat.2025.116495](http://doi.org/10.1016/j.jcat.2025.116495)). In this work, our team presents a novel catalytic protocol for the reductive alkylation of ketones using aldehydes as reducing agents, offering an efficient and selective pathway for C–C and C-N bond formation. Congratulations to our colleagues Fedor  Kliuev, Dr. Oleg Afanasyev and Prof. Dr. Denis Chusov for their outstanding contribution to this achievement.\n\n![](img/news/our-team-publishes-in-journal-of-catalys-67.jpg)"
   },
   {
+   "title": "Poisk News on our eco-friendly, solvent-based route to aniline derivatives",
+   "date": "2025-10-02T09:00:00.000Z",
+   "source_url": "https://poisknews.ru/himiya/rastvoritel-vmesto-toksichnyh-reagentov-himiki-nashli-ekologichnyj-sposob-sinteza-proizvodnyh-anilina/",
+   "slug": "poisk-news-eco-friendly-aniline-synthesis",
+   "cover": "img/media/m16.jpg",
+   "body_md": "Poisk News wrote about our environmentally friendly route to aniline derivatives, which replaces toxic alkyl halide reagents with tetrahydrofuran as the alkylating agent, using cobalt catalysis and synthesis gas.\n\nRead the feature on Poisk News [here](https://poisknews.ru/himiya/rastvoritel-vmesto-toksichnyh-reagentov-himiki-nashli-ekologichnyj-sposob-sinteza-proizvodnyh-anilina/)."
+  },
+  {
    "title": "Our new publication was published in ChemSusChem  about THF as an alkylating agent",
    "date": "2025-09-30T21:00:00.000Z",
    "source_url": "https://www.chemcatgroup.com/single-post/our-new-publication-in-chemsuschem-about",
@@ -1591,6 +1589,38 @@
    "slug": "new-article-about-sodium-hypophosphite-was-published-in-jour",
    "cover": "img/news/new-article-about-sodium-hypophosphite-w-65.jpg",
    "body_md": "\"Reductive Amination Reactions Using Sodium Hypophosphite: a Guide to Substrates\" - our new comprehensive work about reductive amination using sodium hypophosphite was published in Journal of Organic Chemistry (IF = 3.458) on 28 July 2025. Congratulations to our authors - Dr. Artemy Fatkulin, Vasily Korochantsev, Dr. Evgeniya Podyacheva, Fedor Kliuev, Olesya Zvereva, Mikhail Losev, Ivan Smirnov, Dr. Oleg Afanasyev and Prof. Dr. Denis Chusov!\n\nDOI: [https://doi.org/10.1021/acs.joc.5c00962](https://doi.org/10.1021/acs.joc.5c00962)\n\n![](img/news/new-article-about-sodium-hypophosphite-w-65.jpg)"
+  },
+  {
+   "title": "Denis Chusov and Oleg Afanasyev present the OdanChem platform at the Favorsky Institute of Chemistry",
+   "date": "2025-06-27T09:00:00.000Z",
+   "source_url": "https://www.irkinstchem.ru/news/rossiyskaya-khimicheskaya-onlayn-platforma-odanchem-lektsiya-i-seminar-denisa-chusova-i-olega-afanas-yeva",
+   "slug": "favorsky-institute-odanchem-lecture",
+   "cover": "img/media/m18.jpg",
+   "body_md": "Denis Chusov and Oleg Afanasyev visited the Favorsky Institute of Chemistry (Irkutsk) to give a lecture and seminar on the OdanChem platform — a Russian chemistry database with more than 8 million spectra and AI-assisted tools for NMR analysis.\n\nRead more on the institute's website [here](https://www.irkinstchem.ru/news/rossiyskaya-khimicheskaya-onlayn-platforma-odanchem-lektsiya-i-seminar-denisa-chusova-i-olega-afanas-yeva)."
+  },
+  {
+   "title": "Denis Chusov's public lecture and visiting professorship at Irkutsk Polytechnic University",
+   "date": "2025-05-13T09:00:00.000Z",
+   "source_url": "https://www.istu.edu/novosti/pub/81760",
+   "slug": "irkutsk-polytechnic-chusov-lecture",
+   "cover": "img/media/m17.jpg",
+   "body_md": "Denis Chusov, head of Irkutsk Polytechnic University's strategic project \"Chemical Constructor,\" gave a public lecture and met with students and researchers to discuss new chemical reactions and modular production technologies.\n\nRead more on the university's website [here](https://www.istu.edu/novosti/pub/81760)."
+  },
+  {
+   "title": "Oleg Afanasyev's OdanChem seminar at the Zelinsky Institute of Organic Chemistry",
+   "date": "2025-04-18T09:00:00.000Z",
+   "source_url": "https://zioc.ru/events/news-announcements/pub-41083849",
+   "slug": "zelinsky-institute-odanchem-seminar",
+   "cover": "img/media/m19.jpg",
+   "body_md": "Oleg Afanasyev gave a seminar at the Zelinsky Institute of Organic Chemistry on working with NMR spectroscopy through the OdanChem platform, a Russian chemistry information system for spectral and molecular-property analysis.\n\nRead more on the institute's website [here](https://zioc.ru/events/news-announcements/pub-41083849)."
+  },
+  {
+   "title": "Scientific Russia on our single-step synthesis of amides that could make a lymphoma drug hundreds of times cheaper",
+   "date": "2025-03-24T09:00:00.000Z",
+   "source_url": "https://scientificrussia.ru/articles/himiki-uprostili-sintez-lekarstv-s-amidnoj-gruppoj",
+   "slug": "scientific-russia-amide-synthesis-drugs",
+   "cover": "img/media/m14.jpg",
+   "body_md": "Scientific Russia covered our single-step synthesis of amides using a ruthenium catalyst and carbon monoxide — a simplified route that could make manufacturing certain drugs, including lymphoma treatments, hundreds of times cheaper.\n\nRead the feature on Scientific Russia [here](https://scientificrussia.ru/articles/himiki-uprostili-sintez-lekarstv-s-amidnoj-gruppoj)."
   },
   {
    "title": "Our new comprehensive review about the halogen effect in ruthenium catalysis was published in Russian Chemical",
