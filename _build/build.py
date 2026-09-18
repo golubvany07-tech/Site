@@ -360,7 +360,7 @@ def build_home():
         <span class="t">{E(n["title"])}</span>
       </a>""" for n in news)
 
-    media_top = [DATA["media"][6], DATA["media"][11], DATA["media"][2], DATA["media"][8]]
+    media_top = [DATA["media"][11], DATA["media"][15], DATA["media"][4], DATA["media"][9]]  # Meduza Nobel interview, Nature highlight, Chemistry World, N+1 hydrogen borrowing -- indices updated Sep 2026 after chronological reorder of the media array
     media_flush = "".join(f"""
       <a class="flush-row" href="{E(m["url"])}" rel="noopener">
         <span class="t">{E(m["title"])} <span class="k">— {E(outlet_of(m["url"]))}</span></span>
