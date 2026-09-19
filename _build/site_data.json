@@ -1191,11 +1191,11 @@
    "name": "Egor Zorin",
    "role": "Student",
    "group_role": "Student",
-   "education": null,
-   "email": null,
-   "interests": null,
-   "hobby": null,
-   "photo": null
+   "education": "Higher School of Economics",
+   "email": "ezorin095@gmail.com",
+   "interests": "Organic synthesis, organometallic chemistry.",
+   "hobby": "Analog photography, traveling.",
+   "photo": "img/people/egor-zorin.jpg"
   },
   {
    "slug": "egor-cherezov",
