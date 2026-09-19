@@ -1,27 +1,6 @@
 {
   "items": [
     {
-      "img": "img/news/team-s-participation-in-ncocs-2022-22.jpg",
-      "anchor": "team-s-participation-in-ncocs-2022",
-      "alt": "NCOCS-2022 symposium in Stavropol — group photo of the participants",
-      "cls": "s22",
-      "source": "news:team-s-participation-in-ncocs-2022"
-    },
-    {
-      "img": "img/news/our-group-has-successfully-participated--56.jpg",
-      "anchor": "our-group-has-successfully-participated-in-the-rcoc-conferen",
-      "alt": "RCOC conference — a talk wrapping up",
-      "cls": "s22",
-      "source": "news:our-group-has-successfully-participated-in-the-rcoc-conferen"
-    },
-    {
-      "img": "img/news/our-group-has-successfully-participated--53.jpg",
-      "anchor": "our-group-has-successfully-participated-in-the-rcoc-conferen",
-      "alt": "RCOC conference — the group on the steps",
-      "cls": "",
-      "source": "news:our-group-has-successfully-participated-in-the-rcoc-conferen"
-    },
-    {
       "img": "img/news/congrats-to-our-april-adviser-of-the-mon-0.jpg",
       "anchor": "congrats-to-our-april-adviser-of-the-month-see-what-they-had",
       "alt": "Intel ISEF — the team with their award",
@@ -104,15 +83,159 @@
       "alt": "Congratulations to Evgeniya Podyacheva with defending her PhD thesis!",
       "cls": "",
       "source": "news:congradulations-to-evgeniya-podyacheva-with-defending-her-ph"
+    },
+    {
+      "img": "img/telegram/tg-auto-62.jpg",
+      "anchor": "",
+      "alt": "Записки юного натуралиста Ч2Китай — страна, которая исторически подарила миру порох, бумагу и, судя по всему,…",
+      "cls": "",
+      "source": "telegram:62"
+    },
+    {
+      "img": "img/telegram/tg-auto-63.jpg",
+      "anchor": "",
+      "alt": "Мы тут вовремя вспомнили, что одного из сотрудников нашей лаборатории мы отправили провести в Китае не пару дн…",
+      "cls": "",
+      "source": "telegram:63"
+    },
+    {
+      "img": "img/telegram/tg-auto-68.jpg",
+      "anchor": "",
+      "alt": "В журнале JACS очень много политики и моды, зачастую приятнее читать профильный журнал, но безусловно там быва…",
+      "cls": "",
+      "source": "telegram:68"
+    },
+    {
+      "img": "img/telegram/tg-auto-69.jpg",
+      "anchor": "",
+      "alt": "Бросить вызов природе, создав ферменты меньше и эффективнее, — серьёзная задача. Подробности в файле.",
+      "cls": "",
+      "source": "telegram:69"
+    },
+    {
+      "img": "img/telegram/tg-auto-70.jpg",
+      "anchor": "",
+      "alt": "Если хотите сделать гетерогенный катализатор на основе рутения для гидрирования бензогетероциклов, то вот свеж…",
+      "cls": "",
+      "source": "telegram:70"
+    },
+    {
+      "img": "img/telegram/tg-auto-71.jpg",
+      "anchor": "",
+      "alt": "Не всё так классно как на картинке. Нужен трет-бутоксид калия, краун эфир и замещенные тиофены, но в целом всё…",
+      "cls": "",
+      "source": "telegram:71"
+    },
+    {
+      "img": "img/telegram/tg-auto-72.jpg",
+      "anchor": "",
+      "alt": "Что будет если к простой соли кобальта добавить ТГФ, поддавить синтез-газом и погреть?",
+      "cls": "",
+      "source": "telegram:72"
+    },
+    {
+      "img": "img/telegram/tg-auto-81.jpg",
+      "anchor": "",
+      "alt": "Оказывается, что и такое в жизни бывает",
+      "cls": "",
+      "source": "telegram:81"
+    },
+    {
+      "img": "img/telegram/tg-auto-92.jpg",
+      "anchor": "",
+      "alt": "Возобновляем представление участников нашей лаборатории — Илья Аниськин, аспирант 1-го годаПомнишь момент, ког…",
+      "cls": "",
+      "source": "telegram:92"
+    },
+    {
+      "img": "img/telegram/tg-auto-95.jpg",
+      "anchor": "",
+      "alt": "Продолжаем представление участников нашей лаборатории — Егор Черезов, аспирант 1-го годаКак ты пришел к осозна…",
+      "cls": "",
+      "source": "telegram:95"
+    },
+    {
+      "img": "img/telegram/tg-auto-96.jpg",
+      "anchor": "",
+      "alt": "Наш друг и коллега завершил вчера проведение сложной и длительной реакции. В качестве исходника он взял «канди…",
+      "cls": "",
+      "source": "telegram:96"
+    },
+    {
+      "img": "img/telegram/tg-auto-97.jpg",
+      "anchor": "",
+      "alt": "на второй день весны астрологи объявили неделю силоксанов — +5 к полимерам в лаборатории",
+      "cls": "",
+      "source": "telegram:97"
+    },
+    {
+      "img": "img/telegram/tg-auto-98.jpg",
+      "anchor": "",
+      "alt": "Парафильм и сухостьМы настолько привыкаем к важным вещам, что иногда нам кажется, будто они известны всем. Но…",
+      "cls": "",
+      "source": "telegram:98"
+    },
+    {
+      "img": "img/telegram/tg-auto-99.jpg",
+      "anchor": "",
+      "alt": "Победила изолента",
+      "cls": "",
+      "source": "telegram:99"
+    },
+    {
+      "img": "img/media/m18.jpg",
+      "anchor": "favorsky-institute-odanchem-lecture",
+      "alt": "Denis Chusov and Oleg Afanasyev present the OdanChem platform at the Favorsky Institute of Chemistry",
+      "cls": "",
+      "source": "news:favorsky-institute-odanchem-lecture"
+    },
+    {
+      "img": "img/media/m19.jpg",
+      "anchor": "zelinsky-institute-odanchem-seminar",
+      "alt": "Oleg Afanasyev's OdanChem seminar at the Zelinsky Institute of Organic Chemistry",
+      "cls": "",
+      "source": "news:zelinsky-institute-odanchem-seminar"
     }
   ],
   "seen_telegram_ids": [
+    "62",
+    "63",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "81",
+    "82",
+    "83",
+    "84",
+    "85",
+    "86",
+    "87",
+    "89",
+    "90",
+    "91",
+    "92",
+    "95",
+    "96",
+    "97",
+    "98",
+    "99",
     "100",
+    "101",
+    "102",
     "103",
     "105",
     "108",
     "111",
     "112",
+    "114",
+    "115",
+    "116",
     "117"
   ],
   "seen_news_slugs": [
@@ -127,7 +250,10 @@
     "cyano-fluorosulfonylation-of-unactivated-alkenes-by-photored",
     "denis-chusov-was-interviewed-about-the-nobel-prize-in-chemis",
     "evgeniya-welcome-to-the-lab",
+    "favorsky-institute-odanchem-lecture",
+    "hse-ru-aldehyde-self-reducing-agent",
     "interview-with-fedor-kluev-and-denis-chusov",
+    "irkutsk-polytechnic-chusov-lecture",
     "klim-and-maria-graduated",
     "klim-entered-our-lab-as-ph-d-student",
     "mariya-has-left-our-laboratory",
@@ -177,10 +303,13 @@
     "our-team-publishes-in-journal-of-catalysis-with-aldehydes-as",
     "participation-in-ix-young-scientists-conference",
     "participation-in-vesnyanka-conference",
+    "poisk-news-eco-friendly-aniline-synthesis",
+    "scientific-russia-amide-synthesis-drugs",
     "sofiya-has-left-our-laboratory",
     "team-s-participation-in-ncocs-2022",
     "vasilii-welcome-to-the-lab",
     "vasiliy-and-alexandra-joined-our-lab",
-    "vsevolod-danil-and-olesya-welcome-to-the-lab"
+    "vsevolod-danil-and-olesya-welcome-to-the-lab",
+    "zelinsky-institute-odanchem-seminar"
   ]
 }
