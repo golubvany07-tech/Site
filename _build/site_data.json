@@ -1169,11 +1169,11 @@
    "name": "Kirill Romanov",
    "role": "Student",
    "group_role": "Student",
-   "education": null,
-   "email": null,
-   "interests": null,
-   "hobby": null,
-   "photo": null
+   "education": "Higher School of Economics",
+   "email": "krwrty873@gmail.com",
+   "interests": "Catalysis.",
+   "hobby": "Studying mathematics.",
+   "photo": "img/people/kirill-romanov.jpg"
   },
   {
    "slug": "baizhigit-busurmankulov",
