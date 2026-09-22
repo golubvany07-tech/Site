@@ -85,62 +85,6 @@
       "source": "news:congradulations-to-evgeniya-podyacheva-with-defending-her-ph"
     },
     {
-      "img": "img/telegram/tg-auto-62.jpg",
-      "anchor": "",
-      "alt": "Записки юного натуралиста Ч2Китай — страна, которая исторически подарила миру порох, бумагу и, судя по всему,…",
-      "cls": "",
-      "source": "telegram:62"
-    },
-    {
-      "img": "img/telegram/tg-auto-63.jpg",
-      "anchor": "",
-      "alt": "Мы тут вовремя вспомнили, что одного из сотрудников нашей лаборатории мы отправили провести в Китае не пару дн…",
-      "cls": "",
-      "source": "telegram:63"
-    },
-    {
-      "img": "img/telegram/tg-auto-68.jpg",
-      "anchor": "",
-      "alt": "В журнале JACS очень много политики и моды, зачастую приятнее читать профильный журнал, но безусловно там быва…",
-      "cls": "",
-      "source": "telegram:68"
-    },
-    {
-      "img": "img/telegram/tg-auto-69.jpg",
-      "anchor": "",
-      "alt": "Бросить вызов природе, создав ферменты меньше и эффективнее, — серьёзная задача. Подробности в файле.",
-      "cls": "",
-      "source": "telegram:69"
-    },
-    {
-      "img": "img/telegram/tg-auto-70.jpg",
-      "anchor": "",
-      "alt": "Если хотите сделать гетерогенный катализатор на основе рутения для гидрирования бензогетероциклов, то вот свеж…",
-      "cls": "",
-      "source": "telegram:70"
-    },
-    {
-      "img": "img/telegram/tg-auto-71.jpg",
-      "anchor": "",
-      "alt": "Не всё так классно как на картинке. Нужен трет-бутоксид калия, краун эфир и замещенные тиофены, но в целом всё…",
-      "cls": "",
-      "source": "telegram:71"
-    },
-    {
-      "img": "img/telegram/tg-auto-72.jpg",
-      "anchor": "",
-      "alt": "Что будет если к простой соли кобальта добавить ТГФ, поддавить синтез-газом и погреть?",
-      "cls": "",
-      "source": "telegram:72"
-    },
-    {
-      "img": "img/telegram/tg-auto-81.jpg",
-      "anchor": "",
-      "alt": "Оказывается, что и такое в жизни бывает",
-      "cls": "",
-      "source": "telegram:81"
-    },
-    {
       "img": "img/telegram/tg-auto-92.jpg",
       "anchor": "",
       "alt": "Возобновляем представление участников нашей лаборатории — Илья Аниськин, аспирант 1-го годаПомнишь момент, ког…",
@@ -160,41 +104,6 @@
       "alt": "Наш друг и коллега завершил вчера проведение сложной и длительной реакции. В качестве исходника он взял «канди…",
       "cls": "",
       "source": "telegram:96"
-    },
-    {
-      "img": "img/telegram/tg-auto-97.jpg",
-      "anchor": "",
-      "alt": "на второй день весны астрологи объявили неделю силоксанов — +5 к полимерам в лаборатории",
-      "cls": "",
-      "source": "telegram:97"
-    },
-    {
-      "img": "img/telegram/tg-auto-98.jpg",
-      "anchor": "",
-      "alt": "Парафильм и сухостьМы настолько привыкаем к важным вещам, что иногда нам кажется, будто они известны всем. Но…",
-      "cls": "",
-      "source": "telegram:98"
-    },
-    {
-      "img": "img/telegram/tg-auto-99.jpg",
-      "anchor": "",
-      "alt": "Победила изолента",
-      "cls": "",
-      "source": "telegram:99"
-    },
-    {
-      "img": "img/media/m18.jpg",
-      "anchor": "favorsky-institute-odanchem-lecture",
-      "alt": "Denis Chusov and Oleg Afanasyev present the OdanChem platform at the Favorsky Institute of Chemistry",
-      "cls": "",
-      "source": "news:favorsky-institute-odanchem-lecture"
-    },
-    {
-      "img": "img/media/m19.jpg",
-      "anchor": "zelinsky-institute-odanchem-seminar",
-      "alt": "Oleg Afanasyev's OdanChem seminar at the Zelinsky Institute of Organic Chemistry",
-      "cls": "",
-      "source": "news:zelinsky-institute-odanchem-seminar"
     }
   ],
   "seen_telegram_ids": [

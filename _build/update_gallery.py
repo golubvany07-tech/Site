@@ -4,7 +4,10 @@ Refresh the homepage/blog "Gallery" photo pool.
 
   1. Pull new photos from the lab's public Telegram channel (t.me/s/chusov_lab),
      skipping posts that are just introducing a new lab member (those already
-     get their own "welcome" news post and shouldn't crowd the Gallery).
+     get their own "welcome" news post and shouldn't crowd the Gallery), and
+     skipping anything that doesn't read like it's actually about people --
+     the Gallery is meant to be photos of people, not reaction schemes,
+     sample-vial shots, or "chemistry fact of the week" graphics.
   2. Pull new "event" photos from the site's own news items (site_data.json) --
      conferences, defenses, competitions, outreach courses -- again skipping
      anything about someone joining/leaving the lab, and skipping plain
@@ -83,6 +86,26 @@ PERSONNEL_PATTERNS = [
     r"покинула? (?:нашу )?лаборатори",
 ]
 PERSONNEL_RE = re.compile("|".join(PERSONNEL_PATTERNS), re.IGNORECASE)
+
+# Telegram photos go straight into the Gallery pool -- unlike a site-news
+# cover (picked by hand when the post is written), a raw channel photo could
+# just as easily be a reaction scheme, a row of sample vials, or a
+# "chemistry fact of the week" graphic with no one in it. Text
+# classification can't look at the photo itself, so require the post text to
+# actually read like it's ABOUT people -- an event/talk/defense (the same
+# signal as is_event_post) or an introduction/interview with a lab member --
+# rather than accepting every non-forwarded, non-personnel post that happens
+# to have a photo attached.
+PEOPLE_HINT_PATTERNS = [
+    r"представление участник", r"знакомств\w* с участник",
+    r"interview with", r"team member", r"lab member",
+    r"интервью с",
+]
+PEOPLE_HINT_RE = re.compile("|".join(PEOPLE_HINT_PATTERNS), re.IGNORECASE)
+
+
+def is_likely_people_post(text):
+    return bool(is_event_post(text) or PEOPLE_HINT_RE.search(text or ""))
 
 
 def load_json(path, default):
@@ -195,7 +218,7 @@ def optimize_and_save(raw_bytes, dest_path, max_dim=1400, quality=82):
         return False
 
 
-def ingest_telegram(pool, seen_tg_ids):
+def ingest_telegram(pool, seen_tg_ids, overrides):
     os.makedirs(TELEGRAM_DIR, exist_ok=True)
     try:
         posts = fetch_channel_posts()
@@ -208,6 +231,11 @@ def ingest_telegram(pool, seen_tg_ids):
             continue
         seen_tg_ids.add(p["id"])  # mark processed either way, match or not
         if p["forwarded"] or not p["photo_urls"] or is_personnel_post(p["text"]):
+            continue
+        eligible = overrides.get(f"tg:{p['id']}")
+        if eligible is None:
+            eligible = is_likely_people_post(p["text"])
+        if not eligible:
             continue
         photo_url = p["photo_urls"][0]
         try:
@@ -276,7 +304,7 @@ def main():
     seen_slugs = set(state.get("seen_news_slugs", []))
     overrides = load_json(OVERRIDES_PATH, {})
 
-    added_tg = ingest_telegram(pool, seen_tg)
+    added_tg = ingest_telegram(pool, seen_tg, overrides)
     added_news = ingest_site_news(pool, seen_slugs, overrides)
 
     # Keep the pool from growing forever -- drop the oldest entries once
