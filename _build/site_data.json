@@ -1158,11 +1158,11 @@
    "name": "Anton Popov",
    "role": "Student",
    "group_role": "Student",
-   "education": null,
-   "email": null,
-   "interests": null,
-   "hobby": null,
-   "photo": null
+   "education": "Higher School of Economics",
+   "email": "antonpopov713@gmail.com",
+   "interests": "Organic synthesis, cheminformatics.",
+   "hobby": "Mathematics, Python.",
+   "photo": "img/people/anton-popov.jpg"
   },
   {
    "slug": "kirill-romanov",
