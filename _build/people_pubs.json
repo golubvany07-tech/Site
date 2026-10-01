@@ -85,8 +85,8 @@
    82
   ],
   "n_pubs": 82,
-  "citations": 2386,
-  "h_index": 22
+  "citations": 2410,
+  "h_index": 23
  },
  "oleg-afanasyev": {
   "pubs": [
@@ -140,7 +140,7 @@
    77
   ],
   "n_pubs": 48,
-  "citations": 1439,
+  "citations": 1459,
   "h_index": 14
  },
  "evgeniya-podyacheva": {
@@ -167,7 +167,7 @@
    67
   ],
   "n_pubs": 20,
-  "citations": 448,
+  "citations": 458,
   "h_index": 11
  },
  "artemy-fatkulin": {
@@ -180,7 +180,7 @@
    58
   ],
   "n_pubs": 6,
-  "citations": 43,
+  "citations": 45,
   "h_index": 4
  },
  "andrey-kozlov": {
@@ -194,7 +194,7 @@
    41
   ],
   "n_pubs": 7,
-  "citations": 48,
+  "citations": 49,
   "h_index": 3
  },
  "klim-birukov": {
@@ -214,7 +214,7 @@
    63
   ],
   "n_pubs": 13,
-  "citations": 72,
+  "citations": 74,
   "h_index": 5
  },
  "alexandra-balalaeva": {
@@ -249,7 +249,7 @@
    57
   ],
   "n_pubs": 10,
-  "citations": 66,
+  "citations": 70,
   "h_index": 6
  },
  "olesya-zvereva": {
@@ -259,7 +259,7 @@
    16
   ],
   "n_pubs": 3,
-  "citations": 8,
+  "citations": 11,
   "h_index": 2
  },
  "mikhail-losev": {
@@ -272,7 +272,7 @@
    33
   ],
   "n_pubs": 6,
-  "citations": 20,
+  "citations": 23,
   "h_index": 3
  },
  "taisiya-brylova": {
@@ -288,7 +288,7 @@
    35
   ],
   "n_pubs": 3,
-  "citations": 13,
+  "citations": 15,
   "h_index": 3
  },
  "ivan-golub": {
@@ -307,7 +307,7 @@
    58
   ],
   "n_pubs": 6,
-  "citations": 17,
+  "citations": 19,
   "h_index": 3
  },
  "danil-rakitianskii": {
@@ -343,7 +343,7 @@
    80
   ],
   "n_pubs": 3,
-  "citations": 108,
+  "citations": 109,
   "h_index": 3
  },
  "pavel-kolesnikov": {
@@ -353,7 +353,7 @@
    82
   ],
   "n_pubs": 3,
-  "citations": 113,
+  "citations": 114,
   "h_index": 3
  },
  "vasilii-fastovskiy": {
@@ -372,7 +372,7 @@
    71
   ],
   "n_pubs": 6,
-  "citations": 228,
+  "citations": 227,
   "h_index": 6
  },
  "karim-muratov": {
@@ -381,7 +381,7 @@
    66
   ],
   "n_pubs": 2,
-  "citations": 13,
+  "citations": 14,
   "h_index": 2
  },
  "ekaterina-kuchuk": {
@@ -394,7 +394,7 @@
    67
   ],
   "n_pubs": 6,
-  "citations": 902,
+  "citations": 922,
   "h_index": 5
  },
  "sofiya-runikhina": {
@@ -436,7 +436,7 @@
    77
   ],
   "n_pubs": 16,
-  "citations": 393,
+  "citations": 389,
   "h_index": 11
  },
  "vladimir-ostrovskii": {
@@ -446,7 +446,7 @@
    59
   ],
   "n_pubs": 3,
-  "citations": 28,
+  "citations": 26,
   "h_index": 2
  },
  "max-shandybo": {
@@ -463,7 +463,7 @@
    16
   ],
   "n_pubs": 2,
-  "citations": 2,
+  "citations": 4,
   "h_index": 1
  },
  "vsevolod-bondarenko": {
@@ -477,8 +477,8 @@
    2
   ],
   "n_pubs": 1,
-  "citations": 0,
-  "h_index": 0
+  "citations": 1,
+  "h_index": 1
  },
  "alexander-boldyrev": {
   "pubs": [
@@ -505,8 +505,8 @@
    2
   ],
   "n_pubs": 1,
-  "citations": 0,
-  "h_index": 0
+  "citations": 1,
+  "h_index": 1
  },
- "_fetched": "2026-09-16"
+ "_fetched": "2026-10-01"
 }
