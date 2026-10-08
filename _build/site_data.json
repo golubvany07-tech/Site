@@ -1430,102 +1430,116 @@
  "media": [
   {
    "n": 1,
+   "title": "Organic Chemistry Portal writes about our sodium hypophosphite-assisted ruthenium-catalyzed reductive amination under mild conditions",
+   "url": "https://www.organic-chemistry.org/abstracts/lit10/563.shtm",
+   "thumb": "img/media/m-ocp.jpg"
+  },
+  {
+   "n": 2,
    "title": "HSE.ru: we taught an aldehyde to act as its own reducing agent (Journal of Catalysis)",
    "url": "https://www.hse.ru/news/science/1134786301.html",
    "thumb": "img/media/m15.jpg"
   },
   {
-   "n": 2,
+   "n": 3,
    "title": "Poisk News on our eco-friendly, solvent-based route to aniline derivatives",
    "url": "https://poisknews.ru/himiya/rastvoritel-vmesto-toksichnyh-reagentov-himiki-nashli-ekologichnyj-sposob-sinteza-proizvodnyh-anilina/",
    "thumb": "img/media/m16.jpg"
   },
   {
-   "n": 3,
+   "n": 4,
    "title": "Scientific Russia on our single-step synthesis of amides that could make a lymphoma drug hundreds of times cheaper",
    "url": "https://scientificrussia.ru/articles/himiki-uprostili-sintez-lekarstv-s-amidnoj-gruppoj",
    "thumb": "img/media/m14.jpg"
   },
   {
-   "n": 4,
+   "n": 5,
    "title": "Organic Chemistry Portal writes about our enhanced method of the Eschweiler-Clarke Reaction",
    "url": "https://www.organic-chemistry.org/abstracts/lit9/473.shtm",
    "thumb": "img/media/m-ocp.jpg"
   },
   {
-   "n": 5,
+   "n": 6,
    "title": "Waste gases from steelmaking repurposed to prepare pharmaceutical",
    "url": "https://www.chemistryworld.com/news/waste-gases-from-steelmaking-repurposed-to-prepare-pharmaceuticals/4017382.article",
    "thumb": "img/media/m03.png"
   },
   {
-   "n": 6,
+   "n": 7,
    "title": "Russian media writes about synthesis of drugs from gaseous waste, which was proposed by us",
    "url": "https://scientificrussia.ru/articles/gazoobraznye-othody-stalelitejnoj-promyslennosti-naucilis-ispolzovat-dla-sinteza-lekarstv",
    "thumb": "img/media/m04.jpg"
   },
   {
-   "n": 7,
+   "n": 8,
    "title": "Organic Chemistry Portal mentioned us in the article dedicated to Reductive Amination",
    "url": "https://www.organic-chemistry.org/synthesis/C1N/amines/reductiveamination.shtm",
    "thumb": "img/media/m-ocp.jpg"
   },
   {
-   "n": 8,
+   "n": 9,
    "title": "Sodium Hypophosphite as a Bulk and Environmentally Friendly Reducing Agent in the Reductive Amination",
    "url": "https://www.organic-chemistry.org/abstracts/lit8/654.shtm",
    "thumb": "img/media/m-ocp.jpg"
   },
   {
-   "n": 9,
+   "n": 10,
    "title": "Organic Chemistry Portal writes about an impact of fluoride additive in Michael addition studied in our article",
    "url": "https://www.organic-chemistry.org/abstracts/lit8/627.shtm",
    "thumb": "img/media/m-ocp.jpg"
   },
   {
-   "n": 10,
+   "n": 11,
    "title": "We have found the ideal conditions for the hydrogen borrowing reaction. Interview.",
    "url": "https://nplus1.ru/news/2022/09/03/hydrogen-borrowing",
    "thumb": "img/media/m09.jpg"
   },
   {
-   "n": 11,
+   "n": 12,
    "title": "HSE highlights our lab’s eco-friendly amine synthesis breakthrough",
    "url": "https://www.hse.ru/news/science/1089403788.html",
    "thumb": "img/media/m01.png"
   },
   {
-   "n": 12,
+   "n": 13,
    "title": "Interview with Denis Chusov about The Nobel Prize in chemistry in 2021",
    "url": "https://meduza.io/feature/2021/10/06/nobelevskuyu-premiyu-po-himii-dali-za-asimmetrichnyy-organo-chto-spokoyno-seychas-ob-yasnim-korotko-i-prosto-na-strihnine-i-morkovke-v-kolbe",
    "thumb": "img/media/m07.png"
   },
   {
-   "n": 13,
+   "n": 14,
    "title": "Interview with Fedor Kluev about his researches and with Denis Chusov.",
    "url": "https://www.hse.ru/news/science/433404082.html",
    "thumb": "img/media/m11.png"
   },
   {
-   "n": 14,
+   "n": 15,
    "title": "Interview with Denis (gazeta.ru in Russian)",
    "url": "https://www.gazeta.ru/science/2016/12/04_a_10401191.shtml",
    "thumb": "img/media/m10.jpg"
   },
   {
-   "n": 15,
+   "n": 16,
    "title": "Russian journal \"Chemistry and life\" about our approach",
    "url": "http://www.hij.ru/read/issues/2014/june/",
    "thumb": "img/media/m13.jpg"
   },
   {
-   "n": 16,
+   "n": 17,
    "title": "On the web page of Nature you can find highlight about our paper",
    "url": "http://www.nature.com/nchem/journal/v6/n5/full/nchem.1940.html?message-global=remove&foxtrotcallback=true",
    "thumb": "img/media/m12.png"
   }
  ],
  "news": [
+  {
+   "title": "Organic Chemistry Portal covered our new work on ruthenium-catalyzed reductive amination with sodium hypophosphite",
+   "date": "2026-10-08T09:00:00.000Z",
+   "source_url": "https://www.organic-chemistry.org/abstracts/lit10/563.shtm",
+   "slug": "organic-chemistry-portal-sodium-hypophosphite-ru-reductive-amination",
+   "cover": null,
+   "body_md": "Recently Organic Chemistry Portal has [highlighted our work](https://www.organic-chemistry.org/abstracts/lit10/563.shtm) \"Sodium Hypophosphite Assisted Ruthenium Catalyzed Reductive Amination under Mild Conditions\" published in Organic Letters this year by Olesya Zvereva, Fedor Kliuev, Natalia Lebedeva, Dr. Evgeniya Podyacheva, Evgenii Gutsul, Dr. Oleg Afanasyev and Prof. Dr. Denis Chusov. In this work CpRu(PPh₃)₂Cl catalyzes the reductive amination of aldehydes with anilines using cheap, bulk-grade and environmentally friendly sodium hypophosphite as the reductant under mild conditions. We highly appreciate that Organic Chemistry Portal has taken an interest in our work.\n\nYou can read our article [here](https://doi.org/10.1021/acs.orglett.5c04073)."
+  },
   {
    "title": "HSE.ru: we taught an aldehyde to act as its own reducing agent",
    "date": "2026-03-05T09:00:00.000Z",
