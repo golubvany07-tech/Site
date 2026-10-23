@@ -1209,6 +1209,28 @@
    "photo": "img/people/egor-cherezov.jpg"
   },
   {
+   "slug": "taisiya-golovina",
+   "name": "Taisiya Golovina",
+   "role": "Student",
+   "group_role": "Student",
+   "education": "Higher School of Economics",
+   "email": "tagolovina@edu.hse.ru",
+   "interests": "Cheminformatics.",
+   "hobby": "Drawing.",
+   "photo": null
+  },
+  {
+   "slug": "marina-zhukova",
+   "name": "Marina Zhukova",
+   "role": "Student",
+   "group_role": "Student",
+   "education": "M.V. Lomonosov Moscow State University",
+   "email": "marishonok08@gmail.com",
+   "interests": "Organic synthesis, catalytic chemistry.",
+   "hobby": null,
+   "photo": null
+  },
+  {
    "slug": "olga-chusova",
    "name": "Olga Chusova",
    "role": "Dr.",

@@ -684,7 +684,8 @@ def build_people():
         ("Students", "img/misc/benzaldehyde.png",
          ["fedor-kluev", "mikhail-losev", "vasilii-korochancev",
           "ivan-golub", "ivan-smirnov", "dmitrii-pozdniakov",
-          "anton-popov", "kirill-romanov", "baizhigit-busurmankulov", "egor-zorin"]),
+          "anton-popov", "kirill-romanov", "baizhigit-busurmankulov", "egor-zorin",
+          "taisiya-golovina", "marina-zhukova"]),
         ("Administrator", "img/misc/pyrrolidine.png", ["alexander-modin"]),
     ]
 
