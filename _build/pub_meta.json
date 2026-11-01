@@ -54,7 +54,7 @@
     "family": "Chusov"
    }
   ],
-  "cited_by": 1,
+  "cited_by": 2,
   "source": "crossref"
  },
  "3": {
@@ -271,7 +271,7 @@
   "doi": "10.1021/acs.orglett.5c04073",
   "authors": [
    {
-    "given": "Olesya V.",
+    "given": "Olesya",
     "family": "Zvereva"
    },
    {
@@ -287,7 +287,7 @@
     "family": "Podyacheva"
    },
    {
-    "given": "Evgenii I.",
+    "given": "Evgenii",
     "family": "Gutsul"
    },
    {
@@ -295,12 +295,12 @@
     "family": "Afanasyev"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 1,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "10": {
   "doi": "10.1021/acscatal.5c05228",
@@ -528,7 +528,7 @@
     "family": "Chusov"
    }
   ],
-  "cited_by": 3,
+  "cited_by": 4,
   "source": "crossref"
  },
  "17": {
@@ -582,7 +582,7 @@
     "family": "Chusov"
    }
   ],
-  "cited_by": 12,
+  "cited_by": 13,
   "source": "crossref"
  },
  "19": {
@@ -671,7 +671,7 @@
     "family": "Perekalin"
    }
   ],
-  "cited_by": 15,
+  "cited_by": 16,
   "source": "crossref"
  },
  "22": {
@@ -787,23 +787,23 @@
     "family": "Kuznetsova"
    },
    {
-    "given": "S. M.",
+    "given": "Safar M.",
     "family": "Yunusov"
    },
    {
-    "given": "MICHAEL J.",
-    "family": "NORTH"
+    "given": "Michael",
+    "family": "North"
    },
    {
     "given": "Vladimir P.",
     "family": "Zhereb"
    },
    {
-    "given": "Ekaterina Aleksandrovna",
+    "given": "Ekaterina A.",
     "family": "Khakina"
    },
    {
-    "given": "Alexander Vasil'evich",
+    "given": "Alexander",
     "family": "Naumkin"
    },
    {
@@ -811,15 +811,15 @@
     "family": "Lobanov"
    },
    {
-    "given": "Victor Nikolaevich",
+    "given": "Victor N.",
     "family": "Khrustalev"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    },
    {
-    "given": "E. S.",
+    "given": "Elena S.",
     "family": "Kalyuzhnaya"
    },
    {
@@ -835,16 +835,16 @@
     "family": "Kashin"
    },
    {
-    "given": "M.G.",
+    "given": "Mariam G.",
     "family": "Ezernitskaya"
    },
    {
     "given": "Yuri N.",
-    "family": "Belokoń"
+    "family": "Belokon"
    }
   ],
   "cited_by": 1,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "26": {
   "doi": "10.1038/s41467-023-40614-1",
@@ -898,7 +898,7 @@
     "family": "Beller"
    }
   ],
-  "cited_by": 40,
+  "cited_by": 41,
   "source": "crossref"
  },
  "27": {
@@ -975,11 +975,11 @@
     "family": "Podyacheva"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    },
    {
-    "given": "Yulia Vladimirovna",
+    "given": "Yulia V.",
     "family": "Nelyubina"
    },
    {
@@ -991,8 +991,8 @@
     "family": "Loginov"
    }
   ],
-  "cited_by": 24,
-  "source": "+openalex"
+  "cited_by": 25,
+  "source": "crossref"
  },
  "30": {
   "doi": "10.1039/D3OB01452E",
@@ -1127,12 +1127,12 @@
     "family": "Godovikova"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 1,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "34": {
   "doi": "10.1016/j.mencom.2023.01.005",
@@ -1212,16 +1212,16 @@
     "family": "Afanasyev"
    },
    {
-    "given": "Dmitry V.",
+    "given": "Dmitry",
     "family": "Vasilyev"
    },
    {
-    "given": "Denis",
+    "given": "Denis Alexandrovich",
     "family": "Chusov"
    }
   ],
-  "cited_by": 130,
-  "source": "crossref"
+  "cited_by": 129,
+  "source": "+openalex"
  },
  "37": {
   "doi": "10.1021/acscatal.2c01000",
@@ -1243,7 +1243,7 @@
     "family": "Chusov"
    }
   ],
-  "cited_by": 15,
+  "cited_by": 16,
   "source": "crossref"
  },
  "38": {
@@ -1277,11 +1277,11 @@
   "doi": "10.1021/acs.orglett.2c02807",
   "authors": [
    {
-    "given": "Fedor S.",
+    "given": "Fedor",
     "family": "Kliuev"
    },
    {
-    "given": "Anton N.",
+    "given": "Anton",
     "family": "Kuznetsov"
    },
    {
@@ -1293,7 +1293,7 @@
     "family": "Runikhina"
    },
    {
-    "given": "Ekaterina A.",
+    "given": "Ekaterina",
     "family": "Kuchuk"
    },
    {
@@ -1305,12 +1305,12 @@
     "family": "Tsygankov"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
-  "cited_by": 23,
-  "source": "+openalex"
+  "cited_by": 24,
+  "source": "crossref"
  },
  "40": {
   "doi": "10.1016/j.jcat.2021.12.018",
@@ -1347,12 +1347,12 @@
     "family": "Afanasyev"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
-  "cited_by": 23,
-  "source": "+openalex"
+  "cited_by": 21,
+  "source": "crossref"
  },
  "42": {
   "doi": "10.1039/D2CC01648F",
@@ -1424,11 +1424,11 @@
     "family": "Ankudinov"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis A.",
     "family": "Chusov"
    },
    {
-    "given": "Yulia Vladimirovna",
+    "given": "Yulia V.",
     "family": "Nelyubina"
    },
    {
@@ -1437,7 +1437,7 @@
    }
   ],
   "cited_by": 42,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "45": {
   "doi": "10.1021/acscatal.1c03785",
@@ -1447,12 +1447,12 @@
     "family": "Tsygankov"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
-  "cited_by": 24,
-  "source": "+openalex"
+  "cited_by": 23,
+  "source": "crossref"
  },
  "46": {
   "doi": "10.1002/chem.202100572",
@@ -1582,16 +1582,16 @@
   "doi": "10.1016/j.mencom.2021.11.004",
   "authors": [
    {
-    "given": "Sofiya A.",
+    "given": "Sofiya",
     "family": "Runikhina"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 3,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "51": {
   "doi": "10.1039/D1CY00695A",
@@ -1609,7 +1609,7 @@
     "family": "Afanasyev"
    },
    {
-    "given": "Dmitry",
+    "given": "Dmitry V.",
     "family": "Vasilyev"
    },
    {
@@ -1617,11 +1617,11 @@
     "family": "Tsygankov"
    },
    {
-    "given": "Maria I.",
+    "given": "Maria",
     "family": "Godovikova"
    },
    {
-    "given": "Yulia Vladimirovna",
+    "given": "Yulia V.",
     "family": "Nelyubina"
    },
    {
@@ -1629,12 +1629,12 @@
     "family": "Loginov"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 11,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "52": {
   "doi": "10.1002/anie.201914233",
@@ -1708,7 +1708,7 @@
     "family": "Shustova"
    }
   ],
-  "cited_by": 32,
+  "cited_by": 33,
   "source": "crossref"
  },
  "53": {
@@ -1739,7 +1739,7 @@
     "family": "Chusov"
    }
   ],
-  "cited_by": 35,
+  "cited_by": 36,
   "source": "crossref"
  },
  "54": {
@@ -1824,12 +1824,12 @@
     "family": "Komarova"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 12,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "57": {
   "doi": "10.1016/j.mencom.2020.01.037",
@@ -1886,7 +1886,7 @@
     "family": "Solyev"
    },
    {
-    "given": "Ivan V.",
+    "given": "Ivan",
     "family": "Smirnov"
    },
    {
@@ -1898,12 +1898,12 @@
     "family": "Semenov"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 5,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "59": {
   "doi": "10.1002/ejoc.202000438",
@@ -1936,7 +1936,7 @@
     "family": "Afanasyev"
    },
    {
-    "given": "Ekaterina A.",
+    "given": "Ekaterina",
     "family": "Kuchuk"
    },
    {
@@ -1944,12 +1944,12 @@
     "family": "Usanov"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
-  "cited_by": 818,
-  "source": "+openalex"
+  "cited_by": 809,
+  "source": "crossref"
  },
  "61": {
   "doi": "10.1002/ejoc.201801412",
@@ -2076,20 +2076,20 @@
     "family": "Afanasyev"
    },
    {
-    "given": "Ekaterina A.",
+    "given": "Ekaterina",
     "family": "Kuchuk"
    },
    {
-    "given": "Sofiya A.",
+    "given": "Sofiya",
     "family": "Runikhina"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 5,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "65": {
   "doi": "10.1021/acs.organomet.9b00378",
@@ -2134,7 +2134,7 @@
   "doi": "10.1039/C8OB02561D",
   "authors": [
    {
-    "given": "Ekaterina A.",
+    "given": "Ekaterina",
     "family": "Kuchuk"
    },
    {
@@ -2146,12 +2146,12 @@
     "family": "Perekalin"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
-  "cited_by": 9,
-  "source": "+openalex"
+  "cited_by": 7,
+  "source": "crossref"
  },
  "67": {
   "doi": "10.1016/j.tetlet.2018.12.070",
@@ -2161,16 +2161,16 @@
     "family": "Podyacheva"
    },
    {
-    "given": "Ekaterina A.",
+    "given": "Ekaterina",
     "family": "Kuchuk"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
-  "cited_by": 53,
-  "source": "+openalex"
+  "cited_by": 55,
+  "source": "crossref"
  },
  "68": {
   "doi": "10.1002/anie.201801703",
@@ -2184,15 +2184,15 @@
     "family": "Ankudinov"
    },
    {
-    "given": "Andrey Andreevich",
+    "given": "Andrey A.",
     "family": "Mikhaylov"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis A.",
     "family": "Chusov"
    },
    {
-    "given": "Yulia Vladimirovna",
+    "given": "Yulia V.",
     "family": "Nelyubina"
    },
    {
@@ -2200,8 +2200,8 @@
     "family": "Perekalin"
    }
   ],
-  "cited_by": 215,
-  "source": "+openalex"
+  "cited_by": 214,
+  "source": "crossref"
  },
  "69": {
   "doi": "10.1021/acs.orglett.8b03375",
@@ -2234,7 +2234,7 @@
     "family": "Kharitonov"
    },
    {
-    "given": "Maria V.",
+    "given": "Maria",
     "family": "Makarova"
    },
    {
@@ -2242,23 +2242,23 @@
     "family": "Arsenov"
    },
    {
-    "given": "Yulia Vladimirovna",
+    "given": "Yulia V.",
     "family": "Nelyubina"
    },
    {
-    "given": "Olga G.",
+    "given": "Olga",
     "family": "Chusova"
    },
    {
-    "given": "Аlexander S.",
+    "given": "Alexander S.",
     "family": "Peregudov"
    },
    {
-    "given": "S. S.",
-    "family": "ZLOTSKII"
+    "given": "Semen S.",
+    "family": "Zlotskii"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    },
    {
@@ -2267,7 +2267,7 @@
    }
   ],
   "cited_by": 30,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "71": {
   "doi": "10.1016/j.mencom.2018.03.001",
@@ -2277,34 +2277,34 @@
     "family": "Tsygankov"
    },
    {
-    "given": "Maria V.",
+    "given": "Maria",
     "family": "Makarova"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 48,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "72": {
   "doi": "10.1055/s-0036-1588817",
   "authors": [
    {
-    "given": "Oleg I.",
+    "given": "Oleg",
     "family": "Afanasyev"
    },
    {
-    "given": "Alexey A.",
+    "given": "Alexey",
     "family": "Tsygankov"
    },
    {
-    "given": "Dmitry L.",
+    "given": "Dmitry",
     "family": "Usanov"
    },
    {
-    "given": "Dmitry S.",
+    "given": "Dmitry",
     "family": "Perekalin"
    },
    {
@@ -2312,12 +2312,12 @@
     "family": "Samoylova"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 10,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "73": {
   "doi": "10.1039/c7ob02795h",
@@ -2331,12 +2331,12 @@
     "family": "Usanov"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 21,
-  "source": "+openalex"
+  "source": "crossref"
  },
  "74": {
   "doi": "10.1055/s-0036-1588382",
@@ -2421,16 +2421,16 @@
     "family": "Novikov"
    },
    {
-    "given": "Yulia Vladimirovna",
+    "given": "Yulia V.",
     "family": "Nelyubina"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
-  "cited_by": 28,
-  "source": "+openalex"
+  "cited_by": 27,
+  "source": "crossref"
  },
  "76": {
   "doi": "10.1021/acscatal.5b02916",
@@ -2510,11 +2510,11 @@
     "family": "Shved"
    },
    {
-    "given": "Yulia Vladimirovna",
+    "given": "Yulia V.",
     "family": "Nelyubina"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    },
    {
@@ -2526,8 +2526,8 @@
     "family": "Kudinov"
    }
   ],
-  "cited_by": 28,
-  "source": "+openalex"
+  "cited_by": 27,
+  "source": "crossref"
  },
  "79": {
   "doi": "10.1021/ol503595m",
@@ -2549,12 +2549,12 @@
     "family": "Maleev"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
-  "cited_by": 58,
-  "source": "+openalex"
+  "cited_by": 57,
+  "source": "crossref"
  },
  "80": {
   "doi": "10.1002/cctc.201500493",
@@ -2599,7 +2599,7 @@
     "family": "List"
    }
   ],
-  "cited_by": 115,
+  "cited_by": 116,
   "source": "crossref"
  },
  "82": {
@@ -2622,12 +2622,12 @@
     "family": "Maleev"
    },
    {
-    "given": "Denis Alexandrovich",
+    "given": "Denis",
     "family": "Chusov"
    }
   ],
   "cited_by": 28,
-  "source": "+openalex"
+  "source": "crossref"
  },
- "_fetched": "2026-10-01"
+ "_fetched": "2026-11-01"
 }
